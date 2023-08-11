@@ -1,0 +1,383 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.6.3
+2 info using node@v19.8.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/zeus/BOT/ZEUSbot/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 0ms
+11 timing config:load:file:/home/zeus/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 7ms
+17 timing npm:load:configload Completed in 7ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install
+21 verbose argv "install"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing config:load:flatten Completed in 3ms
+24 timing npm:load:display Completed in 4ms
+25 verbose logfile logs-max:10 dir:/home/zeus/.npm/_logs/2023-04-02T08_12_25_614Z-
+26 verbose logfile /home/zeus/.npm/_logs/2023-04-02T08_12_25_614Z-debug-0.log
+27 timing npm:load:logFile Completed in 7ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 22ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 66ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 0ms
+37 timing idealTree:buildDeps Completed in 1ms
+38 timing idealTree:fixDepFlags Completed in 0ms
+39 timing idealTree Completed in 72ms
+40 timing reify:loadTrees Completed in 74ms
+41 timing reify:diffTrees Completed in 2ms
+42 silly reify moves {}
+43 timing reify:retireShallow Completed in 1ms
+44 timing reify:createSparse Completed in 5ms
+45 timing reify:loadBundles Completed in 0ms
+46 silly audit bulk request {
+46 silly audit   '@types/debug': [ '4.1.7' ],
+46 silly audit   '@types/ms': [ '0.7.31' ],
+46 silly audit   '@types/node': [ '18.13.0' ],
+46 silly audit   '@types/validator': [ '13.7.12' ],
+46 silly audit   'abort-controller': [ '3.0.0' ],
+46 silly audit   'buffer-writer': [ '2.0.0' ],
+46 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+46 silly audit   debug: [ '4.3.4' ],
+46 silly audit   dotenv: [ '16.0.3' ],
+46 silly audit   dottie: [ '2.0.3' ],
+46 silly audit   'event-target-shim': [ '5.0.1' ],
+46 silly audit   'fetch-blob': [ '3.2.0' ],
+46 silly audit   'web-streams-polyfill': [ '3.2.1', '4.0.0-beta.3' ],
+46 silly audit   'form-data-encoder': [ '1.7.2' ],
+46 silly audit   'formdata-node': [ '4.4.1' ],
+46 silly audit   'formdata-polyfill': [ '4.0.10' ],
+46 silly audit   inflection: [ '1.13.4' ],
+46 silly audit   inspectable: [ '1.2.2' ],
+46 silly audit   lodash: [ '4.17.21' ],
+46 silly audit   'lru-cache': [ '6.0.0' ],
+46 silly audit   'middleware-io': [ '2.8.1' ],
+46 silly audit   moment: [ '2.29.4' ],
+46 silly audit   'moment-timezone': [ '0.5.40' ],
+46 silly audit   ms: [ '2.1.2' ],
+46 silly audit   'node-domexception': [ '1.0.0' ],
+46 silly audit   'node-fetch': [ '3.3.0' ],
+46 silly audit   'packet-reader': [ '1.0.0' ],
+46 silly audit   pg: [ '8.9.0' ],
+46 silly audit   'pg-connection-string': [ '2.5.0' ],
+46 silly audit   'pg-hstore': [ '2.3.4' ],
+46 silly audit   'pg-int8': [ '1.0.1' ],
+46 silly audit   'pg-pool': [ '3.5.2' ],
+46 silly audit   'pg-protocol': [ '1.6.0' ],
+46 silly audit   'pg-types': [ '2.2.0' ],
+46 silly audit   pgpass: [ '1.0.5' ],
+46 silly audit   'postgres-array': [ '2.0.0' ],
+46 silly audit   'postgres-bytea': [ '1.0.0' ],
+46 silly audit   'postgres-date': [ '1.0.7' ],
+46 silly audit   'postgres-interval': [ '1.2.0' ],
+46 silly audit   'retry-as-promised': [ '7.0.4' ],
+46 silly audit   semver: [ '7.3.8' ],
+46 silly audit   sequelize: [ '6.28.0' ],
+46 silly audit   'sequelize-pool': [ '7.1.0' ],
+46 silly audit   split2: [ '4.1.0' ],
+46 silly audit   'toposort-class': [ '1.0.1' ],
+46 silly audit   underscore: [ '1.13.6' ],
+46 silly audit   uuid: [ '8.3.2' ],
+46 silly audit   validator: [ '13.9.0' ],
+46 silly audit   'vk-io': [ '4.8.1' ],
+46 silly audit   'vk-io-question': [ '3.1.1' ],
+46 silly audit   wkx: [ '0.5.0' ],
+46 silly audit   xtend: [ '4.0.2' ],
+46 silly audit   yallist: [ '4.0.0' ]
+46 silly audit }
+47 silly tarball no local data for yallist@https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz. Extracting by manifest.
+48 silly tarball no local data for xtend@https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz. Extracting by manifest.
+49 silly tarball no local data for wkx@https://registry.npmjs.org/wkx/-/wkx-0.5.0.tgz. Extracting by manifest.
+50 silly tarball no local data for web-streams-polyfill@https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-4.0.0-beta.3.tgz. Extracting by manifest.
+51 silly tarball no local data for vk-io-question@https://registry.npmjs.org/vk-io-question/-/vk-io-question-3.1.1.tgz. Extracting by manifest.
+52 silly tarball no local data for vk-io@https://registry.npmjs.org/vk-io/-/vk-io-4.8.1.tgz. Extracting by manifest.
+53 silly tarball no local data for validator@https://registry.npmjs.org/validator/-/validator-13.9.0.tgz. Extracting by manifest.
+54 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz. Extracting by manifest.
+55 silly tarball no local data for underscore@https://registry.npmjs.org/underscore/-/underscore-1.13.6.tgz. Extracting by manifest.
+56 silly tarball no local data for toposort-class@https://registry.npmjs.org/toposort-class/-/toposort-class-1.0.1.tgz. Extracting by manifest.
+57 silly tarball no local data for split2@https://registry.npmjs.org/split2/-/split2-4.1.0.tgz. Extracting by manifest.
+58 silly tarball no local data for sequelize-pool@https://registry.npmjs.org/sequelize-pool/-/sequelize-pool-7.1.0.tgz. Extracting by manifest.
+59 silly tarball no local data for sequelize@https://registry.npmjs.org/sequelize/-/sequelize-6.28.0.tgz. Extracting by manifest.
+60 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.3.8.tgz. Extracting by manifest.
+61 silly tarball no local data for retry-as-promised@https://registry.npmjs.org/retry-as-promised/-/retry-as-promised-7.0.4.tgz. Extracting by manifest.
+62 silly tarball no local data for postgres-interval@https://registry.npmjs.org/postgres-interval/-/postgres-interval-1.2.0.tgz. Extracting by manifest.
+63 silly tarball no local data for postgres-date@https://registry.npmjs.org/postgres-date/-/postgres-date-1.0.7.tgz. Extracting by manifest.
+64 silly tarball no local data for postgres-bytea@https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-1.0.0.tgz. Extracting by manifest.
+65 silly tarball no local data for postgres-array@https://registry.npmjs.org/postgres-array/-/postgres-array-2.0.0.tgz. Extracting by manifest.
+66 silly tarball no local data for pgpass@https://registry.npmjs.org/pgpass/-/pgpass-1.0.5.tgz. Extracting by manifest.
+67 silly tarball no local data for pg-types@https://registry.npmjs.org/pg-types/-/pg-types-2.2.0.tgz. Extracting by manifest.
+68 silly tarball no local data for pg-protocol@https://registry.npmjs.org/pg-protocol/-/pg-protocol-1.6.0.tgz. Extracting by manifest.
+69 silly tarball no local data for pg-pool@https://registry.npmjs.org/pg-pool/-/pg-pool-3.5.2.tgz. Extracting by manifest.
+70 silly tarball no local data for pg-int8@https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz. Extracting by manifest.
+71 silly tarball no local data for pg-hstore@https://registry.npmjs.org/pg-hstore/-/pg-hstore-2.3.4.tgz. Extracting by manifest.
+72 silly tarball no local data for pg-connection-string@https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-2.5.0.tgz. Extracting by manifest.
+73 silly tarball no local data for pg@https://registry.npmjs.org/pg/-/pg-8.9.0.tgz. Extracting by manifest.
+74 silly tarball no local data for packet-reader@https://registry.npmjs.org/packet-reader/-/packet-reader-1.0.0.tgz. Extracting by manifest.
+75 silly tarball no local data for node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.0.tgz. Extracting by manifest.
+76 silly tarball no local data for node-domexception@https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz. Extracting by manifest.
+77 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+78 silly tarball no local data for moment-timezone@https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.40.tgz. Extracting by manifest.
+79 silly tarball no local data for moment@https://registry.npmjs.org/moment/-/moment-2.29.4.tgz. Extracting by manifest.
+80 silly tarball no local data for middleware-io@https://registry.npmjs.org/middleware-io/-/middleware-io-2.8.1.tgz. Extracting by manifest.
+81 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz. Extracting by manifest.
+82 silly tarball no local data for lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz. Extracting by manifest.
+83 silly tarball no local data for inspectable@https://registry.npmjs.org/inspectable/-/inspectable-1.2.2.tgz. Extracting by manifest.
+84 silly tarball no local data for inflection@https://registry.npmjs.org/inflection/-/inflection-1.13.4.tgz. Extracting by manifest.
+85 silly tarball no local data for formdata-polyfill@https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz. Extracting by manifest.
+86 silly tarball no local data for formdata-node@https://registry.npmjs.org/formdata-node/-/formdata-node-4.4.1.tgz. Extracting by manifest.
+87 silly tarball no local data for form-data-encoder@https://registry.npmjs.org/form-data-encoder/-/form-data-encoder-1.7.2.tgz. Extracting by manifest.
+88 silly tarball no local data for fetch-blob@https://registry.npmjs.org/fetch-blob/-/fetch-blob-3.2.0.tgz. Extracting by manifest.
+89 silly tarball no local data for event-target-shim@https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz. Extracting by manifest.
+90 silly tarball no local data for dottie@https://registry.npmjs.org/dottie/-/dottie-2.0.3.tgz. Extracting by manifest.
+91 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz. Extracting by manifest.
+92 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.3.4.tgz. Extracting by manifest.
+93 silly tarball no local data for data-uri-to-buffer@https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz. Extracting by manifest.
+94 silly tarball no local data for buffer-writer@https://registry.npmjs.org/buffer-writer/-/buffer-writer-2.0.0.tgz. Extracting by manifest.
+95 silly tarball no local data for abort-controller@https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz. Extracting by manifest.
+96 silly tarball no local data for @types/validator@https://registry.npmjs.org/@types/validator/-/validator-13.7.12.tgz. Extracting by manifest.
+97 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-18.13.0.tgz. Extracting by manifest.
+98 silly tarball no local data for @types/ms@https://registry.npmjs.org/@types/ms/-/ms-0.7.31.tgz. Extracting by manifest.
+99 silly tarball no local data for @types/debug@https://registry.npmjs.org/@types/debug/-/debug-4.1.7.tgz. Extracting by manifest.
+100 silly tarball no local data for web-streams-polyfill@https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.2.1.tgz. Extracting by manifest.
+101 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 715ms
+102 timing auditReport:getReport Completed in 718ms
+103 silly audit report {
+103 silly audit report   sequelize: [
+103 silly audit report     {
+103 silly audit report       id: 1091130,
+103 silly audit report       url: 'https://github.com/advisories/GHSA-8c25-f3mj-v6h8',
+103 silly audit report       title: 'Sequelize information disclosure vulnerability',
+103 silly audit report       severity: 'moderate',
+103 silly audit report       vulnerable_versions: '<6.28.1',
+103 silly audit report       cwe: [Array],
+103 silly audit report       cvss: [Object]
+103 silly audit report     },
+103 silly audit report     {
+103 silly audit report       id: 1091134,
+103 silly audit report       url: 'https://github.com/advisories/GHSA-vqfx-gj96-3w95',
+103 silly audit report       title: 'Unsafe fall-through in getWhereConditions',
+103 silly audit report       severity: 'critical',
+103 silly audit report       vulnerable_versions: '<6.28.1',
+103 silly audit report       cwe: [Array],
+103 silly audit report       cvss: [Object]
+103 silly audit report     },
+103 silly audit report     {
+103 silly audit report       id: 1091149,
+103 silly audit report       url: 'https://github.com/advisories/GHSA-f598-mfpv-gmfx',
+103 silly audit report       title: 'Sequelize - Default support for “raw attributes” when using parentheses',
+103 silly audit report       severity: 'critical',
+103 silly audit report       vulnerable_versions: '<6.29.0',
+103 silly audit report       cwe: [Array],
+103 silly audit report       cvss: [Object]
+103 silly audit report     }
+103 silly audit report   ]
+103 silly audit report }
+104 timing metavuln:cache:get:security-advisory:sequelize:yK+ji9RfsLuU2Ck1iMMNUHYpOTMVVzqTYbHrQzHmxmr3ADU2CiKfQ1fNw2CXwdIh1pOW2Fow8art8T9IbdowUA== Completed in 36ms
+105 timing metavuln:cache:get:security-advisory:sequelize:0x8QoXVSnuBUKQkmHpGL8H2TYxgcVoUBwMBqvmAO1zpIWLCE8RHBWScbje3M3Acd0EHDHFu58jP+AB7a2caDNg== Completed in 35ms
+106 timing metavuln:cache:get:security-advisory:sequelize:uiVJKilHZCKwHnikGlVmcdRT3iKv25tQuPePKtYxKgk3rZvzuagxCS8rH9m3AAntOz0+nSn2juKiVGWQlmRG4A== Completed in 34ms
+107 http fetch GET 200 https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-1.0.0.tgz 909ms (cache miss)
+108 timing reifyNode:node_modules/postgres-bytea Completed in 977ms
+109 http fetch GET 200 https://registry.npmjs.org/postgres-array/-/postgres-array-2.0.0.tgz 909ms (cache miss)
+110 timing reifyNode:node_modules/postgres-array Completed in 979ms
+111 http fetch GET 200 https://registry.npmjs.org/vk-io-question/-/vk-io-question-3.1.1.tgz 940ms (cache miss)
+112 http fetch GET 200 https://registry.npmjs.org/split2/-/split2-4.1.0.tgz 931ms (cache miss)
+113 timing reifyNode:node_modules/split2 Completed in 988ms
+114 http fetch GET 200 https://registry.npmjs.org/retry-as-promised/-/retry-as-promised-7.0.4.tgz 922ms (cache miss)
+115 http fetch GET 200 https://registry.npmjs.org/postgres-interval/-/postgres-interval-1.2.0.tgz 921ms (cache miss)
+116 timing reifyNode:node_modules/postgres-interval Completed in 988ms
+117 http fetch GET 200 https://registry.npmjs.org/postgres-date/-/postgres-date-1.0.7.tgz 921ms (cache miss)
+118 timing reifyNode:node_modules/postgres-date Completed in 989ms
+119 http fetch GET 200 https://registry.npmjs.org/pg-hstore/-/pg-hstore-2.3.4.tgz 909ms (cache miss)
+120 timing reifyNode:node_modules/pg-hstore Completed in 990ms
+121 http fetch GET 200 https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz 911ms (cache miss)
+122 timing reifyNode:node_modules/pg-int8 Completed in 991ms
+123 http fetch GET 200 https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-2.5.0.tgz 905ms (cache miss)
+124 timing reifyNode:node_modules/pg-connection-string Completed in 991ms
+125 http fetch GET 200 https://registry.npmjs.org/packet-reader/-/packet-reader-1.0.0.tgz 903ms (cache miss)
+126 timing reifyNode:node_modules/packet-reader Completed in 991ms
+127 http fetch GET 200 https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz 955ms (cache miss)
+128 timing reifyNode:node_modules/yallist Completed in 999ms
+129 http fetch GET 200 https://registry.npmjs.org/pgpass/-/pgpass-1.0.5.tgz 928ms (cache miss)
+130 timing reifyNode:node_modules/pgpass Completed in 1000ms
+131 http fetch GET 200 https://registry.npmjs.org/inflection/-/inflection-1.13.4.tgz 862ms (cache miss)
+132 http fetch GET 200 https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz 859ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz 868ms (cache miss)
+134 timing reifyNode:node_modules/lru-cache Completed in 1004ms
+135 http fetch GET 200 https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz 963ms (cache miss)
+136 timing reifyNode:node_modules/xtend Completed in 1008ms
+137 timing reifyNode:node_modules/vk-io-question Completed in 1008ms
+138 http fetch GET 200 https://registry.npmjs.org/toposort-class/-/toposort-class-1.0.1.tgz 953ms (cache miss)
+139 timing reifyNode:node_modules/retry-as-promised Completed in 1010ms
+140 timing reifyNode:node_modules/inflection Completed in 1009ms
+141 timing reifyNode:node_modules/formdata-polyfill Completed in 1009ms
+142 http fetch GET 200 https://registry.npmjs.org/middleware-io/-/middleware-io-2.8.1.tgz 877ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/dottie/-/dottie-2.0.3.tgz 860ms (cache miss)
+144 timing reifyNode:node_modules/dottie Completed in 1011ms
+145 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz 859ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/@types/debug/-/debug-4.1.7.tgz 846ms (cache miss)
+147 timing reifyNode:node_modules/@types/debug Completed in 1007ms
+148 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 888ms (cache miss)
+149 timing reifyNode:node_modules/ms Completed in 1019ms
+150 http fetch GET 200 https://registry.npmjs.org/inspectable/-/inspectable-1.2.2.tgz 882ms (cache miss)
+151 timing reifyNode:node_modules/inspectable Completed in 1019ms
+152 http fetch GET 200 https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz 864ms (cache miss)
+153 timing reifyNode:node_modules/data-uri-to-buffer Completed in 1020ms
+154 timing reifyNode:node_modules/middleware-io Completed in 1028ms
+155 timing reifyNode:node_modules/toposort-class Completed in 1033ms
+156 http fetch GET 200 https://registry.npmjs.org/pg-types/-/pg-types-2.2.0.tgz 962ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/fetch-blob/-/fetch-blob-3.2.0.tgz 890ms (cache miss)
+158 timing reifyNode:node_modules/fetch-blob Completed in 1039ms
+159 http fetch GET 200 https://registry.npmjs.org/@types/ms/-/ms-0.7.31.tgz 874ms (cache miss)
+160 timing reifyNode:node_modules/@types/ms Completed in 1034ms
+161 timing reifyNode:node_modules/dotenv Completed in 1052ms
+162 http fetch GET 200 https://registry.npmjs.org/buffer-writer/-/buffer-writer-2.0.0.tgz 895ms (cache miss)
+163 timing reifyNode:node_modules/buffer-writer Completed in 1049ms
+164 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.3.4.tgz 900ms (cache miss)
+165 timing reifyNode:node_modules/debug Completed in 1053ms
+166 timing reifyNode:node_modules/pg-types Completed in 1057ms
+167 http fetch GET 200 https://registry.npmjs.org/sequelize-pool/-/sequelize-pool-7.1.0.tgz 1060ms (cache miss)
+168 timing reifyNode:node_modules/sequelize-pool Completed in 1119ms
+169 http fetch GET 200 https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz 1020ms (cache miss)
+170 timing reifyNode:node_modules/abort-controller Completed in 1176ms
+171 http fetch GET 200 https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz 1112ms (cache miss)
+172 http fetch GET 200 https://registry.npmjs.org/pg/-/pg-8.9.0.tgz 1139ms (cache miss)
+173 timing reifyNode:node_modules/pg Completed in 1226ms
+174 http fetch GET 200 https://registry.npmjs.org/pg-pool/-/pg-pool-3.5.2.tgz 1156ms (cache miss)
+175 timing reifyNode:node_modules/pg-pool Completed in 1234ms
+176 timing reifyNode:node_modules/node-domexception Completed in 1239ms
+177 http fetch GET 200 https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz 1133ms (cache miss)
+178 timing reifyNode:node_modules/event-target-shim Completed in 1283ms
+179 http fetch GET 200 https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.0.tgz 1203ms (cache miss)
+180 timing reifyNode:node_modules/node-fetch Completed in 1292ms
+181 http fetch GET 200 https://registry.npmjs.org/formdata-node/-/formdata-node-4.4.1.tgz 1161ms (cache miss)
+182 timing reifyNode:node_modules/formdata-node Completed in 1328ms
+183 http fetch GET 200 https://registry.npmjs.org/form-data-encoder/-/form-data-encoder-1.7.2.tgz 1182ms (cache miss)
+184 timing reifyNode:node_modules/form-data-encoder Completed in 1339ms
+185 http fetch GET 200 https://registry.npmjs.org/wkx/-/wkx-0.5.0.tgz 1298ms (cache miss)
+186 timing reifyNode:node_modules/wkx Completed in 1345ms
+187 http fetch GET 200 https://registry.npmjs.org/pg-protocol/-/pg-protocol-1.6.0.tgz 1269ms (cache miss)
+188 timing reifyNode:node_modules/pg-protocol Completed in 1350ms
+189 http fetch GET 200 https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-4.0.0-beta.3.tgz 1325ms (cache miss)
+190 timing reifyNode:node_modules/web-streams-polyfill Completed in 1372ms
+191 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.3.8.tgz 1331ms (cache miss)
+192 timing reifyNode:node_modules/semver Completed in 1397ms
+193 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz 1417ms (cache miss)
+194 timing reifyNode:node_modules/uuid Completed in 1471ms
+195 http fetch GET 200 https://registry.npmjs.org/sequelize 780ms (cache miss)
+196 timing metavuln:packument:sequelize Completed in 796ms
+197 timing metavuln:load:security-advisory:sequelize:1091130 Completed in 71ms
+198 timing metavuln:load:security-advisory:sequelize:1091134 Completed in 36ms
+199 timing metavuln:load:security-advisory:sequelize:1091149 Completed in 20ms
+200 timing metavuln:cache:put:security-advisory:sequelize:0x8QoXVSnuBUKQkmHpGL8H2TYxgcVoUBwMBqvmAO1zpIWLCE8RHBWScbje3M3Acd0EHDHFu58jP+AB7a2caDNg== Completed in 108ms
+201 timing metavuln:calculate:security-advisory:sequelize:1091134 Completed in 1019ms
+202 timing metavuln:cache:put:security-advisory:sequelize:yK+ji9RfsLuU2Ck1iMMNUHYpOTMVVzqTYbHrQzHmxmr3ADU2CiKfQ1fNw2CXwdIh1pOW2Fow8art8T9IbdowUA== Completed in 156ms
+203 timing metavuln:calculate:security-advisory:sequelize:1091130 Completed in 1024ms
+204 timing metavuln:cache:put:security-advisory:sequelize:uiVJKilHZCKwHnikGlVmcdRT3iKv25tQuPePKtYxKgk3rZvzuagxCS8rH9m3AAntOz0+nSn2juKiVGWQlmRG4A== Completed in 92ms
+205 timing metavuln:calculate:security-advisory:sequelize:1091149 Completed in 1022ms
+206 timing auditReport:init Completed in 1030ms
+207 timing reify:audit Completed in 1749ms
+208 http fetch GET 200 https://registry.npmjs.org/npm 1950ms (cache miss)
+209 http fetch GET 200 https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.40.tgz 1949ms (cache miss)
+210 timing reifyNode:node_modules/moment-timezone Completed in 2091ms
+211 http fetch GET 200 https://registry.npmjs.org/vk-io/-/vk-io-4.8.1.tgz 2092ms (cache miss)
+212 timing reifyNode:node_modules/vk-io Completed in 2147ms
+213 http fetch GET 200 https://registry.npmjs.org/validator/-/validator-13.9.0.tgz 2275ms (cache miss)
+214 timing reifyNode:node_modules/validator Completed in 2329ms
+215 http fetch GET 200 https://registry.npmjs.org/@types/validator/-/validator-13.7.12.tgz 2173ms (cache miss)
+216 timing reifyNode:node_modules/@types/validator Completed in 2346ms
+217 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-18.13.0.tgz 2353ms (cache miss)
+218 timing reifyNode:node_modules/@types/node Completed in 2512ms
+219 http fetch GET 200 https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.2.1.tgz 2466ms (cache miss)
+220 timing reifyNode:node_modules/fetch-blob/node_modules/web-streams-polyfill Completed in 2643ms
+221 http fetch GET 200 https://registry.npmjs.org/underscore/-/underscore-1.13.6.tgz 2603ms (cache miss)
+222 timing reifyNode:node_modules/underscore Completed in 2658ms
+223 http fetch GET 200 https://registry.npmjs.org/sequelize/-/sequelize-6.28.0.tgz 2714ms (cache miss)
+224 timing reifyNode:node_modules/sequelize Completed in 2776ms
+225 http fetch GET 200 https://registry.npmjs.org/moment/-/moment-2.29.4.tgz 2772ms (cache miss)
+226 timing reifyNode:node_modules/moment Completed in 2906ms
+227 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 2811ms (cache miss)
+228 timing reifyNode:node_modules/lodash Completed in 2947ms
+229 timing reify:unpack Completed in 2950ms
+230 timing reify:unretire Completed in 0ms
+231 timing build:queue Completed in 3ms
+232 timing build:link:node_modules/semver Completed in 2ms
+233 timing build:link:node_modules/uuid Completed in 1ms
+234 timing build:link Completed in 3ms
+235 timing build:deps Completed in 7ms
+236 timing build Completed in 7ms
+237 timing reify:build Completed in 7ms
+238 timing reify:trash Completed in 0ms
+239 timing reify:save Completed in 22ms
+240 timing reify Completed in 3153ms
+241 silly ADD node_modules/yallist
+242 silly ADD node_modules/xtend
+243 silly ADD node_modules/wkx
+244 silly ADD node_modules/web-streams-polyfill
+245 silly ADD node_modules/vk-io-question
+246 silly ADD node_modules/vk-io
+247 silly ADD node_modules/validator
+248 silly ADD node_modules/uuid
+249 silly ADD node_modules/underscore
+250 silly ADD node_modules/toposort-class
+251 silly ADD node_modules/split2
+252 silly ADD node_modules/sequelize-pool
+253 silly ADD node_modules/sequelize
+254 silly ADD node_modules/semver
+255 silly ADD node_modules/retry-as-promised
+256 silly ADD node_modules/postgres-interval
+257 silly ADD node_modules/postgres-date
+258 silly ADD node_modules/postgres-bytea
+259 silly ADD node_modules/postgres-array
+260 silly ADD node_modules/pgpass
+261 silly ADD node_modules/pg-types
+262 silly ADD node_modules/pg-protocol
+263 silly ADD node_modules/pg-pool
+264 silly ADD node_modules/pg-int8
+265 silly ADD node_modules/pg-hstore
+266 silly ADD node_modules/pg-connection-string
+267 silly ADD node_modules/pg
+268 silly ADD node_modules/packet-reader
+269 silly ADD node_modules/node-fetch
+270 silly ADD node_modules/node-domexception
+271 silly ADD node_modules/ms
+272 silly ADD node_modules/moment-timezone
+273 silly ADD node_modules/moment
+274 silly ADD node_modules/middleware-io
+275 silly ADD node_modules/lru-cache
+276 silly ADD node_modules/lodash
+277 silly ADD node_modules/inspectable
+278 silly ADD node_modules/inflection
+279 silly ADD node_modules/formdata-polyfill
+280 silly ADD node_modules/formdata-node
+281 silly ADD node_modules/form-data-encoder
+282 silly ADD node_modules/fetch-blob
+283 silly ADD node_modules/fetch-blob/node_modules/web-streams-polyfill
+284 silly ADD node_modules/event-target-shim
+285 silly ADD node_modules/dottie
+286 silly ADD node_modules/dotenv
+287 silly ADD node_modules/debug
+288 silly ADD node_modules/data-uri-to-buffer
+289 silly ADD node_modules/buffer-writer
+290 silly ADD node_modules/abort-controller
+291 silly ADD node_modules/@types/validator
+292 silly ADD node_modules/@types/node
+293 silly ADD node_modules/@types/ms
+294 silly ADD node_modules/@types/debug
+295 timing command:install Completed in 3185ms
+296 verbose exit 0
+297 timing npm Completed in 3241ms
+298 info ok

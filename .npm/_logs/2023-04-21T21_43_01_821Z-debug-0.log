@@ -1,0 +1,498 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.6.3
+2 info using node@v19.8.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/zeus/BOT/ZEUSbot/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/home/zeus/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 7ms
+17 timing npm:load:configload Completed in 7ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm uninstall vk-io-question
+21 verbose argv "uninstall" "vk-io-question"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing config:load:flatten Completed in 3ms
+24 timing npm:load:display Completed in 6ms
+25 verbose logfile logs-max:10 dir:/home/zeus/.npm/_logs/2023-04-21T21_43_01_821Z-
+26 verbose logfile /home/zeus/.npm/_logs/2023-04-21T21_43_01_821Z-debug-0.log
+27 timing npm:load:logFile Completed in 7ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 24ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 319ms
+34 timing idealTree:userRequests Completed in 2ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 0ms
+37 timing idealTree:buildDeps Completed in 2ms
+38 timing idealTree:fixDepFlags Completed in 28ms
+39 timing idealTree Completed in 358ms
+40 timing arborist:ctor Completed in 0ms
+41 timing reify:loadTrees Completed in 572ms
+42 timing reify:diffTrees Completed in 7ms
+43 silly reify moves {}
+44 timing reify:retireShallow Completed in 1ms
+45 timing reify:createSparse Completed in 43ms
+46 timing reify:loadBundles Completed in 0ms
+47 silly audit bulk request {
+47 silly audit   '@colors/colors': [ '1.5.0' ],
+47 silly audit   '@dabh/diagnostics': [ '2.0.3' ],
+47 silly audit   '@types/debug': [ '4.1.7' ],
+47 silly audit   '@types/ms': [ '0.7.31' ],
+47 silly audit   '@types/node': [ '18.13.0' ],
+47 silly audit   '@types/triple-beam': [ '1.3.2' ],
+47 silly audit   '@types/validator': [ '13.7.12' ],
+47 silly audit   'abort-controller': [ '3.0.0' ],
+47 silly audit   anymatch: [ '2.0.0' ],
+47 silly audit   'normalize-path': [ '2.1.1', '3.0.0' ],
+47 silly audit   'arr-diff': [ '4.0.0' ],
+47 silly audit   'arr-flatten': [ '1.1.0' ],
+47 silly audit   'arr-union': [ '3.1.0' ],
+47 silly audit   'array-unique': [ '0.3.2' ],
+47 silly audit   'assign-symbols': [ '1.0.0' ],
+47 silly audit   async: [ '1.5.2', '0.2.10', '0.2.9', '3.2.4' ],
+47 silly audit   'async-each': [ '1.0.6' ],
+47 silly audit   atob: [ '2.1.2' ],
+47 silly audit   'available-typed-arrays': [ '1.0.5' ],
+47 silly audit   'balanced-match': [ '1.0.2' ],
+47 silly audit   base: [ '0.11.2' ],
+47 silly audit   'define-property': [ '1.0.0', '0.2.5', '2.0.2' ],
+47 silly audit   'binary-extensions': [ '1.13.1' ],
+47 silly audit   bindings: [ '1.5.0' ],
+47 silly audit   'brace-expansion': [ '1.1.11' ],
+47 silly audit   braces: [ '2.3.2' ],
+47 silly audit   broadway: [ '0.3.6' ],
+47 silly audit   cliff: [ '0.1.9', '0.1.10' ],
+47 silly audit   eventemitter2: [ '0.4.14', '6.4.4' ],
+47 silly audit   pkginfo: [ '0.3.1' ],
+47 silly audit   winston: [ '0.8.0', '0.8.3', '3.8.2' ],
+47 silly audit   'buffer-writer': [ '2.0.0' ],
+47 silly audit   'cache-base': [ '1.0.1' ],
+47 silly audit   'call-bind': [ '1.0.2' ],
+47 silly audit   caller: [ '1.1.0' ],
+47 silly audit   chokidar: [ '2.1.8' ],
+47 silly audit   'class-utils': [ '0.3.6' ],
+47 silly audit   'is-accessor-descriptor': [ '0.1.6', '1.0.0' ],
+47 silly audit   'is-data-descriptor': [ '0.1.4', '1.0.0' ],
+47 silly audit   'is-descriptor': [ '0.1.6', '1.0.2' ],
+47 silly audit   'kind-of': [ '5.1.0', '4.0.0', '6.0.3', '3.2.2' ],
+47 silly audit   colors: [ '1.0.3', '0.6.2', '1.4.0' ],
+47 silly audit   clone: [ '2.1.2' ],
+47 silly audit   'collection-visit': [ '1.0.0' ],
+47 silly audit   color: [ '3.2.1' ],
+47 silly audit   'color-convert': [ '1.9.3' ],
+47 silly audit   'color-name': [ '1.1.3' ],
+47 silly audit   'color-string': [ '1.9.1' ],
+47 silly audit   colorspace: [ '1.1.4' ],
+47 silly audit   'component-emitter': [ '1.3.0' ],
+47 silly audit   'concat-map': [ '0.0.1' ],
+47 silly audit   configstore: [ '4.0.0' ],
+47 silly audit   'copy-descriptor': [ '0.1.1' ],
+47 silly audit   'core-util-is': [ '1.0.3' ],
+47 silly audit   'crypto-random-string': [ '1.0.0' ],
+47 silly audit   cycle: [ '1.0.3' ],
+47 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+47 silly audit   debug: [ '4.3.4', '2.6.9' ],
+47 silly audit   'decode-uri-component': [ '0.2.2' ],
+47 silly audit   'deep-equal': [ '2.2.0' ],
+47 silly audit   isarray: [ '2.0.5', '1.0.0' ],
+47 silly audit   'define-properties': [ '1.2.0' ],
+47 silly audit   director: [ '1.2.7' ],
+47 silly audit   'dot-prop': [ '4.2.1' ],
+47 silly audit   dotenv: [ '16.0.3' ],
+47 silly audit   dottie: [ '2.0.3' ],
+47 silly audit   duplexer: [ '0.1.2' ],
+47 silly audit   enabled: [ '2.0.0' ],
+47 silly audit   'es-get-iterator': [ '1.1.3' ],
+47 silly audit   'event-stream': [ '3.3.4' ],
+47 silly audit   'event-target-shim': [ '5.0.1' ],
+47 silly audit   'expand-brackets': [ '2.1.4' ],
+47 silly audit   ms: [ '2.0.0', '2.1.2' ],
+47 silly audit   'extend-shallow': [ '2.0.1', '3.0.2' ],
+47 silly audit   extglob: [ '2.0.4' ],
+47 silly audit   eyes: [ '0.1.8' ],
+47 silly audit   fecha: [ '4.2.3' ],
+47 silly audit   'fetch-blob': [ '3.2.0' ],
+47 silly audit   'web-streams-polyfill': [ '3.2.1', '4.0.0-beta.3' ],
+47 silly audit   'file-uri-to-path': [ '1.0.0' ],
+47 silly audit   'fill-range': [ '4.0.0' ],
+47 silly audit   flatiron: [ '0.4.3' ],
+47 silly audit   'fn.name': [ '1.1.0' ],
+47 silly audit   'for-each': [ '0.3.3' ],
+47 silly audit   'for-in': [ '1.0.2' ],
+47 silly audit   forever: [ '4.0.3' ],
+47 silly audit   'forever-monitor': [ '3.0.3' ],
+47 silly audit   'form-data-encoder': [ '1.7.2' ],
+47 silly audit   'formdata-node': [ '4.4.1' ],
+47 silly audit   'formdata-polyfill': [ '4.0.10' ],
+47 silly audit   'fragment-cache': [ '0.2.1' ],
+47 silly audit   from: [ '0.1.7' ],
+47 silly audit   'fs.realpath': [ '1.0.0' ],
+47 silly audit   fsevents: [ '1.2.13' ],
+47 silly audit   'function-bind': [ '1.1.1' ],
+47 silly audit   'functions-have-names': [ '1.2.3' ],
+47 silly audit   'get-intrinsic': [ '1.2.0' ],
+47 silly audit   'get-value': [ '2.0.6' ],
+47 silly audit   glob: [ '7.2.3' ],
+47 silly audit   'glob-parent': [ '3.1.0' ],
+47 silly audit   'is-glob': [ '3.1.0', '4.0.3' ],
+47 silly audit   gopd: [ '1.0.1' ],
+47 silly audit   'graceful-fs': [ '4.2.11' ],
+47 silly audit   has: [ '1.0.3' ],
+47 silly audit   'has-bigints': [ '1.0.2' ],
+47 silly audit   'has-property-descriptors': [ '1.0.0' ],
+47 silly audit   'has-symbols': [ '1.0.3' ],
+47 silly audit   'has-tostringtag': [ '1.0.0' ],
+47 silly audit   'has-value': [ '1.0.0', '0.3.1' ],
+47 silly audit   'has-values': [ '1.0.0', '0.1.4' ],
+47 silly audit   i: [ '0.3.7' ],
+47 silly audit   imurmurhash: [ '0.1.4' ],
+47 silly audit   inflection: [ '1.13.4' ],
+47 silly audit   inflight: [ '1.0.6' ],
+47 silly audit   inherits: [ '2.0.4' ],
+47 silly audit   ini: [ '1.3.8' ],
+47 silly audit   inspectable: [ '1.2.2' ],
+47 silly audit   'internal-slot': [ '1.0.5' ],
+47 silly audit   'is-arguments': [ '1.1.1' ],
+47 silly audit   'is-array-buffer': [ '3.0.2' ],
+47 silly audit   'is-arrayish': [ '0.3.2' ],
+47 silly audit   'is-bigint': [ '1.0.4' ],
+47 silly audit   'is-binary-path': [ '1.0.1' ],
+47 silly audit   'is-boolean-object': [ '1.1.2' ],
+47 silly audit   'is-buffer': [ '1.1.6' ],
+47 silly audit   'is-callable': [ '1.2.7' ],
+47 silly audit   'is-date-object': [ '1.0.5' ],
+47 silly audit   'is-extendable': [ '0.1.1', '1.0.1' ],
+47 silly audit   'is-extglob': [ '2.1.1' ],
+47 silly audit   'is-map': [ '2.0.2' ],
+47 silly audit   'is-number': [ '3.0.0' ],
+47 silly audit   'is-number-object': [ '1.0.7' ],
+47 silly audit   'is-obj': [ '1.0.1' ],
+47 silly audit   'is-plain-object': [ '2.0.4' ],
+47 silly audit   'is-regex': [ '1.1.4' ],
+47 silly audit   'is-set': [ '2.0.2' ],
+47 silly audit   'is-shared-array-buffer': [ '1.0.2' ],
+47 silly audit   'is-stream': [ '2.0.1' ],
+47 silly audit   'is-string': [ '1.0.7' ],
+47 silly audit   'is-symbol': [ '1.0.4' ],
+47 silly audit   'is-typed-array': [ '1.1.10' ],
+47 silly audit   'is-weakmap': [ '2.0.1' ],
+47 silly audit   'is-weakset': [ '2.0.2' ],
+47 silly audit   'is-windows': [ '1.0.2' ],
+47 silly audit   isobject: [ '3.0.1', '2.1.0' ],
+47 silly audit   isstream: [ '0.1.2' ],
+47 silly audit   kuler: [ '2.0.0' ],
+47 silly audit   lazy: [ '1.0.11' ],
+47 silly audit   lodash: [ '4.17.21' ],
+47 silly audit   logform: [ '2.5.1' ],
+47 silly audit   'lru-cache': [ '6.0.0' ],
+47 silly audit   'make-dir': [ '1.3.0' ],
+47 silly audit   'map-cache': [ '0.2.2' ],
+47 silly audit   'map-stream': [ '0.1.0' ],
+47 silly audit   'map-visit': [ '1.0.0' ],
+47 silly audit   micromatch: [ '3.1.10' ],
+47 silly audit   'middleware-io': [ '2.8.1' ],
+47 silly audit   minimatch: [ '3.1.2' ],
+47 silly audit   minimist: [ '1.2.8', '0.0.10' ],
+47 silly audit   'mixin-deep': [ '1.3.2' ],
+47 silly audit   mkdirp: [ '0.5.6' ],
+47 silly audit   moment: [ '2.29.4' ],
+47 silly audit   'moment-timezone': [ '0.5.40' ],
+47 silly audit   'mute-stream': [ '0.0.8' ],
+47 silly audit   nan: [ '2.17.0' ],
+47 silly audit   nanomatch: [ '1.2.13' ],
+47 silly audit   nconf: [ '0.6.9' ],
+47 silly audit   ncp: [ '0.4.2' ],
+47 silly audit   'node-domexception': [ '1.0.0' ],
+47 silly audit   'node-fetch': [ '3.3.0' ],
+47 silly audit   nssocket: [ '0.6.0' ],
+47 silly audit   'object-assign': [ '4.1.1' ],
+47 silly audit   'object-copy': [ '0.1.0' ],
+47 silly audit   'object-inspect': [ '1.12.3' ],
+47 silly audit   'object-is': [ '1.1.5' ],
+47 silly audit   'object-keys': [ '1.1.1' ],
+47 silly audit   'object-visit': [ '1.0.1' ],
+47 silly audit   'object.assign': [ '4.1.4' ],
+47 silly audit   'object.pick': [ '1.3.0' ],
+47 silly audit   once: [ '1.4.0' ],
+47 silly audit   'one-time': [ '1.0.0' ],
+47 silly audit   optimist: [ '0.6.0' ],
+47 silly audit   'packet-reader': [ '1.0.0' ],
+47 silly audit   pascalcase: [ '0.1.1' ],
+47 silly audit   'path-dirname': [ '1.0.2' ],
+47 silly audit   'path-is-absolute': [ '1.0.1' ],
+47 silly audit   'pause-stream': [ '0.0.11' ],
+47 silly audit   pg: [ '8.9.0' ],
+47 silly audit   'pg-connection-string': [ '2.5.0' ],
+47 silly audit   'pg-hstore': [ '2.3.4' ],
+47 silly audit   'pg-int8': [ '1.0.1' ],
+47 silly audit   'pg-pool': [ '3.5.2' ],
+47 silly audit   'pg-protocol': [ '1.6.0' ],
+47 silly audit   'pg-types': [ '2.2.0' ],
+47 silly audit   pgpass: [ '1.0.5' ],
+47 silly audit   pify: [ '3.0.0' ],
+47 silly audit   'posix-character-classes': [ '0.1.1' ],
+47 silly audit   'postgres-array': [ '2.0.0' ],
+47 silly audit   'postgres-bytea': [ '1.0.0' ],
+47 silly audit   'postgres-date': [ '1.0.7' ],
+47 silly audit   'postgres-interval': [ '1.2.0' ],
+47 silly audit   prettyjson: [ '1.2.5' ],
+47 silly audit   'process-nextick-args': [ '2.0.1' ],
+47 silly audit   prompt: [ '0.2.14' ],
+47 silly audit   'ps-tree': [ '1.2.0' ],
+47 silly audit   read: [ '1.0.7' ],
+47 silly audit   'readable-stream': [ '2.3.8', '3.6.2' ],
+47 silly audit   readdirp: [ '2.2.1' ],
+47 silly audit   'regex-not': [ '1.0.2' ],
+47 silly audit   'regexp.prototype.flags': [ '1.4.3' ],
+47 silly audit   'remove-trailing-separator': [ '1.1.0' ],
+47 silly audit   'repeat-element': [ '1.1.4' ],
+47 silly audit   'repeat-string': [ '1.6.1' ],
+47 silly audit   'resolve-url': [ '0.2.1' ],
+47 silly audit   ret: [ '0.1.15' ],
+47 silly audit   'retry-as-promised': [ '7.0.4' ],
+47 silly audit   revalidator: [ '0.1.8' ],
+47 silly audit   rimraf: [ '2.7.1' ],
+47 silly audit   'safe-buffer': [ '5.1.2' ],
+47 silly audit   'safe-regex': [ '1.1.0' ],
+47 silly audit   'safe-stable-stringify': [ '2.4.3' ],
+47 silly audit   semver: [ '7.3.8' ],
+47 silly audit   sequelize: [ '6.28.0' ],
+47 silly audit   'sequelize-pool': [ '7.1.0' ],
+47 silly audit   'set-value': [ '2.0.1' ],
+47 silly audit   shush: [ '1.0.3' ],
+47 silly audit   'side-channel': [ '1.0.4' ],
+47 silly audit   'signal-exit': [ '3.0.7' ],
+47 silly audit   'simple-swizzle': [ '0.2.2' ],
+47 silly audit   snapdragon: [ '0.8.2' ],
+47 silly audit   'snapdragon-node': [ '2.1.1' ],
+47 silly audit   'snapdragon-util': [ '3.0.1' ],
+47 silly audit   'source-map': [ '0.5.7' ],
+47 silly audit   'source-map-resolve': [ '0.5.3' ],
+47 silly audit   'source-map-url': [ '0.4.1' ],
+47 silly audit   split: [ '0.3.3' ],
+47 silly audit   'split-string': [ '3.1.0' ],
+47 silly audit   split2: [ '4.1.0' ],
+47 silly audit   'stack-trace': [ '0.0.10' ],
+47 silly audit   'static-extend': [ '0.1.2' ],
+47 silly audit   'stop-iteration-iterator': [ '1.0.0' ],
+47 silly audit   'stream-combiner': [ '0.0.4' ],
+47 silly audit   string_decoder: [ '1.1.1' ],
+47 silly audit   'strip-json-comments': [ '3.1.1' ],
+47 silly audit   'text-hex': [ '1.0.0' ],
+47 silly audit   through: [ '2.3.8' ],
+47 silly audit   'to-object-path': [ '0.3.0' ],
+47 silly audit   'to-regex': [ '3.0.2' ],
+47 silly audit   'to-regex-range': [ '2.1.1' ],
+47 silly audit   'toposort-class': [ '1.0.1' ],
+47 silly audit   'triple-beam': [ '1.3.0' ],
+47 silly audit   underscore: [ '1.13.6' ],
+47 silly audit   'union-value': [ '1.0.1' ],
+47 silly audit   'unique-string': [ '1.0.0' ],
+47 silly audit   'unset-value': [ '1.0.0' ],
+47 silly audit   upath: [ '1.2.0' ],
+47 silly audit   urix: [ '0.1.0' ],
+47 silly audit   use: [ '3.1.1' ],
+47 silly audit   'util-deprecate': [ '1.0.2' ],
+47 silly audit   utile: [ '0.2.1' ],
+47 silly audit   uuid: [ '8.3.2' ],
+47 silly audit   validator: [ '13.9.0' ],
+47 silly audit   'vk-io': [ '4.8.1' ],
+47 silly audit   'vk-io-question-fix': [ '2.0.2' ],
+47 silly audit   'which-boxed-primitive': [ '1.0.2' ],
+47 silly audit   'which-collection': [ '1.0.1' ],
+47 silly audit   'which-typed-array': [ '1.1.9' ],
+47 silly audit   'winston-transport': [ '4.5.0' ],
+47 silly audit   wkx: [ '0.5.0' ],
+47 silly audit   wordwrap: [ '0.0.3' ],
+47 silly audit   wrappy: [ '1.0.2' ],
+47 silly audit   'write-file-atomic': [ '2.4.3' ],
+47 silly audit   'xdg-basedir': [ '3.0.0' ],
+47 silly audit   xtend: [ '4.0.2' ],
+47 silly audit   yallist: [ '4.0.0' ]
+47 silly audit }
+48 verbose reify failed optional dependency /home/zeus/BOT/ZEUSbot/node_modules/fsevents
+49 silly reify mark deleted [ '/home/zeus/BOT/ZEUSbot/node_modules/fsevents' ]
+50 verbose reify failed optional dependency /home/zeus/BOT/ZEUSbot/node_modules/bindings
+51 silly reify mark deleted [ '/home/zeus/BOT/ZEUSbot/node_modules/bindings' ]
+52 verbose reify failed optional dependency /home/zeus/BOT/ZEUSbot/node_modules/nan
+53 silly reify mark deleted [ '/home/zeus/BOT/ZEUSbot/node_modules/nan' ]
+54 verbose reify failed optional dependency /home/zeus/BOT/ZEUSbot/node_modules/file-uri-to-path
+55 silly reify mark deleted [ '/home/zeus/BOT/ZEUSbot/node_modules/file-uri-to-path' ]
+56 timing reifyNode:node_modules/fsevents Completed in 46ms
+57 timing reifyNode:node_modules/bindings Completed in 90ms
+58 timing reifyNode:node_modules/file-uri-to-path Completed in 93ms
+59 timing reifyNode:node_modules/nan Completed in 107ms
+60 timing reify:unpack Completed in 107ms
+61 timing reify:unretire Completed in 1ms
+62 timing build:queue Completed in 1ms
+63 timing build:deps Completed in 1ms
+64 timing build Completed in 1ms
+65 timing reify:build Completed in 1ms
+66 timing reify:trash Completed in 5ms
+67 timing reify:save Completed in 85ms
+68 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 511ms
+69 timing auditReport:getReport Completed in 517ms
+70 silly audit report {
+70 silly audit report   'glob-parent': [
+70 silly audit report     {
+70 silly audit report       id: 1091181,
+70 silly audit report       url: 'https://github.com/advisories/GHSA-ww39-953v-wcq6',
+70 silly audit report       title: 'glob-parent before 5.1.2 vulnerable to Regular Expression Denial of Service in enclosure regex',
+70 silly audit report       severity: 'high',
+70 silly audit report       vulnerable_versions: '<5.1.2',
+70 silly audit report       cwe: [Array],
+70 silly audit report       cvss: [Object]
+70 silly audit report     }
+70 silly audit report   ],
+70 silly audit report   minimist: [
+70 silly audit report     {
+70 silly audit report       id: 1091172,
+70 silly audit report       url: 'https://github.com/advisories/GHSA-xvch-5gv4-984h',
+70 silly audit report       title: 'Prototype Pollution in minimist',
+70 silly audit report       severity: 'critical',
+70 silly audit report       vulnerable_versions: '<0.2.4',
+70 silly audit report       cwe: [Array],
+70 silly audit report       cvss: [Object]
+70 silly audit report     },
+70 silly audit report     {
+70 silly audit report       id: 1090098,
+70 silly audit report       url: 'https://github.com/advisories/GHSA-vh95-rmgr-6w4m',
+70 silly audit report       title: 'Prototype Pollution in minimist',
+70 silly audit report       severity: 'moderate',
+70 silly audit report       vulnerable_versions: '<0.2.1',
+70 silly audit report       cwe: [Array],
+70 silly audit report       cvss: [Object]
+70 silly audit report     }
+70 silly audit report   ],
+70 silly audit report   nconf: [
+70 silly audit report     {
+70 silly audit report       id: 1088715,
+70 silly audit report       url: 'https://github.com/advisories/GHSA-6xwr-q98w-rvg7',
+70 silly audit report       title: 'Prototype Pollution in nconf',
+70 silly audit report       severity: 'high',
+70 silly audit report       vulnerable_versions: '<0.11.4',
+70 silly audit report       cwe: [Array],
+70 silly audit report       cvss: [Object]
+70 silly audit report     }
+70 silly audit report   ],
+70 silly audit report   sequelize: [
+70 silly audit report     {
+70 silly audit report       id: 1091130,
+70 silly audit report       url: 'https://github.com/advisories/GHSA-8c25-f3mj-v6h8',
+70 silly audit report       title: 'Sequelize information disclosure vulnerability',
+70 silly audit report       severity: 'moderate',
+70 silly audit report       vulnerable_versions: '<6.28.1',
+70 silly audit report       cwe: [Array],
+70 silly audit report       cvss: [Object]
+70 silly audit report     },
+70 silly audit report     {
+70 silly audit report       id: 1091134,
+70 silly audit report       url: 'https://github.com/advisories/GHSA-vqfx-gj96-3w95',
+70 silly audit report       title: 'Unsafe fall-through in getWhereConditions',
+70 silly audit report       severity: 'critical',
+70 silly audit report       vulnerable_versions: '<6.28.1',
+70 silly audit report       cwe: [Array],
+70 silly audit report       cvss: [Object]
+70 silly audit report     },
+70 silly audit report     {
+70 silly audit report       id: 1091149,
+70 silly audit report       url: 'https://github.com/advisories/GHSA-f598-mfpv-gmfx',
+70 silly audit report       title: 'Sequelize - Default support for “raw attributes” when using parentheses',
+70 silly audit report       severity: 'critical',
+70 silly audit report       vulnerable_versions: '<6.29.0',
+70 silly audit report       cwe: [Array],
+70 silly audit report       cvss: [Object]
+70 silly audit report     }
+70 silly audit report   ]
+70 silly audit report }
+71 timing metavuln:cache:get:security-advisory:glob-parent:9/yAKK1UmJQrzdbycCeBpBlU4WJI348v0Eee+TKUZO2pXAsAnmsjGlALuj7hJT4HEZ7/qqupoWooXuNoScGTZQ== Completed in 13ms
+72 timing metavuln:cache:get:security-advisory:minimist:CoN+UfOGHGj3eQpKRTSSLuqr81MRO8qPAmXBL3CG+oARGxlhob1n+BF3F9kGvffoT603Wx0MsWFvTFfm6pImKA== Completed in 11ms
+73 timing metavuln:cache:get:security-advisory:minimist:Hc8JLxotc7rpM7zlBkBIXl814LFqQn9XiPxlIC6bd8i+f/iyzWPbacSaagSenc6xVws5/AnXiohINoiLEgfxuA== Completed in 11ms
+74 timing metavuln:cache:get:security-advisory:nconf:dO8ezKU4JsG4MLd6bUexFDIC/wGkqa82gIRhWuc/HCu6X24phz7qPzhn6jCqChTuchXrM4o13JQ+naiXT4Siog== Completed in 10ms
+75 timing metavuln:cache:get:security-advisory:sequelize:yK+ji9RfsLuU2Ck1iMMNUHYpOTMVVzqTYbHrQzHmxmr3ADU2CiKfQ1fNw2CXwdIh1pOW2Fow8art8T9IbdowUA== Completed in 11ms
+76 timing metavuln:cache:get:security-advisory:sequelize:0x8QoXVSnuBUKQkmHpGL8H2TYxgcVoUBwMBqvmAO1zpIWLCE8RHBWScbje3M3Acd0EHDHFu58jP+AB7a2caDNg== Completed in 10ms
+77 timing metavuln:cache:get:security-advisory:sequelize:uiVJKilHZCKwHnikGlVmcdRT3iKv25tQuPePKtYxKgk3rZvzuagxCS8rH9m3AAntOz0+nSn2juKiVGWQlmRG4A== Completed in 11ms
+78 http fetch GET 200 https://registry.npmjs.org/glob-parent 26ms (cache hit)
+79 timing metavuln:packument:glob-parent Completed in 28ms
+80 timing metavuln:load:security-advisory:glob-parent:1091181 Completed in 0ms
+81 timing metavuln:calculate:security-advisory:glob-parent:1091181 Completed in 29ms
+82 http fetch GET 200 https://registry.npmjs.org/minimist 28ms (cache hit)
+83 timing metavuln:packument:minimist Completed in 28ms
+84 timing metavuln:load:security-advisory:minimist:1091172 Completed in 0ms
+85 timing metavuln:calculate:security-advisory:minimist:1091172 Completed in 29ms
+86 timing metavuln:load:security-advisory:minimist:1090098 Completed in 0ms
+87 timing metavuln:calculate:security-advisory:minimist:1090098 Completed in 29ms
+88 http fetch GET 200 https://registry.npmjs.org/nconf 28ms (cache hit)
+89 timing metavuln:packument:nconf Completed in 29ms
+90 timing metavuln:load:security-advisory:nconf:1088715 Completed in 0ms
+91 timing metavuln:calculate:security-advisory:nconf:1088715 Completed in 29ms
+92 http fetch GET 200 https://registry.npmjs.org/sequelize 31ms (cache hit)
+93 timing metavuln:packument:sequelize Completed in 44ms
+94 timing metavuln:load:security-advisory:sequelize:1091130 Completed in 19ms
+95 timing metavuln:calculate:security-advisory:sequelize:1091130 Completed in 65ms
+96 timing metavuln:load:security-advisory:sequelize:1091134 Completed in 13ms
+97 timing metavuln:calculate:security-advisory:sequelize:1091134 Completed in 77ms
+98 timing metavuln:load:security-advisory:sequelize:1091149 Completed in 9ms
+99 timing metavuln:calculate:security-advisory:sequelize:1091149 Completed in 86ms
+100 timing metavuln:cache:get:security-advisory:chokidar:YxIkwWQ1T/WPGKxoVQuaV0cpiqcI2n5+AiqP2pTpu9schLjtTwG4dS1s2OSA6MKhNhESrQzatWpYxMkbhbsevA== Completed in 3ms
+101 http fetch GET 200 https://registry.npmjs.org/chokidar 5ms (cache hit)
+102 timing metavuln:packument:chokidar Completed in 7ms
+103 timing metavuln:load:security-advisory:chokidar:9/yAKK1UmJQrzdbycCeBpBlU4WJI348v0Eee+TKUZO2pXAsAnmsjGlALuj7hJT4HEZ7/qqupoWooXuNoScGTZQ== Completed in 0ms
+104 timing metavuln:calculate:security-advisory:chokidar:9/yAKK1UmJQrzdbycCeBpBlU4WJI348v0Eee+TKUZO2pXAsAnmsjGlALuj7hJT4HEZ7/qqupoWooXuNoScGTZQ== Completed in 7ms
+105 timing metavuln:cache:get:security-advisory:optimist:KE05nSxKKygT+ikwrdzyC3RwN6SGRJWuPpSd/NruGqUNis4bvhUvIcMAJCIXROP30opZjx8eAl54kTDXlSYSTg== Completed in 2ms
+106 http fetch GET 200 https://registry.npmjs.org/optimist 4ms (cache hit)
+107 timing metavuln:packument:optimist Completed in 5ms
+108 timing metavuln:load:security-advisory:optimist:CoN+UfOGHGj3eQpKRTSSLuqr81MRO8qPAmXBL3CG+oARGxlhob1n+BF3F9kGvffoT603Wx0MsWFvTFfm6pImKA== Completed in 6ms
+109 timing metavuln:calculate:security-advisory:optimist:CoN+UfOGHGj3eQpKRTSSLuqr81MRO8qPAmXBL3CG+oARGxlhob1n+BF3F9kGvffoT603Wx0MsWFvTFfm6pImKA== Completed in 11ms
+110 timing metavuln:cache:get:security-advisory:broadway:w4U901WXaGm9GpYcXUXcG0dA3x01MgkGsysqU3yB2Nh2WmVYcMo6gEb/dkQKXffTIdjSHKpapnaCzrRwUJsKag== Completed in 1ms
+111 http fetch GET 200 https://registry.npmjs.org/broadway 10ms (cache hit)
+112 timing metavuln:packument:broadway Completed in 11ms
+113 timing metavuln:load:security-advisory:broadway:dO8ezKU4JsG4MLd6bUexFDIC/wGkqa82gIRhWuc/HCu6X24phz7qPzhn6jCqChTuchXrM4o13JQ+naiXT4Siog== Completed in 0ms
+114 timing metavuln:calculate:security-advisory:broadway:dO8ezKU4JsG4MLd6bUexFDIC/wGkqa82gIRhWuc/HCu6X24phz7qPzhn6jCqChTuchXrM4o13JQ+naiXT4Siog== Completed in 12ms
+115 timing metavuln:cache:get:security-advisory:forever-monitor:3BH9JmRT48+RK9i8bo8EVsnWK2rkBopxZ++GEotamlSsilMv8EPLLlAyEdp471cUpCEGy/u7ST0d7T2fOggD5g== Completed in 2ms
+116 http fetch GET 200 https://registry.npmjs.org/forever-monitor 4ms (cache hit)
+117 timing metavuln:packument:forever-monitor Completed in 5ms
+118 timing metavuln:load:security-advisory:forever-monitor:YxIkwWQ1T/WPGKxoVQuaV0cpiqcI2n5+AiqP2pTpu9schLjtTwG4dS1s2OSA6MKhNhESrQzatWpYxMkbhbsevA== Completed in 0ms
+119 timing metavuln:calculate:security-advisory:forever-monitor:YxIkwWQ1T/WPGKxoVQuaV0cpiqcI2n5+AiqP2pTpu9schLjtTwG4dS1s2OSA6MKhNhESrQzatWpYxMkbhbsevA== Completed in 6ms
+120 timing metavuln:cache:get:security-advisory:flatiron:srk1e/1t1LQbRu7ByiiqRv40HPNWQilYJrAmzrj1hbZ+QYL6U7WaoUhprYvwH+hkJ6X52fPdV3QeWbCEKo8xmg== Completed in 5ms
+121 timing metavuln:cache:get:security-advisory:nconf:d0cQWvi4huJ3kwKT7trfg8XZAghwpVR6IkVUpIz4NKB/t48RM2MQ9YQBW2XxOm3vr2nNcXbAWE8T1sY8Wqu6DA== Completed in 4ms
+122 timing metavuln:load:security-advisory:nconf:KE05nSxKKygT+ikwrdzyC3RwN6SGRJWuPpSd/NruGqUNis4bvhUvIcMAJCIXROP30opZjx8eAl54kTDXlSYSTg== Completed in 0ms
+123 timing metavuln:calculate:security-advisory:nconf:KE05nSxKKygT+ikwrdzyC3RwN6SGRJWuPpSd/NruGqUNis4bvhUvIcMAJCIXROP30opZjx8eAl54kTDXlSYSTg== Completed in 4ms
+124 http fetch GET 200 https://registry.npmjs.org/flatiron 7ms (cache hit)
+125 timing metavuln:packument:flatiron Completed in 7ms
+126 timing metavuln:load:security-advisory:flatiron:KE05nSxKKygT+ikwrdzyC3RwN6SGRJWuPpSd/NruGqUNis4bvhUvIcMAJCIXROP30opZjx8eAl54kTDXlSYSTg== Completed in 0ms
+127 timing metavuln:calculate:security-advisory:flatiron:KE05nSxKKygT+ikwrdzyC3RwN6SGRJWuPpSd/NruGqUNis4bvhUvIcMAJCIXROP30opZjx8eAl54kTDXlSYSTg== Completed in 8ms
+128 timing metavuln:cache:get:security-advisory:flatiron:QaG3xZzy/IJjmNxeFSwFzLg6JH4wl7iofK75cPnJTAxPrIwDQIUgg7dS3PSDO2d9H04Sjm+5l4nmlvhPU2U3eA== Completed in 0ms
+129 timing metavuln:load:security-advisory:flatiron:w4U901WXaGm9GpYcXUXcG0dA3x01MgkGsysqU3yB2Nh2WmVYcMo6gEb/dkQKXffTIdjSHKpapnaCzrRwUJsKag== Completed in 5ms
+130 timing metavuln:calculate:security-advisory:flatiron:w4U901WXaGm9GpYcXUXcG0dA3x01MgkGsysqU3yB2Nh2WmVYcMo6gEb/dkQKXffTIdjSHKpapnaCzrRwUJsKag== Completed in 5ms
+131 timing metavuln:cache:get:security-advisory:forever:aNfAd3OqXi+vvIQqqhSZ2d5FPN+Nlw5RA93huZSB8zVshmf9KE7xjC7vop0iNGTOM7Y0A+fetO9iqq0GqYQZsQ== Completed in 7ms
+132 http fetch GET 200 https://registry.npmjs.org/forever 8ms (cache hit)
+133 timing metavuln:packument:forever Completed in 10ms
+134 timing metavuln:load:security-advisory:forever:3BH9JmRT48+RK9i8bo8EVsnWK2rkBopxZ++GEotamlSsilMv8EPLLlAyEdp471cUpCEGy/u7ST0d7T2fOggD5g== Completed in 1ms
+135 timing metavuln:calculate:security-advisory:forever:3BH9JmRT48+RK9i8bo8EVsnWK2rkBopxZ++GEotamlSsilMv8EPLLlAyEdp471cUpCEGy/u7ST0d7T2fOggD5g== Completed in 11ms
+136 timing metavuln:cache:get:security-advisory:forever:8RvhVor1cZ2oa/srYWzxwr+2VBR1m6RDejGocu8XpYB4jMGjE6i5h3K2IvMInxduOOTBdkAxtkHMLkI1GznCWw== Completed in 0ms
+137 timing metavuln:load:security-advisory:forever:srk1e/1t1LQbRu7ByiiqRv40HPNWQilYJrAmzrj1hbZ+QYL6U7WaoUhprYvwH+hkJ6X52fPdV3QeWbCEKo8xmg== Completed in 1ms
+138 timing metavuln:calculate:security-advisory:forever:srk1e/1t1LQbRu7ByiiqRv40HPNWQilYJrAmzrj1hbZ+QYL6U7WaoUhprYvwH+hkJ6X52fPdV3QeWbCEKo8xmg== Completed in 1ms
+139 timing auditReport:init Completed in 180ms
+140 timing reify:audit Completed in 701ms
+141 timing reify Completed in 1329ms
+142 silly ADD
+143 silly ADD
+144 silly ADD
+145 silly ADD
+146 timing command:uninstall Completed in 1373ms
+147 verbose exit 0
+148 timing npm Completed in 1409ms
+149 info ok

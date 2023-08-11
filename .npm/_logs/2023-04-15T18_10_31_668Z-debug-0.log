@@ -1,0 +1,1181 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.6.3
+2 info using node@v19.8.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/home/zeus/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 8ms
+16 timing npm:load:configload Completed in 8ms
+17 timing npm:load:mkdirpcache Completed in 0ms
+18 timing npm:load:mkdirplogs Completed in 0ms
+19 verbose title npm install forever
+20 verbose argv "install" "forever" "--global"
+21 timing npm:load:setTitle Completed in 2ms
+22 timing config:load:flatten Completed in 2ms
+23 timing npm:load:display Completed in 3ms
+24 verbose logfile logs-max:10 dir:/home/zeus/.npm/_logs/2023-04-15T18_10_31_668Z-
+25 verbose logfile /home/zeus/.npm/_logs/2023-04-15T18_10_31_668Z-debug-0.log
+26 timing npm:load:logFile Completed in 8ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 22ms
+30 timing config:load:flatten Completed in 0ms
+31 timing arborist:ctor Completed in 1ms
+32 timing idealTree:init Completed in 5ms
+33 timing idealTree:userRequests Completed in 2ms
+34 silly idealTree buildDeps
+35 silly fetch manifest forever@*
+36 silly logfile done cleaning log files
+37 http fetch GET 200 https://registry.npmjs.org/npm 380ms (cache updated)
+38 http fetch GET 200 https://registry.npmjs.org/forever 471ms (cache miss)
+39 silly placeDep ROOT forever@4.0.3 OK for:  want: *
+40 silly fetch manifest async@^1.5.2
+41 silly fetch manifest cliff@^0.1.10
+42 silly fetch manifest clone@^2.1.2
+43 silly fetch manifest colors@0.6.2
+44 silly fetch manifest configstore@4.0.0
+45 silly fetch manifest eventemitter2@6.4.4
+46 silly fetch manifest flatiron@~0.4.3
+47 silly fetch manifest forever-monitor@^3.0.3
+48 silly fetch manifest mkdirp@^0.5.5
+49 silly fetch manifest nssocket@^0.6.0
+50 silly fetch manifest object-assign@^4.1.1
+51 silly fetch manifest prettyjson@^1.2.2
+52 silly fetch manifest shush@^1.0.0
+53 silly fetch manifest winston@^3.4.0
+54 http fetch GET 200 https://registry.npmjs.org/async 61ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/colors 120ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/object-assign 118ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/clone 126ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/configstore 127ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/mkdirp 128ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/eventemitter2 137ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/winston 150ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/cliff 268ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/nssocket 934ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/forever-monitor 952ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/flatiron 983ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/shush 1011ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/prettyjson 1016ms (cache miss)
+68 timing idealTree:#root Completed in 1507ms
+69 silly placeDep node_modules/forever async@1.5.2 OK for: forever@4.0.3 want: ^1.5.2
+70 silly placeDep node_modules/forever cliff@0.1.10 OK for: forever@4.0.3 want: ^0.1.10
+71 silly placeDep node_modules/forever clone@2.1.2 OK for: forever@4.0.3 want: ^2.1.2
+72 silly placeDep node_modules/forever colors@0.6.2 OK for: forever@4.0.3 want: 0.6.2
+73 silly placeDep node_modules/forever configstore@4.0.0 OK for: forever@4.0.3 want: 4.0.0
+74 silly placeDep node_modules/forever eventemitter2@6.4.4 OK for: forever@4.0.3 want: 6.4.4
+75 silly placeDep node_modules/forever flatiron@0.4.3 OK for: forever@4.0.3 want: ~0.4.3
+76 silly placeDep node_modules/forever forever-monitor@3.0.3 OK for: forever@4.0.3 want: ^3.0.3
+77 silly placeDep node_modules/forever mkdirp@0.5.6 OK for: forever@4.0.3 want: ^0.5.5
+78 silly placeDep node_modules/forever nssocket@0.6.0 OK for: forever@4.0.3 want: ^0.6.0
+79 silly placeDep node_modules/forever object-assign@4.1.1 OK for: forever@4.0.3 want: ^4.1.1
+80 silly placeDep node_modules/forever prettyjson@1.2.5 OK for: forever@4.0.3 want: ^1.2.2
+81 silly placeDep node_modules/forever shush@1.0.3 OK for: forever@4.0.3 want: ^1.0.0
+82 silly placeDep node_modules/forever winston@3.8.2 OK for: forever@4.0.3 want: ^3.4.0
+83 silly fetch manifest colors@~1.0.3
+84 silly fetch manifest eyes@~0.1.8
+85 silly fetch manifest winston@0.8.x
+86 silly fetch manifest dot-prop@^4.1.0
+87 silly fetch manifest graceful-fs@^4.1.2
+88 silly fetch manifest make-dir@^1.0.0
+89 silly fetch manifest unique-string@^1.0.0
+90 silly fetch manifest write-file-atomic@^2.0.0
+91 silly fetch manifest xdg-basedir@^3.0.0
+92 silly fetch manifest broadway@~0.3.2
+93 silly fetch manifest optimist@0.6.0
+94 silly fetch manifest prompt@0.2.14
+95 silly fetch manifest director@1.2.7
+96 silly fetch manifest chokidar@^2.1.8
+97 silly fetch manifest minimatch@^3.0.4
+98 silly fetch manifest ps-tree@^1.2.0
+99 silly fetch manifest minimist@^1.2.6
+100 silly fetch manifest eventemitter2@~0.4.14
+101 silly fetch manifest lazy@~1.0.11
+102 silly fetch manifest colors@1.4.0
+103 silly fetch manifest minimist@^1.2.0
+104 silly fetch manifest caller@^1.1.0
+105 silly fetch manifest strip-json-comments@^3.1.1
+106 silly fetch manifest @dabh/diagnostics@^2.0.2
+107 silly fetch manifest @colors/colors@1.5.0
+108 silly fetch manifest async@^3.2.3
+109 silly fetch manifest is-stream@^2.0.0
+110 silly fetch manifest logform@^2.4.0
+111 silly fetch manifest one-time@^1.0.0
+112 silly fetch manifest readable-stream@^3.4.0
+113 silly fetch manifest safe-stable-stringify@^2.3.1
+114 silly fetch manifest stack-trace@0.0.x
+115 silly fetch manifest triple-beam@^1.3.0
+116 silly fetch manifest winston-transport@^4.5.0
+117 http fetch GET 200 https://registry.npmjs.org/graceful-fs 116ms (cache miss)
+118 http fetch GET 200 https://registry.npmjs.org/write-file-atomic 140ms (cache miss)
+119 http fetch GET 200 https://registry.npmjs.org/xdg-basedir 144ms (cache miss)
+120 http fetch GET 200 https://registry.npmjs.org/make-dir 149ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/optimist 144ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/chokidar 151ms (cache miss)
+123 http fetch GET 200 https://registry.npmjs.org/minimatch 153ms (cache miss)
+124 http fetch GET 200 https://registry.npmjs.org/minimist 162ms (cache miss)
+125 http fetch GET 200 https://registry.npmjs.org/minimist 159ms (cache miss)
+126 http fetch GET 200 https://registry.npmjs.org/strip-json-comments 158ms (cache miss)
+127 http fetch GET 200 https://registry.npmjs.org/is-stream 163ms (cache miss)
+128 http fetch GET 200 https://registry.npmjs.org/readable-stream 178ms (cache miss)
+129 http fetch GET 200 https://registry.npmjs.org/safe-stable-stringify 190ms (cache miss)
+130 http fetch GET 200 https://registry.npmjs.org/stack-trace 205ms (cache miss)
+131 http fetch GET 200 https://registry.npmjs.org/eyes 332ms (cache miss)
+132 http fetch GET 200 https://registry.npmjs.org/director 366ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/one-time 406ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/ps-tree 926ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/prompt 933ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/broadway 936ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/unique-string 972ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/dot-prop 995ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/lazy 1007ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/logform 1027ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/triple-beam 1067ms (cache miss)
+142 http fetch GET 200 https://registry.npmjs.org/caller 1081ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/winston-transport 1093ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/@colors%2fcolors 1751ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/@dabh%2fdiagnostics 1968ms (cache miss)
+146 timing idealTree:node_modules/forever Completed in 2027ms
+147 timing idealTree:node_modules/forever/node_modules/async Completed in 0ms
+148 silly placeDep node_modules/forever/node_modules/cliff colors@1.0.3 OK for: cliff@0.1.10 want: ~1.0.3
+149 silly placeDep node_modules/forever eyes@0.1.8 OK for: cliff@0.1.10 want: ~0.1.8
+150 silly placeDep node_modules/forever/node_modules/cliff winston@0.8.3 OK for: cliff@0.1.10 want: 0.8.x
+151 silly fetch manifest async@0.2.x
+152 silly fetch manifest colors@0.6.x
+153 silly fetch manifest cycle@1.0.x
+154 silly fetch manifest isstream@0.1.x
+155 silly fetch manifest pkginfo@0.3.x
+156 http fetch GET 200 https://registry.npmjs.org/isstream 118ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/cycle 290ms (cache miss)
+158 http fetch GET 200 https://registry.npmjs.org/pkginfo 880ms (cache miss)
+159 timing idealTree:node_modules/forever/node_modules/cliff Completed in 895ms
+160 timing idealTree:node_modules/forever/node_modules/clone Completed in 0ms
+161 timing idealTree:node_modules/forever/node_modules/colors Completed in 0ms
+162 silly placeDep node_modules/forever dot-prop@4.2.1 OK for: configstore@4.0.0 want: ^4.1.0
+163 silly placeDep node_modules/forever graceful-fs@4.2.11 OK for: configstore@4.0.0 want: ^4.1.2
+164 silly placeDep node_modules/forever make-dir@1.3.0 OK for: configstore@4.0.0 want: ^1.0.0
+165 silly placeDep node_modules/forever unique-string@1.0.0 OK for: configstore@4.0.0 want: ^1.0.0
+166 silly placeDep node_modules/forever write-file-atomic@2.4.3 OK for: configstore@4.0.0 want: ^2.0.0
+167 silly placeDep node_modules/forever xdg-basedir@3.0.0 OK for: configstore@4.0.0 want: ^3.0.0
+168 silly fetch manifest is-obj@^1.0.0
+169 silly fetch manifest pify@^3.0.0
+170 silly fetch manifest crypto-random-string@^1.0.0
+171 silly fetch manifest imurmurhash@^0.1.4
+172 silly fetch manifest signal-exit@^3.0.2
+173 http fetch GET 200 https://registry.npmjs.org/imurmurhash 46ms (cache miss)
+174 http fetch GET 200 https://registry.npmjs.org/pify 65ms (cache miss)
+175 http fetch GET 200 https://registry.npmjs.org/signal-exit 63ms (cache miss)
+176 http fetch GET 200 https://registry.npmjs.org/crypto-random-string 66ms (cache miss)
+177 http fetch GET 200 https://registry.npmjs.org/is-obj 953ms (cache miss)
+178 timing idealTree:node_modules/forever/node_modules/configstore Completed in 964ms
+179 silly placeDep node_modules/forever is-obj@1.0.1 OK for: dot-prop@4.2.1 want: ^1.0.0
+180 timing idealTree:node_modules/forever/node_modules/dot-prop Completed in 2ms
+181 timing idealTree:node_modules/forever/node_modules/eventemitter2 Completed in 0ms
+182 timing idealTree:node_modules/forever/node_modules/eyes Completed in 0ms
+183 silly placeDep node_modules/forever broadway@0.3.6 OK for: flatiron@0.4.3 want: ~0.3.2
+184 silly placeDep node_modules/forever director@1.2.7 OK for: flatiron@0.4.3 want: 1.2.7
+185 silly placeDep node_modules/forever optimist@0.6.0 OK for: flatiron@0.4.3 want: 0.6.0
+186 silly placeDep node_modules/forever prompt@0.2.14 OK for: flatiron@0.4.3 want: 0.2.14
+187 silly fetch manifest cliff@0.1.9
+188 silly fetch manifest eventemitter2@0.4.14
+189 silly fetch manifest nconf@0.6.9
+190 silly fetch manifest winston@0.8.0
+191 silly fetch manifest utile@0.2.1
+192 silly fetch manifest wordwrap@~0.0.2
+193 silly fetch manifest minimist@~0.0.1
+194 silly fetch manifest pkginfo@0.x.x
+195 silly fetch manifest read@1.0.x
+196 silly fetch manifest revalidator@0.1.x
+197 silly fetch manifest utile@0.2.x
+198 http fetch GET 200 https://registry.npmjs.org/wordwrap 52ms (cache miss)
+199 http fetch GET 200 https://registry.npmjs.org/read 58ms (cache miss)
+200 http fetch GET 200 https://registry.npmjs.org/revalidator 293ms (cache miss)
+201 http fetch GET 200 https://registry.npmjs.org/nconf 904ms (cache miss)
+202 http fetch GET 200 https://registry.npmjs.org/utile 903ms (cache miss)
+203 http fetch GET 200 https://registry.npmjs.org/utile 944ms (cache miss)
+204 timing idealTree:node_modules/forever/node_modules/flatiron Completed in 952ms
+205 silly placeDep node_modules/forever/node_modules/broadway cliff@0.1.9 OK for: broadway@0.3.6 want: 0.1.9
+206 silly placeDep node_modules/forever/node_modules/broadway eventemitter2@0.4.14 OK for: broadway@0.3.6 want: 0.4.14
+207 silly placeDep node_modules/forever nconf@0.6.9 OK for: broadway@0.3.6 want: 0.6.9
+208 silly placeDep node_modules/forever utile@0.2.1 OK for: broadway@0.3.6 want: 0.2.1
+209 silly placeDep node_modules/forever/node_modules/broadway winston@0.8.0 OK for: broadway@0.3.6 want: 0.8.0
+210 silly fetch manifest async@0.2.9
+211 silly fetch manifest ini@1.x.x
+212 silly fetch manifest async@~0.2.9
+213 silly fetch manifest deep-equal@*
+214 silly fetch manifest i@0.3.x
+215 silly fetch manifest ncp@0.4.x
+216 silly fetch manifest rimraf@2.x.x
+217 http fetch GET 200 https://registry.npmjs.org/i 58ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/deep-equal 61ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/ncp 57ms (cache miss)
+220 http fetch GET 200 https://registry.npmjs.org/rimraf 58ms (cache miss)
+221 http fetch GET 200 https://registry.npmjs.org/ini 73ms (cache miss)
+222 timing idealTree:node_modules/forever/node_modules/broadway Completed in 91ms
+223 timing idealTree:node_modules/forever/node_modules/director Completed in 0ms
+224 silly placeDep node_modules/forever chokidar@2.1.8 OK for: forever-monitor@3.0.3 want: ^2.1.8
+225 silly placeDep node_modules/forever minimatch@3.1.2 OK for: forever-monitor@3.0.3 want: ^3.0.4
+226 silly placeDep node_modules/forever ps-tree@1.2.0 OK for: forever-monitor@3.0.3 want: ^1.2.0
+227 silly fetch manifest anymatch@^2.0.0
+228 silly fetch manifest async-each@^1.0.1
+229 silly fetch manifest braces@^2.3.2
+230 silly fetch manifest glob-parent@^3.1.0
+231 silly fetch manifest inherits@^2.0.3
+232 silly fetch manifest is-binary-path@^1.0.0
+233 silly fetch manifest is-glob@^4.0.0
+234 silly fetch manifest normalize-path@^3.0.0
+235 silly fetch manifest path-is-absolute@^1.0.0
+236 silly fetch manifest readdirp@^2.2.1
+237 silly fetch manifest upath@^1.1.1
+238 silly fetch manifest fsevents@^1.2.7
+239 silly fetch manifest brace-expansion@^1.1.7
+240 silly fetch manifest event-stream@=3.3.4
+241 http fetch GET 200 https://registry.npmjs.org/async-each 127ms (cache miss)
+242 http fetch GET 200 https://registry.npmjs.org/anymatch 130ms (cache miss)
+243 http fetch GET 200 https://registry.npmjs.org/inherits 131ms (cache miss)
+244 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 132ms (cache miss)
+245 http fetch GET 200 https://registry.npmjs.org/is-glob 134ms (cache miss)
+246 http fetch GET 200 https://registry.npmjs.org/glob-parent 137ms (cache miss)
+247 http fetch GET 200 https://registry.npmjs.org/braces 138ms (cache miss)
+248 http fetch GET 200 https://registry.npmjs.org/is-binary-path 141ms (cache miss)
+249 http fetch GET 200 https://registry.npmjs.org/brace-expansion 133ms (cache miss)
+250 http fetch GET 200 https://registry.npmjs.org/normalize-path 142ms (cache miss)
+251 http fetch GET 200 https://registry.npmjs.org/upath 137ms (cache miss)
+252 http fetch GET 200 https://registry.npmjs.org/readdirp 143ms (cache miss)
+253 http fetch GET 200 https://registry.npmjs.org/fsevents 144ms (cache miss)
+254 http fetch GET 200 https://registry.npmjs.org/event-stream 1055ms (cache miss)
+255 timing idealTree:node_modules/forever/node_modules/forever-monitor Completed in 1090ms
+256 silly placeDep node_modules/forever anymatch@2.0.0 OK for: chokidar@2.1.8 want: ^2.0.0
+257 silly placeDep node_modules/forever async-each@1.0.6 OK for: chokidar@2.1.8 want: ^1.0.1
+258 silly placeDep node_modules/forever braces@2.3.2 OK for: chokidar@2.1.8 want: ^2.3.2
+259 silly placeDep node_modules/forever fsevents@1.2.13 OK for: chokidar@2.1.8 want: ^1.2.7
+260 silly placeDep node_modules/forever glob-parent@3.1.0 OK for: chokidar@2.1.8 want: ^3.1.0
+261 silly placeDep node_modules/forever inherits@2.0.4 OK for: chokidar@2.1.8 want: ^2.0.3
+262 silly placeDep node_modules/forever is-binary-path@1.0.1 OK for: chokidar@2.1.8 want: ^1.0.0
+263 silly placeDep node_modules/forever is-glob@4.0.3 OK for: chokidar@2.1.8 want: ^4.0.0
+264 silly placeDep node_modules/forever normalize-path@3.0.0 OK for: chokidar@2.1.8 want: ^3.0.0
+265 silly placeDep node_modules/forever path-is-absolute@1.0.1 OK for: chokidar@2.1.8 want: ^1.0.0
+266 silly placeDep node_modules/forever readdirp@2.2.1 OK for: chokidar@2.1.8 want: ^2.2.1
+267 silly placeDep node_modules/forever upath@1.2.0 OK for: chokidar@2.1.8 want: ^1.1.1
+268 silly fetch manifest micromatch@^3.1.4
+269 silly fetch manifest normalize-path@^2.1.1
+270 silly fetch manifest arr-flatten@^1.1.0
+271 silly fetch manifest array-unique@^0.3.2
+272 silly fetch manifest extend-shallow@^2.0.1
+273 silly fetch manifest fill-range@^4.0.0
+274 silly fetch manifest isobject@^3.0.1
+275 silly fetch manifest repeat-element@^1.1.2
+276 silly fetch manifest snapdragon@^0.8.1
+277 silly fetch manifest snapdragon-node@^2.0.1
+278 silly fetch manifest split-string@^3.0.2
+279 silly fetch manifest to-regex@^3.0.1
+280 silly fetch manifest bindings@^1.5.0
+281 silly fetch manifest nan@^2.12.1
+282 silly fetch manifest is-glob@^3.1.0
+283 silly fetch manifest path-dirname@^1.0.0
+284 silly fetch manifest binary-extensions@^1.0.0
+285 silly fetch manifest is-extglob@^2.1.1
+286 silly fetch manifest micromatch@^3.1.10
+287 silly fetch manifest readable-stream@^2.0.2
+288 http fetch GET 200 https://registry.npmjs.org/to-regex 152ms (cache miss)
+289 http fetch GET 200 https://registry.npmjs.org/arr-flatten 162ms (cache miss)
+290 http fetch GET 200 https://registry.npmjs.org/extend-shallow 161ms (cache miss)
+291 http fetch GET 200 https://registry.npmjs.org/fill-range 163ms (cache miss)
+292 http fetch GET 200 https://registry.npmjs.org/repeat-element 162ms (cache miss)
+293 http fetch GET 200 https://registry.npmjs.org/array-unique 166ms (cache miss)
+294 http fetch GET 200 https://registry.npmjs.org/isobject 164ms (cache miss)
+295 http fetch GET 200 https://registry.npmjs.org/split-string 160ms (cache miss)
+296 http fetch GET 200 https://registry.npmjs.org/bindings 159ms (cache miss)
+297 http fetch GET 200 https://registry.npmjs.org/path-dirname 158ms (cache miss)
+298 http fetch GET 200 https://registry.npmjs.org/is-extglob 157ms (cache miss)
+299 http fetch GET 200 https://registry.npmjs.org/snapdragon-node 165ms (cache miss)
+300 http fetch GET 200 https://registry.npmjs.org/snapdragon 166ms (cache miss)
+301 http fetch GET 200 https://registry.npmjs.org/binary-extensions 166ms (cache miss)
+302 http fetch GET 200 https://registry.npmjs.org/nan 169ms (cache miss)
+303 http fetch GET 200 https://registry.npmjs.org/micromatch 163ms (cache miss)
+304 http fetch GET 200 https://registry.npmjs.org/micromatch 185ms (cache miss)
+305 timing idealTree:node_modules/forever/node_modules/chokidar Completed in 205ms
+306 silly placeDep node_modules/forever micromatch@3.1.10 OK for: anymatch@2.0.0 want: ^3.1.4
+307 silly placeDep node_modules/forever/node_modules/anymatch normalize-path@2.1.1 OK for: anymatch@2.0.0 want: ^2.1.1
+308 silly fetch manifest arr-diff@^4.0.0
+309 silly fetch manifest define-property@^2.0.2
+310 silly fetch manifest extend-shallow@^3.0.2
+311 silly fetch manifest extglob@^2.0.4
+312 silly fetch manifest fragment-cache@^0.2.1
+313 silly fetch manifest kind-of@^6.0.2
+314 silly fetch manifest nanomatch@^1.2.9
+315 silly fetch manifest object.pick@^1.3.0
+316 silly fetch manifest regex-not@^1.0.0
+317 silly fetch manifest to-regex@^3.0.2
+318 silly fetch manifest remove-trailing-separator@^1.0.1
+319 http fetch GET 200 https://registry.npmjs.org/define-property 54ms (cache miss)
+320 http fetch GET 200 https://registry.npmjs.org/arr-diff 59ms (cache miss)
+321 http fetch GET 200 https://registry.npmjs.org/object.pick 55ms (cache miss)
+322 http fetch GET 200 https://registry.npmjs.org/remove-trailing-separator 54ms (cache miss)
+323 http fetch GET 200 https://registry.npmjs.org/regex-not 56ms (cache miss)
+324 http fetch GET 200 https://registry.npmjs.org/kind-of 59ms (cache miss)
+325 http fetch GET 200 https://registry.npmjs.org/nanomatch 60ms (cache miss)
+326 http fetch GET 200 https://registry.npmjs.org/fragment-cache 65ms (cache miss)
+327 http fetch GET 200 https://registry.npmjs.org/extglob 68ms (cache miss)
+328 timing idealTree:node_modules/forever/node_modules/anymatch Completed in 73ms
+329 timing idealTree:node_modules/forever/node_modules/async-each Completed in 0ms
+330 silly placeDep node_modules/forever arr-flatten@1.1.0 OK for: braces@2.3.2 want: ^1.1.0
+331 silly placeDep node_modules/forever array-unique@0.3.2 OK for: braces@2.3.2 want: ^0.3.2
+332 silly placeDep node_modules/forever extend-shallow@2.0.1 OK for: braces@2.3.2 want: ^2.0.1
+333 silly placeDep node_modules/forever fill-range@4.0.0 OK for: braces@2.3.2 want: ^4.0.0
+334 silly placeDep node_modules/forever isobject@3.0.1 OK for: braces@2.3.2 want: ^3.0.1
+335 silly placeDep node_modules/forever repeat-element@1.1.4 OK for: braces@2.3.2 want: ^1.1.2
+336 silly placeDep node_modules/forever snapdragon@0.8.2 OK for: braces@2.3.2 want: ^0.8.1
+337 silly placeDep node_modules/forever snapdragon-node@2.1.1 OK for: braces@2.3.2 want: ^2.0.1
+338 silly placeDep node_modules/forever split-string@3.1.0 OK for: braces@2.3.2 want: ^3.0.2
+339 silly placeDep node_modules/forever to-regex@3.0.2 OK for: braces@2.3.2 want: ^3.0.1
+340 silly fetch manifest is-extendable@^0.1.0
+341 silly fetch manifest is-number@^3.0.0
+342 silly fetch manifest repeat-string@^1.6.1
+343 silly fetch manifest to-regex-range@^2.1.0
+344 silly fetch manifest base@^0.11.1
+345 silly fetch manifest debug@^2.2.0
+346 silly fetch manifest define-property@^0.2.5
+347 silly fetch manifest map-cache@^0.2.2
+348 silly fetch manifest source-map@^0.5.6
+349 silly fetch manifest source-map-resolve@^0.5.0
+350 silly fetch manifest use@^3.1.0
+351 silly fetch manifest define-property@^1.0.0
+352 silly fetch manifest snapdragon-util@^3.0.1
+353 silly fetch manifest extend-shallow@^3.0.0
+354 silly fetch manifest regex-not@^1.0.2
+355 silly fetch manifest safe-regex@^1.1.0
+356 http fetch GET 200 https://registry.npmjs.org/map-cache 104ms (cache miss)
+357 http fetch GET 200 https://registry.npmjs.org/is-number 110ms (cache miss)
+358 http fetch GET 200 https://registry.npmjs.org/is-extendable 118ms (cache miss)
+359 http fetch GET 200 https://registry.npmjs.org/source-map-resolve 105ms (cache miss)
+360 http fetch GET 200 https://registry.npmjs.org/repeat-string 111ms (cache miss)
+361 http fetch GET 200 https://registry.npmjs.org/safe-regex 103ms (cache miss)
+362 http fetch GET 200 https://registry.npmjs.org/snapdragon-util 108ms (cache miss)
+363 http fetch GET 200 https://registry.npmjs.org/use 109ms (cache miss)
+364 http fetch GET 200 https://registry.npmjs.org/source-map 111ms (cache miss)
+365 http fetch GET 200 https://registry.npmjs.org/base 117ms (cache miss)
+366 http fetch GET 200 https://registry.npmjs.org/debug 120ms (cache miss)
+367 http fetch GET 200 https://registry.npmjs.org/to-regex-range 910ms (cache miss)
+368 timing idealTree:node_modules/forever/node_modules/braces Completed in 942ms
+369 timing idealTree:node_modules/forever/node_modules/arr-flatten Completed in 0ms
+370 timing idealTree:node_modules/forever/node_modules/array-unique Completed in 0ms
+371 silly placeDep node_modules/forever is-extendable@0.1.1 OK for: extend-shallow@2.0.1 want: ^0.1.0
+372 timing idealTree:node_modules/forever/node_modules/extend-shallow Completed in 2ms
+373 silly placeDep node_modules/forever is-number@3.0.0 OK for: fill-range@4.0.0 want: ^3.0.0
+374 silly placeDep node_modules/forever repeat-string@1.6.1 OK for: fill-range@4.0.0 want: ^1.6.1
+375 silly placeDep node_modules/forever to-regex-range@2.1.1 OK for: fill-range@4.0.0 want: ^2.1.0
+376 silly fetch manifest kind-of@^3.0.2
+377 timing idealTree:node_modules/forever/node_modules/fill-range Completed in 14ms
+378 silly placeDep node_modules/forever bindings@1.5.0 OK for: fsevents@1.2.13 want: ^1.5.0
+379 silly placeDep node_modules/forever nan@2.17.0 OK for: fsevents@1.2.13 want: ^2.12.1
+380 silly fetch manifest file-uri-to-path@1.0.0
+381 http fetch GET 200 https://registry.npmjs.org/file-uri-to-path 36ms (cache miss)
+382 timing idealTree:node_modules/forever/node_modules/fsevents Completed in 43ms
+383 silly placeDep node_modules/forever file-uri-to-path@1.0.0 OK for: bindings@1.5.0 want: 1.0.0
+384 timing idealTree:node_modules/forever/node_modules/bindings Completed in 1ms
+385 timing idealTree:node_modules/forever/node_modules/file-uri-to-path Completed in 0ms
+386 silly placeDep node_modules/forever/node_modules/glob-parent is-glob@3.1.0 OK for: glob-parent@3.1.0 want: ^3.1.0
+387 silly placeDep node_modules/forever path-dirname@1.0.2 OK for: glob-parent@3.1.0 want: ^1.0.0
+388 silly fetch manifest is-extglob@^2.1.0
+389 timing idealTree:node_modules/forever/node_modules/glob-parent Completed in 3ms
+390 timing idealTree:node_modules/forever/node_modules/graceful-fs Completed in 0ms
+391 timing idealTree:node_modules/forever/node_modules/inherits Completed in 0ms
+392 silly placeDep node_modules/forever binary-extensions@1.13.1 OK for: is-binary-path@1.0.1 want: ^1.0.0
+393 timing idealTree:node_modules/forever/node_modules/is-binary-path Completed in 1ms
+394 timing idealTree:node_modules/forever/node_modules/binary-extensions Completed in 0ms
+395 timing idealTree:node_modules/forever/node_modules/is-extendable Completed in 0ms
+396 silly placeDep node_modules/forever is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+397 timing idealTree:node_modules/forever/node_modules/is-glob Completed in 5ms
+398 timing idealTree:node_modules/forever/node_modules/is-extglob Completed in 0ms
+399 silly placeDep node_modules/forever kind-of@3.2.2 OK for: is-number@3.0.0 want: ^3.0.2
+400 silly fetch manifest is-buffer@^1.1.5
+401 http fetch GET 200 https://registry.npmjs.org/is-buffer 42ms (cache miss)
+402 timing idealTree:node_modules/forever/node_modules/is-number Completed in 49ms
+403 timing idealTree:node_modules/forever/node_modules/is-obj Completed in 0ms
+404 timing idealTree:node_modules/forever/node_modules/isobject Completed in 0ms
+405 silly placeDep node_modules/forever is-buffer@1.1.6 OK for: kind-of@3.2.2 want: ^1.1.5
+406 timing idealTree:node_modules/forever/node_modules/kind-of Completed in 1ms
+407 timing idealTree:node_modules/forever/node_modules/is-buffer Completed in 0ms
+408 silly placeDep node_modules/forever pify@3.0.0 OK for: make-dir@1.3.0 want: ^3.0.0
+409 timing idealTree:node_modules/forever/node_modules/make-dir Completed in 1ms
+410 silly placeDep node_modules/forever arr-diff@4.0.0 OK for: micromatch@3.1.10 want: ^4.0.0
+411 silly placeDep node_modules/forever define-property@2.0.2 OK for: micromatch@3.1.10 want: ^2.0.2
+412 silly placeDep node_modules/forever/node_modules/micromatch extend-shallow@3.0.2 OK for: micromatch@3.1.10 want: ^3.0.2
+413 silly placeDep node_modules/forever extglob@2.0.4 OK for: micromatch@3.1.10 want: ^2.0.4
+414 silly placeDep node_modules/forever fragment-cache@0.2.1 OK for: micromatch@3.1.10 want: ^0.2.1
+415 silly placeDep node_modules/forever/node_modules/micromatch kind-of@6.0.3 OK for: micromatch@3.1.10 want: ^6.0.2
+416 silly placeDep node_modules/forever nanomatch@1.2.13 OK for: micromatch@3.1.10 want: ^1.2.9
+417 silly placeDep node_modules/forever object.pick@1.3.0 OK for: micromatch@3.1.10 want: ^1.3.0
+418 silly placeDep node_modules/forever regex-not@1.0.2 OK for: micromatch@3.1.10 want: ^1.0.0
+419 silly fetch manifest is-descriptor@^1.0.2
+420 silly fetch manifest assign-symbols@^1.0.0
+421 silly fetch manifest is-extendable@^1.0.1
+422 silly fetch manifest expand-brackets@^2.1.4
+423 silly fetch manifest is-windows@^1.0.2
+424 http fetch GET 200 https://registry.npmjs.org/is-descriptor 42ms (cache miss)
+425 http fetch GET 200 https://registry.npmjs.org/assign-symbols 51ms (cache miss)
+426 http fetch GET 200 https://registry.npmjs.org/is-windows 50ms (cache miss)
+427 http fetch GET 200 https://registry.npmjs.org/expand-brackets 51ms (cache miss)
+428 timing idealTree:node_modules/forever/node_modules/micromatch Completed in 76ms
+429 timing idealTree:node_modules/forever/node_modules/arr-diff Completed in 0ms
+430 silly placeDep node_modules/forever is-descriptor@1.0.2 OK for: define-property@2.0.2 want: ^1.0.2
+431 silly fetch manifest is-accessor-descriptor@^1.0.0
+432 silly fetch manifest is-data-descriptor@^1.0.0
+433 http fetch GET 200 https://registry.npmjs.org/is-data-descriptor 48ms (cache miss)
+434 http fetch GET 200 https://registry.npmjs.org/is-accessor-descriptor 48ms (cache miss)
+435 timing idealTree:node_modules/forever/node_modules/define-property Completed in 51ms
+436 silly placeDep node_modules/forever/node_modules/extglob define-property@1.0.0 OK for: extglob@2.0.4 want: ^1.0.0
+437 silly placeDep node_modules/forever expand-brackets@2.1.4 OK for: extglob@2.0.4 want: ^2.1.4
+438 silly fetch manifest debug@^2.3.3
+439 silly fetch manifest posix-character-classes@^0.1.0
+440 http fetch GET 200 https://registry.npmjs.org/posix-character-classes 38ms (cache miss)
+441 timing idealTree:node_modules/forever/node_modules/extglob Completed in 46ms
+442 silly placeDep node_modules/forever debug@2.6.9 OK for: expand-brackets@2.1.4 want: ^2.3.3
+443 silly placeDep node_modules/forever/node_modules/expand-brackets define-property@0.2.5 OK for: expand-brackets@2.1.4 want: ^0.2.5
+444 silly placeDep node_modules/forever posix-character-classes@0.1.1 OK for: expand-brackets@2.1.4 want: ^0.1.0
+445 silly fetch manifest ms@2.0.0
+446 silly fetch manifest is-descriptor@^0.1.0
+447 http fetch GET 200 https://registry.npmjs.org/ms 39ms (cache miss)
+448 timing idealTree:node_modules/forever/node_modules/expand-brackets Completed in 42ms
+449 silly placeDep node_modules/forever ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+450 timing idealTree:node_modules/forever/node_modules/debug Completed in 1ms
+451 silly placeDep node_modules/forever map-cache@0.2.2 OK for: fragment-cache@0.2.1 want: ^0.2.2
+452 timing idealTree:node_modules/forever/node_modules/fragment-cache Completed in 1ms
+453 silly placeDep node_modules/forever is-accessor-descriptor@1.0.0 OK for: is-descriptor@1.0.2 want: ^1.0.0
+454 silly placeDep node_modules/forever is-data-descriptor@1.0.0 OK for: is-descriptor@1.0.2 want: ^1.0.0
+455 silly placeDep node_modules/forever/node_modules/is-descriptor kind-of@6.0.3 OK for: is-descriptor@1.0.2 want: ^6.0.2
+456 silly fetch manifest kind-of@^6.0.0
+457 timing idealTree:node_modules/forever/node_modules/is-descriptor Completed in 7ms
+458 silly placeDep node_modules/forever/node_modules/is-accessor-descriptor kind-of@6.0.3 OK for: is-accessor-descriptor@1.0.0 want: ^6.0.0
+459 timing idealTree:node_modules/forever/node_modules/is-accessor-descriptor Completed in 0ms
+460 silly placeDep node_modules/forever/node_modules/is-data-descriptor kind-of@6.0.3 OK for: is-data-descriptor@1.0.0 want: ^6.0.0
+461 timing idealTree:node_modules/forever/node_modules/is-data-descriptor Completed in 9ms
+462 timing idealTree:node_modules/forever/node_modules/map-cache Completed in 0ms
+463 silly placeDep node_modules/forever brace-expansion@1.1.11 OK for: minimatch@3.1.2 want: ^1.1.7
+464 silly fetch manifest balanced-match@^1.0.0
+465 silly fetch manifest concat-map@0.0.1
+466 http fetch GET 200 https://registry.npmjs.org/concat-map 39ms (cache miss)
+467 http fetch GET 200 https://registry.npmjs.org/balanced-match 40ms (cache miss)
+468 timing idealTree:node_modules/forever/node_modules/minimatch Completed in 49ms
+469 silly placeDep node_modules/forever balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+470 silly placeDep node_modules/forever concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+471 timing idealTree:node_modules/forever/node_modules/brace-expansion Completed in 2ms
+472 timing idealTree:node_modules/forever/node_modules/balanced-match Completed in 0ms
+473 timing idealTree:node_modules/forever/node_modules/concat-map Completed in 0ms
+474 silly placeDep node_modules/forever minimist@1.2.8 OK for: mkdirp@0.5.6 want: ^1.2.6
+475 timing idealTree:node_modules/forever/node_modules/mkdirp Completed in 5ms
+476 timing idealTree:node_modules/forever/node_modules/minimist Completed in 0ms
+477 timing idealTree:node_modules/forever/node_modules/ms Completed in 0ms
+478 timing idealTree:node_modules/forever/node_modules/nan Completed in 0ms
+479 silly placeDep node_modules/forever/node_modules/nanomatch extend-shallow@3.0.2 OK for: nanomatch@1.2.13 want: ^3.0.2
+480 silly placeDep node_modules/forever is-windows@1.0.2 OK for: nanomatch@1.2.13 want: ^1.0.2
+481 silly placeDep node_modules/forever/node_modules/nanomatch kind-of@6.0.3 OK for: nanomatch@1.2.13 want: ^6.0.2
+482 timing idealTree:node_modules/forever/node_modules/nanomatch Completed in 12ms
+483 timing idealTree:node_modules/forever/node_modules/is-windows Completed in 0ms
+484 silly placeDep node_modules/forever/node_modules/nconf async@0.2.9 OK for: nconf@0.6.9 want: 0.2.9
+485 silly placeDep node_modules/forever ini@1.3.8 OK for: nconf@0.6.9 want: 1.x.x
+486 timing idealTree:node_modules/forever/node_modules/nconf Completed in 1ms
+487 timing idealTree:node_modules/forever/node_modules/ini Completed in 0ms
+488 timing idealTree:node_modules/forever/node_modules/normalize-path Completed in 0ms
+489 silly placeDep node_modules/forever/node_modules/nssocket eventemitter2@0.4.14 OK for: nssocket@0.6.0 want: ~0.4.14
+490 silly placeDep node_modules/forever lazy@1.0.11 OK for: nssocket@0.6.0 want: ~1.0.11
+491 timing idealTree:node_modules/forever/node_modules/nssocket Completed in 3ms
+492 timing idealTree:node_modules/forever/node_modules/lazy Completed in 0ms
+493 timing idealTree:node_modules/forever/node_modules/object-assign Completed in 0ms
+494 timing idealTree:node_modules/forever/node_modules/object.pick Completed in 1ms
+495 silly placeDep node_modules/forever/node_modules/optimist minimist@0.0.10 OK for: optimist@0.6.0 want: ~0.0.1
+496 silly placeDep node_modules/forever wordwrap@0.0.3 OK for: optimist@0.6.0 want: ~0.0.2
+497 timing idealTree:node_modules/forever/node_modules/optimist Completed in 2ms
+498 timing idealTree:node_modules/forever/node_modules/path-dirname Completed in 0ms
+499 timing idealTree:node_modules/forever/node_modules/path-is-absolute Completed in 0ms
+500 timing idealTree:node_modules/forever/node_modules/pify Completed in 0ms
+501 timing idealTree:node_modules/forever/node_modules/posix-character-classes Completed in 0ms
+502 silly placeDep node_modules/forever/node_modules/prettyjson colors@1.4.0 OK for: prettyjson@1.2.5 want: 1.4.0
+503 timing idealTree:node_modules/forever/node_modules/prettyjson Completed in 1ms
+504 silly placeDep node_modules/forever pkginfo@0.4.1 OK for: prompt@0.2.14 want: 0.x.x
+505 silly placeDep node_modules/forever read@1.0.7 OK for: prompt@0.2.14 want: 1.0.x
+506 silly placeDep node_modules/forever revalidator@0.1.8 OK for: prompt@0.2.14 want: 0.1.x
+507 silly placeDep node_modules/forever/node_modules/prompt winston@0.8.3 OK for: prompt@0.2.14 want: 0.8.x
+508 silly fetch manifest mute-stream@~0.0.4
+509 http fetch GET 200 https://registry.npmjs.org/mute-stream 76ms (cache miss)
+510 timing idealTree:node_modules/forever/node_modules/prompt Completed in 83ms
+511 timing idealTree:node_modules/forever/node_modules/pkginfo Completed in 0ms
+512 silly placeDep node_modules/forever event-stream@3.3.4 OK for: ps-tree@1.2.0 want: =3.3.4
+513 silly fetch manifest through@~2.3.1
+514 silly fetch manifest duplexer@~0.1.1
+515 silly fetch manifest from@~0
+516 silly fetch manifest map-stream@~0.1.0
+517 silly fetch manifest pause-stream@0.0.11
+518 silly fetch manifest split@0.3
+519 silly fetch manifest stream-combiner@~0.0.4
+520 http fetch GET 200 https://registry.npmjs.org/split 47ms (cache miss)
+521 http fetch GET 200 https://registry.npmjs.org/duplexer 51ms (cache miss)
+522 http fetch GET 200 https://registry.npmjs.org/through 52ms (cache miss)
+523 http fetch GET 200 https://registry.npmjs.org/map-stream 850ms (cache miss)
+524 http fetch GET 200 https://registry.npmjs.org/from 897ms (cache miss)
+525 http fetch GET 200 https://registry.npmjs.org/pause-stream 936ms (cache miss)
+526 http fetch GET 200 https://registry.npmjs.org/stream-combiner 960ms (cache miss)
+527 timing idealTree:node_modules/forever/node_modules/ps-tree Completed in 974ms
+528 silly placeDep node_modules/forever duplexer@0.1.2 OK for: event-stream@3.3.4 want: ~0.1.1
+529 silly placeDep node_modules/forever from@0.1.7 OK for: event-stream@3.3.4 want: ~0
+530 silly placeDep node_modules/forever map-stream@0.1.0 OK for: event-stream@3.3.4 want: ~0.1.0
+531 silly placeDep node_modules/forever pause-stream@0.0.11 OK for: event-stream@3.3.4 want: 0.0.11
+532 silly placeDep node_modules/forever split@0.3.3 OK for: event-stream@3.3.4 want: 0.3
+533 silly placeDep node_modules/forever stream-combiner@0.0.4 OK for: event-stream@3.3.4 want: ~0.0.4
+534 silly placeDep node_modules/forever through@2.3.8 OK for: event-stream@3.3.4 want: ~2.3.1
+535 timing idealTree:node_modules/forever/node_modules/event-stream Completed in 8ms
+536 timing idealTree:node_modules/forever/node_modules/duplexer Completed in 0ms
+537 timing idealTree:node_modules/forever/node_modules/from Completed in 0ms
+538 timing idealTree:node_modules/forever/node_modules/map-stream Completed in 0ms
+539 timing idealTree:node_modules/forever/node_modules/pause-stream Completed in 0ms
+540 silly placeDep node_modules/forever mute-stream@0.0.8 OK for: read@1.0.7 want: ~0.0.4
+541 timing idealTree:node_modules/forever/node_modules/read Completed in 2ms
+542 timing idealTree:node_modules/forever/node_modules/mute-stream Completed in 0ms
+543 silly placeDep node_modules/forever readable-stream@2.3.8 OK for: readdirp@2.2.1 want: ^2.0.2
+544 silly fetch manifest core-util-is@~1.0.0
+545 silly fetch manifest isarray@~1.0.0
+546 silly fetch manifest process-nextick-args@~2.0.0
+547 silly fetch manifest safe-buffer@~5.1.1
+548 silly fetch manifest string_decoder@~1.1.1
+549 silly fetch manifest util-deprecate@~1.0.1
+550 http fetch GET 200 https://registry.npmjs.org/string_decoder 52ms (cache miss)
+551 http fetch GET 200 https://registry.npmjs.org/core-util-is 63ms (cache miss)
+552 http fetch GET 200 https://registry.npmjs.org/safe-buffer 62ms (cache miss)
+553 http fetch GET 200 https://registry.npmjs.org/util-deprecate 61ms (cache miss)
+554 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 64ms (cache miss)
+555 http fetch GET 200 https://registry.npmjs.org/isarray 66ms (cache miss)
+556 timing idealTree:node_modules/forever/node_modules/readdirp Completed in 73ms
+557 silly placeDep node_modules/forever core-util-is@1.0.3 OK for: readable-stream@2.3.8 want: ~1.0.0
+558 silly placeDep node_modules/forever isarray@1.0.0 OK for: readable-stream@2.3.8 want: ~1.0.0
+559 silly placeDep node_modules/forever process-nextick-args@2.0.1 OK for: readable-stream@2.3.8 want: ~2.0.0
+560 silly placeDep node_modules/forever safe-buffer@5.1.2 OK for: readable-stream@2.3.8 want: ~5.1.1
+561 silly placeDep node_modules/forever string_decoder@1.1.1 OK for: readable-stream@2.3.8 want: ~1.1.1
+562 silly placeDep node_modules/forever util-deprecate@1.0.2 OK for: readable-stream@2.3.8 want: ~1.0.1
+563 timing idealTree:node_modules/forever/node_modules/readable-stream Completed in 7ms
+564 timing idealTree:node_modules/forever/node_modules/core-util-is Completed in 0ms
+565 timing idealTree:node_modules/forever/node_modules/isarray Completed in 0ms
+566 timing idealTree:node_modules/forever/node_modules/process-nextick-args Completed in 0ms
+567 silly placeDep node_modules/forever/node_modules/regex-not extend-shallow@3.0.2 OK for: regex-not@1.0.2 want: ^3.0.2
+568 silly placeDep node_modules/forever safe-regex@1.1.0 OK for: regex-not@1.0.2 want: ^1.1.0
+569 silly fetch manifest ret@~0.1.10
+570 http fetch GET 200 https://registry.npmjs.org/ret 33ms (cache miss)
+571 timing idealTree:node_modules/forever/node_modules/regex-not Completed in 37ms
+572 timing idealTree:node_modules/forever/node_modules/repeat-element Completed in 0ms
+573 timing idealTree:node_modules/forever/node_modules/repeat-string Completed in 0ms
+574 timing idealTree:node_modules/forever/node_modules/revalidator Completed in 0ms
+575 timing idealTree:node_modules/forever/node_modules/safe-buffer Completed in 0ms
+576 silly placeDep node_modules/forever ret@0.1.15 OK for: safe-regex@1.1.0 want: ~0.1.10
+577 timing idealTree:node_modules/forever/node_modules/safe-regex Completed in 1ms
+578 timing idealTree:node_modules/forever/node_modules/ret Completed in 0ms
+579 silly placeDep node_modules/forever caller@1.1.0 OK for: shush@1.0.3 want: ^1.1.0
+580 silly placeDep node_modules/forever strip-json-comments@3.1.1 OK for: shush@1.0.3 want: ^3.1.1
+581 timing idealTree:node_modules/forever/node_modules/shush Completed in 2ms
+582 timing idealTree:node_modules/forever/node_modules/caller Completed in 0ms
+583 silly placeDep node_modules/forever base@0.11.2 OK for: snapdragon@0.8.2 want: ^0.11.1
+584 silly placeDep node_modules/forever/node_modules/snapdragon define-property@0.2.5 OK for: snapdragon@0.8.2 want: ^0.2.5
+585 silly placeDep node_modules/forever source-map@0.5.7 OK for: snapdragon@0.8.2 want: ^0.5.6
+586 silly placeDep node_modules/forever source-map-resolve@0.5.3 OK for: snapdragon@0.8.2 want: ^0.5.0
+587 silly placeDep node_modules/forever use@3.1.1 OK for: snapdragon@0.8.2 want: ^3.1.0
+588 silly fetch manifest cache-base@^1.0.1
+589 silly fetch manifest class-utils@^0.3.5
+590 silly fetch manifest component-emitter@^1.2.1
+591 silly fetch manifest mixin-deep@^1.2.0
+592 silly fetch manifest pascalcase@^0.1.1
+593 silly fetch manifest atob@^2.1.2
+594 silly fetch manifest decode-uri-component@^0.2.0
+595 silly fetch manifest resolve-url@^0.2.1
+596 silly fetch manifest source-map-url@^0.4.0
+597 silly fetch manifest urix@^0.1.0
+598 http fetch GET 200 https://registry.npmjs.org/component-emitter 122ms (cache miss)
+599 http fetch GET 200 https://registry.npmjs.org/pascalcase 120ms (cache miss)
+600 http fetch GET 200 https://registry.npmjs.org/mixin-deep 121ms (cache miss)
+601 http fetch GET 200 https://registry.npmjs.org/decode-uri-component 119ms (cache miss)
+602 http fetch GET 200 https://registry.npmjs.org/urix 119ms (cache miss)
+603 http fetch GET 200 https://registry.npmjs.org/cache-base 130ms (cache miss)
+604 http fetch GET 200 https://registry.npmjs.org/resolve-url 121ms (cache miss)
+605 http fetch GET 200 https://registry.npmjs.org/source-map-url 121ms (cache miss)
+606 http fetch GET 200 https://registry.npmjs.org/atob 123ms (cache miss)
+607 http fetch GET 200 https://registry.npmjs.org/class-utils 129ms (cache miss)
+608 timing idealTree:node_modules/forever/node_modules/snapdragon Completed in 142ms
+609 silly placeDep node_modules/forever cache-base@1.0.1 OK for: base@0.11.2 want: ^1.0.1
+610 silly placeDep node_modules/forever class-utils@0.3.6 OK for: base@0.11.2 want: ^0.3.5
+611 silly placeDep node_modules/forever component-emitter@1.3.0 OK for: base@0.11.2 want: ^1.2.1
+612 silly placeDep node_modules/forever/node_modules/base define-property@1.0.0 OK for: base@0.11.2 want: ^1.0.0
+613 silly placeDep node_modules/forever mixin-deep@1.3.2 OK for: base@0.11.2 want: ^1.2.0
+614 silly placeDep node_modules/forever pascalcase@0.1.1 OK for: base@0.11.2 want: ^0.1.1
+615 silly fetch manifest collection-visit@^1.0.0
+616 silly fetch manifest get-value@^2.0.6
+617 silly fetch manifest has-value@^1.0.0
+618 silly fetch manifest set-value@^2.0.0
+619 silly fetch manifest to-object-path@^0.3.0
+620 silly fetch manifest union-value@^1.0.0
+621 silly fetch manifest unset-value@^1.0.0
+622 silly fetch manifest arr-union@^3.1.0
+623 silly fetch manifest static-extend@^0.1.1
+624 silly fetch manifest for-in@^1.0.2
+625 http fetch GET 200 https://registry.npmjs.org/arr-union 74ms (cache miss)
+626 http fetch GET 200 https://registry.npmjs.org/has-value 80ms (cache miss)
+627 http fetch GET 200 https://registry.npmjs.org/set-value 80ms (cache miss)
+628 http fetch GET 200 https://registry.npmjs.org/static-extend 76ms (cache miss)
+629 http fetch GET 200 https://registry.npmjs.org/for-in 76ms (cache miss)
+630 http fetch GET 200 https://registry.npmjs.org/union-value 79ms (cache miss)
+631 http fetch GET 200 https://registry.npmjs.org/get-value 85ms (cache miss)
+632 http fetch GET 200 https://registry.npmjs.org/unset-value 80ms (cache miss)
+633 http fetch GET 200 https://registry.npmjs.org/to-object-path 85ms (cache miss)
+634 http fetch GET 200 https://registry.npmjs.org/collection-visit 89ms (cache miss)
+635 timing idealTree:node_modules/forever/node_modules/base Completed in 96ms
+636 silly placeDep node_modules/forever collection-visit@1.0.0 OK for: cache-base@1.0.1 want: ^1.0.0
+637 silly placeDep node_modules/forever get-value@2.0.6 OK for: cache-base@1.0.1 want: ^2.0.6
+638 silly placeDep node_modules/forever has-value@1.0.0 OK for: cache-base@1.0.1 want: ^1.0.0
+639 silly placeDep node_modules/forever set-value@2.0.1 OK for: cache-base@1.0.1 want: ^2.0.0
+640 silly placeDep node_modules/forever to-object-path@0.3.0 OK for: cache-base@1.0.1 want: ^0.3.0
+641 silly placeDep node_modules/forever union-value@1.0.1 OK for: cache-base@1.0.1 want: ^1.0.0
+642 silly placeDep node_modules/forever unset-value@1.0.0 OK for: cache-base@1.0.1 want: ^1.0.0
+643 silly fetch manifest map-visit@^1.0.0
+644 silly fetch manifest object-visit@^1.0.0
+645 silly fetch manifest has-values@^1.0.0
+646 silly fetch manifest is-plain-object@^2.0.3
+647 silly fetch manifest has-value@^0.3.1
+648 http fetch GET 200 https://registry.npmjs.org/has-values 48ms (cache miss)
+649 http fetch GET 200 https://registry.npmjs.org/is-plain-object 54ms (cache miss)
+650 http fetch GET 200 https://registry.npmjs.org/map-visit 65ms (cache miss)
+651 http fetch GET 200 https://registry.npmjs.org/object-visit 63ms (cache miss)
+652 timing idealTree:node_modules/forever/node_modules/cache-base Completed in 82ms
+653 silly placeDep node_modules/forever arr-union@3.1.0 OK for: class-utils@0.3.6 want: ^3.1.0
+654 silly placeDep node_modules/forever/node_modules/class-utils define-property@0.2.5 OK for: class-utils@0.3.6 want: ^0.2.5
+655 silly placeDep node_modules/forever static-extend@0.1.2 OK for: class-utils@0.3.6 want: ^0.1.1
+656 silly fetch manifest object-copy@^0.1.0
+657 http fetch GET 200 https://registry.npmjs.org/object-copy 41ms (cache miss)
+658 timing idealTree:node_modules/forever/node_modules/class-utils Completed in 54ms
+659 timing idealTree:node_modules/forever/node_modules/arr-union Completed in 0ms
+660 silly placeDep node_modules/forever map-visit@1.0.0 OK for: collection-visit@1.0.0 want: ^1.0.0
+661 silly placeDep node_modules/forever object-visit@1.0.1 OK for: collection-visit@1.0.0 want: ^1.0.0
+662 timing idealTree:node_modules/forever/node_modules/collection-visit Completed in 3ms
+663 timing idealTree:node_modules/forever/node_modules/component-emitter Completed in 0ms
+664 timing idealTree:node_modules/forever/node_modules/get-value Completed in 0ms
+665 silly placeDep node_modules/forever has-values@1.0.0 OK for: has-value@1.0.0 want: ^1.0.0
+666 silly fetch manifest kind-of@^4.0.0
+667 timing idealTree:node_modules/forever/node_modules/has-value Completed in 2ms
+668 silly placeDep node_modules/forever/node_modules/has-values kind-of@4.0.0 OK for: has-values@1.0.0 want: ^4.0.0
+669 timing idealTree:node_modules/forever/node_modules/has-values Completed in 2ms
+670 timing idealTree:node_modules/forever/node_modules/map-visit Completed in 0ms
+671 silly placeDep node_modules/forever for-in@1.0.2 OK for: mixin-deep@1.3.2 want: ^1.0.2
+672 silly placeDep node_modules/forever/node_modules/mixin-deep is-extendable@1.0.1 OK for: mixin-deep@1.3.2 want: ^1.0.1
+673 silly fetch manifest is-plain-object@^2.0.4
+674 timing idealTree:node_modules/forever/node_modules/mixin-deep Completed in 3ms
+675 timing idealTree:node_modules/forever/node_modules/for-in Completed in 0ms
+676 timing idealTree:node_modules/forever/node_modules/object-visit Completed in 0ms
+677 timing idealTree:node_modules/forever/node_modules/pascalcase Completed in 0ms
+678 silly placeDep node_modules/forever is-plain-object@2.0.4 OK for: set-value@2.0.1 want: ^2.0.3
+679 timing idealTree:node_modules/forever/node_modules/set-value Completed in 1ms
+680 timing idealTree:node_modules/forever/node_modules/is-plain-object Completed in 0ms
+681 silly placeDep node_modules/forever/node_modules/snapdragon-node define-property@1.0.0 OK for: snapdragon-node@2.1.1 want: ^1.0.0
+682 silly placeDep node_modules/forever snapdragon-util@3.0.1 OK for: snapdragon-node@2.1.1 want: ^3.0.1
+683 timing idealTree:node_modules/forever/node_modules/snapdragon-node Completed in 5ms
+684 timing idealTree:node_modules/forever/node_modules/snapdragon-util Completed in 0ms
+685 timing idealTree:node_modules/forever/node_modules/source-map Completed in 0ms
+686 silly placeDep node_modules/forever atob@2.1.2 OK for: source-map-resolve@0.5.3 want: ^2.1.2
+687 silly placeDep node_modules/forever decode-uri-component@0.2.2 OK for: source-map-resolve@0.5.3 want: ^0.2.0
+688 silly placeDep node_modules/forever resolve-url@0.2.1 OK for: source-map-resolve@0.5.3 want: ^0.2.1
+689 silly placeDep node_modules/forever source-map-url@0.4.1 OK for: source-map-resolve@0.5.3 want: ^0.4.0
+690 silly placeDep node_modules/forever urix@0.1.0 OK for: source-map-resolve@0.5.3 want: ^0.1.0
+691 timing idealTree:node_modules/forever/node_modules/source-map-resolve Completed in 16ms
+692 timing idealTree:node_modules/forever/node_modules/atob Completed in 0ms
+693 timing idealTree:node_modules/forever/node_modules/decode-uri-component Completed in 0ms
+694 timing idealTree:node_modules/forever/node_modules/resolve-url Completed in 0ms
+695 timing idealTree:node_modules/forever/node_modules/source-map-url Completed in 0ms
+696 timing idealTree:node_modules/forever/node_modules/split Completed in 0ms
+697 silly placeDep node_modules/forever/node_modules/split-string extend-shallow@3.0.2 OK for: split-string@3.1.0 want: ^3.0.0
+698 timing idealTree:node_modules/forever/node_modules/split-string Completed in 3ms
+699 silly placeDep node_modules/forever/node_modules/static-extend define-property@0.2.5 OK for: static-extend@0.1.2 want: ^0.2.5
+700 silly placeDep node_modules/forever object-copy@0.1.0 OK for: static-extend@0.1.2 want: ^0.1.0
+701 silly fetch manifest copy-descriptor@^0.1.0
+702 http fetch GET 200 https://registry.npmjs.org/copy-descriptor 41ms (cache miss)
+703 timing idealTree:node_modules/forever/node_modules/static-extend Completed in 44ms
+704 silly placeDep node_modules/forever copy-descriptor@0.1.1 OK for: object-copy@0.1.0 want: ^0.1.0
+705 silly placeDep node_modules/forever/node_modules/object-copy define-property@0.2.5 OK for: object-copy@0.1.0 want: ^0.2.5
+706 timing idealTree:node_modules/forever/node_modules/object-copy Completed in 3ms
+707 timing idealTree:node_modules/forever/node_modules/copy-descriptor Completed in 0ms
+708 timing idealTree:node_modules/forever/node_modules/stream-combiner Completed in 0ms
+709 timing idealTree:node_modules/forever/node_modules/string_decoder Completed in 0ms
+710 timing idealTree:node_modules/forever/node_modules/strip-json-comments Completed in 0ms
+711 timing idealTree:node_modules/forever/node_modules/through Completed in 0ms
+712 timing idealTree:node_modules/forever/node_modules/to-object-path Completed in 0ms
+713 silly placeDep node_modules/forever/node_modules/to-regex extend-shallow@3.0.2 OK for: to-regex@3.0.2 want: ^3.0.2
+714 timing idealTree:node_modules/forever/node_modules/to-regex Completed in 1ms
+715 timing idealTree:node_modules/forever/node_modules/to-regex-range Completed in 0ms
+716 timing idealTree:node_modules/forever/node_modules/union-value Completed in 0ms
+717 silly placeDep node_modules/forever crypto-random-string@1.0.0 OK for: unique-string@1.0.0 want: ^1.0.0
+718 timing idealTree:node_modules/forever/node_modules/unique-string Completed in 1ms
+719 timing idealTree:node_modules/forever/node_modules/crypto-random-string Completed in 0ms
+720 silly placeDep node_modules/forever/node_modules/unset-value has-value@0.3.1 OK for: unset-value@1.0.0 want: ^0.3.1
+721 silly fetch manifest has-values@^0.1.4
+722 silly fetch manifest isobject@^2.0.0
+723 timing idealTree:node_modules/forever/node_modules/unset-value Completed in 2ms
+724 timing idealTree:node_modules/forever/node_modules/upath Completed in 0ms
+725 timing idealTree:node_modules/forever/node_modules/urix Completed in 0ms
+726 timing idealTree:node_modules/forever/node_modules/use Completed in 0ms
+727 timing idealTree:node_modules/forever/node_modules/util-deprecate Completed in 0ms
+728 silly placeDep node_modules/forever/node_modules/utile async@0.2.10 OK for: utile@0.2.1 want: ~0.2.9
+729 silly placeDep node_modules/forever deep-equal@2.2.0 OK for: utile@0.2.1 want: *
+730 silly placeDep node_modules/forever i@0.3.7 OK for: utile@0.2.1 want: 0.3.x
+731 silly placeDep node_modules/forever ncp@0.4.2 OK for: utile@0.2.1 want: 0.4.x
+732 silly placeDep node_modules/forever rimraf@2.7.1 OK for: utile@0.2.1 want: 2.x.x
+733 silly fetch manifest call-bind@^1.0.2
+734 silly fetch manifest es-get-iterator@^1.1.2
+735 silly fetch manifest get-intrinsic@^1.1.3
+736 silly fetch manifest is-arguments@^1.1.1
+737 silly fetch manifest is-array-buffer@^3.0.1
+738 silly fetch manifest is-date-object@^1.0.5
+739 silly fetch manifest is-regex@^1.1.4
+740 silly fetch manifest is-shared-array-buffer@^1.0.2
+741 silly fetch manifest isarray@^2.0.5
+742 silly fetch manifest object-is@^1.1.5
+743 silly fetch manifest object-keys@^1.1.1
+744 silly fetch manifest object.assign@^4.1.4
+745 silly fetch manifest regexp.prototype.flags@^1.4.3
+746 silly fetch manifest side-channel@^1.0.4
+747 silly fetch manifest which-boxed-primitive@^1.0.2
+748 silly fetch manifest which-collection@^1.0.1
+749 silly fetch manifest which-typed-array@^1.1.9
+750 silly fetch manifest glob@^7.1.3
+751 http fetch GET 200 https://registry.npmjs.org/es-get-iterator 142ms (cache miss)
+752 http fetch GET 200 https://registry.npmjs.org/is-date-object 144ms (cache miss)
+753 http fetch GET 200 https://registry.npmjs.org/is-regex 143ms (cache miss)
+754 http fetch GET 200 https://registry.npmjs.org/side-channel 133ms (cache miss)
+755 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 148ms (cache miss)
+756 http fetch GET 200 https://registry.npmjs.org/which-collection 133ms (cache miss)
+757 http fetch GET 200 https://registry.npmjs.org/is-arguments 148ms (cache miss)
+758 http fetch GET 200 https://registry.npmjs.org/call-bind 151ms (cache miss)
+759 http fetch GET 200 https://registry.npmjs.org/regexp.prototype.flags 137ms (cache miss)
+760 http fetch GET 200 https://registry.npmjs.org/is-array-buffer 149ms (cache miss)
+761 http fetch GET 200 https://registry.npmjs.org/object-is 145ms (cache miss)
+762 http fetch GET 200 https://registry.npmjs.org/is-shared-array-buffer 147ms (cache miss)
+763 http fetch GET 200 https://registry.npmjs.org/which-boxed-primitive 140ms (cache miss)
+764 http fetch GET 200 https://registry.npmjs.org/object.assign 148ms (cache miss)
+765 http fetch GET 200 https://registry.npmjs.org/which-typed-array 144ms (cache miss)
+766 http fetch GET 200 https://registry.npmjs.org/glob 144ms (cache miss)
+767 http fetch GET 200 https://registry.npmjs.org/object-keys 987ms (cache miss)
+768 timing idealTree:node_modules/forever/node_modules/utile Completed in 1005ms
+769 silly placeDep node_modules/forever call-bind@1.0.2 OK for: deep-equal@2.2.0 want: ^1.0.2
+770 silly placeDep node_modules/forever es-get-iterator@1.1.3 OK for: deep-equal@2.2.0 want: ^1.1.2
+771 silly placeDep node_modules/forever get-intrinsic@1.2.0 OK for: deep-equal@2.2.0 want: ^1.1.3
+772 silly placeDep node_modules/forever is-arguments@1.1.1 OK for: deep-equal@2.2.0 want: ^1.1.1
+773 silly placeDep node_modules/forever is-array-buffer@3.0.2 OK for: deep-equal@2.2.0 want: ^3.0.1
+774 silly placeDep node_modules/forever is-date-object@1.0.5 OK for: deep-equal@2.2.0 want: ^1.0.5
+775 silly placeDep node_modules/forever is-regex@1.1.4 OK for: deep-equal@2.2.0 want: ^1.1.4
+776 silly placeDep node_modules/forever is-shared-array-buffer@1.0.2 OK for: deep-equal@2.2.0 want: ^1.0.2
+777 silly placeDep node_modules/forever/node_modules/deep-equal isarray@2.0.5 OK for: deep-equal@2.2.0 want: ^2.0.5
+778 silly placeDep node_modules/forever object-is@1.1.5 OK for: deep-equal@2.2.0 want: ^1.1.5
+779 silly placeDep node_modules/forever object-keys@1.1.1 OK for: deep-equal@2.2.0 want: ^1.1.1
+780 silly placeDep node_modules/forever object.assign@4.1.4 OK for: deep-equal@2.2.0 want: ^4.1.4
+781 silly placeDep node_modules/forever regexp.prototype.flags@1.4.3 OK for: deep-equal@2.2.0 want: ^1.4.3
+782 silly placeDep node_modules/forever side-channel@1.0.4 OK for: deep-equal@2.2.0 want: ^1.0.4
+783 silly placeDep node_modules/forever which-boxed-primitive@1.0.2 OK for: deep-equal@2.2.0 want: ^1.0.2
+784 silly placeDep node_modules/forever which-collection@1.0.1 OK for: deep-equal@2.2.0 want: ^1.0.1
+785 silly placeDep node_modules/forever which-typed-array@1.1.9 OK for: deep-equal@2.2.0 want: ^1.1.9
+786 silly fetch manifest function-bind@^1.1.1
+787 silly fetch manifest has-symbols@^1.0.3
+788 silly fetch manifest is-map@^2.0.2
+789 silly fetch manifest is-set@^2.0.2
+790 silly fetch manifest is-string@^1.0.7
+791 silly fetch manifest stop-iteration-iterator@^1.0.0
+792 silly fetch manifest has@^1.0.3
+793 silly fetch manifest has-tostringtag@^1.0.0
+794 silly fetch manifest is-typed-array@^1.1.10
+795 silly fetch manifest define-properties@^1.1.3
+796 silly fetch manifest define-properties@^1.1.4
+797 silly fetch manifest functions-have-names@^1.2.2
+798 silly fetch manifest object-inspect@^1.9.0
+799 silly fetch manifest is-bigint@^1.0.1
+800 silly fetch manifest is-boolean-object@^1.1.0
+801 silly fetch manifest is-number-object@^1.0.4
+802 silly fetch manifest is-string@^1.0.5
+803 silly fetch manifest is-symbol@^1.0.3
+804 silly fetch manifest is-map@^2.0.1
+805 silly fetch manifest is-set@^2.0.1
+806 silly fetch manifest is-weakmap@^2.0.1
+807 silly fetch manifest is-weakset@^2.0.1
+808 silly fetch manifest available-typed-arrays@^1.0.5
+809 silly fetch manifest for-each@^0.3.3
+810 silly fetch manifest gopd@^1.0.1
+811 http fetch GET 200 https://registry.npmjs.org/has 170ms (cache miss)
+812 http fetch GET 200 https://registry.npmjs.org/has-tostringtag 169ms (cache miss)
+813 http fetch GET 200 https://registry.npmjs.org/is-string 173ms (cache miss)
+814 http fetch GET 200 https://registry.npmjs.org/functions-have-names 167ms (cache miss)
+815 http fetch GET 200 https://registry.npmjs.org/define-properties 168ms (cache miss)
+816 http fetch GET 200 https://registry.npmjs.org/function-bind 178ms (cache miss)
+817 http fetch GET 200 https://registry.npmjs.org/has-symbols 177ms (cache miss)
+818 http fetch GET 200 https://registry.npmjs.org/is-map 178ms (cache miss)
+819 http fetch GET 200 https://registry.npmjs.org/is-set 178ms (cache miss)
+820 http fetch GET 200 https://registry.npmjs.org/is-boolean-object 166ms (cache miss)
+821 http fetch GET 200 https://registry.npmjs.org/is-bigint 167ms (cache miss)
+822 http fetch GET 200 https://registry.npmjs.org/stop-iteration-iterator 181ms (cache miss)
+823 http fetch GET 200 https://registry.npmjs.org/define-properties 179ms (cache miss)
+824 http fetch GET 200 https://registry.npmjs.org/is-number-object 172ms (cache miss)
+825 http fetch GET 200 https://registry.npmjs.org/is-string 172ms (cache miss)
+826 http fetch GET 200 https://registry.npmjs.org/is-symbol 171ms (cache miss)
+827 http fetch GET 200 https://registry.npmjs.org/available-typed-arrays 164ms (cache miss)
+828 http fetch GET 200 https://registry.npmjs.org/is-typed-array 183ms (cache miss)
+829 http fetch GET 200 https://registry.npmjs.org/object-inspect 177ms (cache miss)
+830 http fetch GET 200 https://registry.npmjs.org/is-weakset 167ms (cache miss)
+831 http fetch GET 200 https://registry.npmjs.org/is-set 169ms (cache miss)
+832 http fetch GET 200 https://registry.npmjs.org/is-map 170ms (cache miss)
+833 http fetch GET 200 https://registry.npmjs.org/is-weakmap 169ms (cache miss)
+834 http fetch GET 200 https://registry.npmjs.org/gopd 160ms (cache miss)
+835 http fetch GET 200 https://registry.npmjs.org/for-each 167ms (cache miss)
+836 timing idealTree:node_modules/forever/node_modules/deep-equal Completed in 216ms
+837 silly placeDep node_modules/forever function-bind@1.1.1 OK for: call-bind@1.0.2 want: ^1.1.1
+838 timing idealTree:node_modules/forever/node_modules/call-bind Completed in 1ms
+839 silly placeDep node_modules/forever has-symbols@1.0.3 OK for: es-get-iterator@1.1.3 want: ^1.0.3
+840 silly placeDep node_modules/forever is-map@2.0.2 OK for: es-get-iterator@1.1.3 want: ^2.0.2
+841 silly placeDep node_modules/forever is-set@2.0.2 OK for: es-get-iterator@1.1.3 want: ^2.0.2
+842 silly placeDep node_modules/forever is-string@1.0.7 OK for: es-get-iterator@1.1.3 want: ^1.0.7
+843 silly placeDep node_modules/forever/node_modules/es-get-iterator isarray@2.0.5 OK for: es-get-iterator@1.1.3 want: ^2.0.5
+844 silly placeDep node_modules/forever stop-iteration-iterator@1.0.0 OK for: es-get-iterator@1.1.3 want: ^1.0.0
+845 silly fetch manifest internal-slot@^1.0.4
+846 http fetch GET 200 https://registry.npmjs.org/internal-slot 37ms (cache miss)
+847 timing idealTree:node_modules/forever/node_modules/es-get-iterator Completed in 43ms
+848 timing idealTree:node_modules/forever/node_modules/function-bind Completed in 0ms
+849 silly placeDep node_modules/forever has@1.0.3 OK for: get-intrinsic@1.2.0 want: ^1.0.3
+850 timing idealTree:node_modules/forever/node_modules/get-intrinsic Completed in 3ms
+851 timing idealTree:node_modules/forever/node_modules/has Completed in 0ms
+852 timing idealTree:node_modules/forever/node_modules/has-symbols Completed in 0ms
+853 timing idealTree:node_modules/forever/node_modules/i Completed in 0ms
+854 silly placeDep node_modules/forever has-tostringtag@1.0.0 OK for: is-arguments@1.1.1 want: ^1.0.0
+855 timing idealTree:node_modules/forever/node_modules/is-arguments Completed in 4ms
+856 timing idealTree:node_modules/forever/node_modules/has-tostringtag Completed in 0ms
+857 silly placeDep node_modules/forever is-typed-array@1.1.10 OK for: is-array-buffer@3.0.2 want: ^1.1.10
+858 timing idealTree:node_modules/forever/node_modules/is-array-buffer Completed in 2ms
+859 timing idealTree:node_modules/forever/node_modules/is-date-object Completed in 0ms
+860 timing idealTree:node_modules/forever/node_modules/is-map Completed in 0ms
+861 timing idealTree:node_modules/forever/node_modules/is-regex Completed in 0ms
+862 timing idealTree:node_modules/forever/node_modules/is-set Completed in 0ms
+863 timing idealTree:node_modules/forever/node_modules/is-shared-array-buffer Completed in 0ms
+864 timing idealTree:node_modules/forever/node_modules/is-string Completed in 0ms
+865 silly placeDep node_modules/forever available-typed-arrays@1.0.5 OK for: is-typed-array@1.1.10 want: ^1.0.5
+866 silly placeDep node_modules/forever for-each@0.3.3 OK for: is-typed-array@1.1.10 want: ^0.3.3
+867 silly placeDep node_modules/forever gopd@1.0.1 OK for: is-typed-array@1.1.10 want: ^1.0.1
+868 silly fetch manifest is-callable@^1.1.3
+869 http fetch GET 200 https://registry.npmjs.org/is-callable 39ms (cache miss)
+870 timing idealTree:node_modules/forever/node_modules/is-typed-array Completed in 45ms
+871 timing idealTree:node_modules/forever/node_modules/available-typed-arrays Completed in 0ms
+872 silly placeDep node_modules/forever is-callable@1.2.7 OK for: for-each@0.3.3 want: ^1.1.3
+873 timing idealTree:node_modules/forever/node_modules/for-each Completed in 1ms
+874 timing idealTree:node_modules/forever/node_modules/gopd Completed in 0ms
+875 timing idealTree:node_modules/forever/node_modules/is-callable Completed in 0ms
+876 timing idealTree:node_modules/forever/node_modules/ncp Completed in 0ms
+877 silly placeDep node_modules/forever define-properties@1.2.0 OK for: object-is@1.1.5 want: ^1.1.3
+878 silly fetch manifest has-property-descriptors@^1.0.0
+879 http fetch GET 200 https://registry.npmjs.org/has-property-descriptors 43ms (cache miss)
+880 timing idealTree:node_modules/forever/node_modules/object-is Completed in 45ms
+881 silly placeDep node_modules/forever has-property-descriptors@1.0.0 OK for: define-properties@1.2.0 want: ^1.0.0
+882 timing idealTree:node_modules/forever/node_modules/define-properties Completed in 1ms
+883 timing idealTree:node_modules/forever/node_modules/has-property-descriptors Completed in 0ms
+884 timing idealTree:node_modules/forever/node_modules/object-keys Completed in 0ms
+885 timing idealTree:node_modules/forever/node_modules/object.assign Completed in 0ms
+886 silly placeDep node_modules/forever functions-have-names@1.2.3 OK for: regexp.prototype.flags@1.4.3 want: ^1.2.2
+887 timing idealTree:node_modules/forever/node_modules/regexp.prototype.flags Completed in 1ms
+888 timing idealTree:node_modules/forever/node_modules/functions-have-names Completed in 0ms
+889 silly placeDep node_modules/forever glob@7.2.3 OK for: rimraf@2.7.1 want: ^7.1.3
+890 silly fetch manifest fs.realpath@^1.0.0
+891 silly fetch manifest inflight@^1.0.4
+892 silly fetch manifest once@^1.3.0
+893 http fetch GET 200 https://registry.npmjs.org/inflight 39ms (cache miss)
+894 http fetch GET 200 https://registry.npmjs.org/once 49ms (cache miss)
+895 http fetch GET 200 https://registry.npmjs.org/fs.realpath 51ms (cache miss)
+896 timing idealTree:node_modules/forever/node_modules/rimraf Completed in 62ms
+897 silly placeDep node_modules/forever fs.realpath@1.0.0 OK for: glob@7.2.3 want: ^1.0.0
+898 silly placeDep node_modules/forever inflight@1.0.6 OK for: glob@7.2.3 want: ^1.0.4
+899 silly placeDep node_modules/forever once@1.4.0 OK for: glob@7.2.3 want: ^1.3.0
+900 silly fetch manifest wrappy@1
+901 http fetch GET 200 https://registry.npmjs.org/wrappy 37ms (cache miss)
+902 timing idealTree:node_modules/forever/node_modules/glob Completed in 42ms
+903 timing idealTree:node_modules/forever/node_modules/fs.realpath Completed in 0ms
+904 silly placeDep node_modules/forever wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+905 timing idealTree:node_modules/forever/node_modules/inflight Completed in 1ms
+906 timing idealTree:node_modules/forever/node_modules/once Completed in 0ms
+907 silly placeDep node_modules/forever object-inspect@1.12.3 OK for: side-channel@1.0.4 want: ^1.9.0
+908 timing idealTree:node_modules/forever/node_modules/side-channel Completed in 1ms
+909 timing idealTree:node_modules/forever/node_modules/object-inspect Completed in 0ms
+910 silly placeDep node_modules/forever internal-slot@1.0.5 OK for: stop-iteration-iterator@1.0.0 want: ^1.0.4
+911 timing idealTree:node_modules/forever/node_modules/stop-iteration-iterator Completed in 1ms
+912 timing idealTree:node_modules/forever/node_modules/internal-slot Completed in 0ms
+913 silly placeDep node_modules/forever is-bigint@1.0.4 OK for: which-boxed-primitive@1.0.2 want: ^1.0.1
+914 silly placeDep node_modules/forever is-boolean-object@1.1.2 OK for: which-boxed-primitive@1.0.2 want: ^1.1.0
+915 silly placeDep node_modules/forever is-number-object@1.0.7 OK for: which-boxed-primitive@1.0.2 want: ^1.0.4
+916 silly placeDep node_modules/forever is-symbol@1.0.4 OK for: which-boxed-primitive@1.0.2 want: ^1.0.3
+917 silly fetch manifest has-bigints@^1.0.1
+918 http fetch GET 200 https://registry.npmjs.org/has-bigints 38ms (cache miss)
+919 timing idealTree:node_modules/forever/node_modules/which-boxed-primitive Completed in 52ms
+920 silly placeDep node_modules/forever has-bigints@1.0.2 OK for: is-bigint@1.0.4 want: ^1.0.1
+921 timing idealTree:node_modules/forever/node_modules/is-bigint Completed in 1ms
+922 timing idealTree:node_modules/forever/node_modules/has-bigints Completed in 0ms
+923 timing idealTree:node_modules/forever/node_modules/is-boolean-object Completed in 0ms
+924 timing idealTree:node_modules/forever/node_modules/is-number-object Completed in 0ms
+925 timing idealTree:node_modules/forever/node_modules/is-symbol Completed in 1ms
+926 silly placeDep node_modules/forever is-weakmap@2.0.1 OK for: which-collection@1.0.1 want: ^2.0.1
+927 silly placeDep node_modules/forever is-weakset@2.0.2 OK for: which-collection@1.0.1 want: ^2.0.1
+928 timing idealTree:node_modules/forever/node_modules/which-collection Completed in 1ms
+929 timing idealTree:node_modules/forever/node_modules/is-weakmap Completed in 0ms
+930 timing idealTree:node_modules/forever/node_modules/is-weakset Completed in 0ms
+931 timing idealTree:node_modules/forever/node_modules/which-typed-array Completed in 0ms
+932 silly placeDep node_modules/forever @colors/colors@1.5.0 OK for: winston@3.8.2 want: 1.5.0
+933 silly placeDep node_modules/forever @dabh/diagnostics@2.0.3 OK for: winston@3.8.2 want: ^2.0.2
+934 silly placeDep node_modules/forever/node_modules/winston async@3.2.4 OK for: winston@3.8.2 want: ^3.2.3
+935 silly placeDep node_modules/forever is-stream@2.0.1 OK for: winston@3.8.2 want: ^2.0.0
+936 silly placeDep node_modules/forever logform@2.5.1 OK for: winston@3.8.2 want: ^2.4.0
+937 silly placeDep node_modules/forever one-time@1.0.0 OK for: winston@3.8.2 want: ^1.0.0
+938 silly placeDep node_modules/forever/node_modules/winston readable-stream@3.6.2 OK for: winston@3.8.2 want: ^3.4.0
+939 silly placeDep node_modules/forever safe-stable-stringify@2.4.3 OK for: winston@3.8.2 want: ^2.3.1
+940 silly placeDep node_modules/forever stack-trace@0.0.10 OK for: winston@3.8.2 want: 0.0.x
+941 silly placeDep node_modules/forever triple-beam@1.3.0 OK for: winston@3.8.2 want: ^1.3.0
+942 silly placeDep node_modules/forever winston-transport@4.5.0 OK for: winston@3.8.2 want: ^4.5.0
+943 silly fetch manifest colorspace@1.1.x
+944 silly fetch manifest enabled@2.0.x
+945 silly fetch manifest kuler@^2.0.0
+946 silly fetch manifest @types/triple-beam@^1.3.2
+947 silly fetch manifest fecha@^4.2.0
+948 silly fetch manifest ms@^2.1.1
+949 silly fetch manifest fn.name@1.x.x
+950 silly fetch manifest readable-stream@^3.6.0
+951 http fetch GET 200 https://registry.npmjs.org/enabled 43ms (cache miss)
+952 http fetch GET 200 https://registry.npmjs.org/fecha 97ms (cache miss)
+953 http fetch GET 200 https://registry.npmjs.org/kuler 119ms (cache miss)
+954 http fetch GET 200 https://registry.npmjs.org/colorspace 121ms (cache miss)
+955 http fetch GET 200 https://registry.npmjs.org/fn.name 118ms (cache miss)
+956 http fetch GET 200 https://registry.npmjs.org/@types%2ftriple-beam 125ms (cache miss)
+957 timing idealTree:node_modules/forever/node_modules/winston Completed in 143ms
+958 timing idealTree:node_modules/forever/node_modules/@colors/colors Completed in 0ms
+959 silly placeDep node_modules/forever colorspace@1.1.4 OK for: @dabh/diagnostics@2.0.3 want: 1.1.x
+960 silly placeDep node_modules/forever enabled@2.0.0 OK for: @dabh/diagnostics@2.0.3 want: 2.0.x
+961 silly placeDep node_modules/forever kuler@2.0.0 OK for: @dabh/diagnostics@2.0.3 want: ^2.0.0
+962 silly fetch manifest color@^3.1.3
+963 silly fetch manifest text-hex@1.0.x
+964 http fetch GET 200 https://registry.npmjs.org/text-hex 36ms (cache miss)
+965 http fetch GET 200 https://registry.npmjs.org/color 58ms (cache miss)
+966 timing idealTree:node_modules/forever/node_modules/@dabh/diagnostics Completed in 63ms
+967 silly placeDep node_modules/forever color@3.2.1 OK for: colorspace@1.1.4 want: ^3.1.3
+968 silly placeDep node_modules/forever text-hex@1.0.0 OK for: colorspace@1.1.4 want: 1.0.x
+969 silly fetch manifest color-convert@^1.9.3
+970 silly fetch manifest color-string@^1.6.0
+971 http fetch GET 200 https://registry.npmjs.org/color-convert 39ms (cache miss)
+972 http fetch GET 200 https://registry.npmjs.org/color-string 39ms (cache miss)
+973 timing idealTree:node_modules/forever/node_modules/colorspace Completed in 45ms
+974 silly placeDep node_modules/forever color-convert@1.9.3 OK for: color@3.2.1 want: ^1.9.3
+975 silly placeDep node_modules/forever color-string@1.9.1 OK for: color@3.2.1 want: ^1.6.0
+976 silly fetch manifest color-name@1.1.3
+977 silly fetch manifest color-name@^1.0.0
+978 silly fetch manifest simple-swizzle@^0.2.2
+979 http fetch GET 200 https://registry.npmjs.org/color-name 45ms (cache miss)
+980 http fetch GET 200 https://registry.npmjs.org/simple-swizzle 41ms (cache miss)
+981 http fetch GET 200 https://registry.npmjs.org/color-name 43ms (cache miss)
+982 timing idealTree:node_modules/forever/node_modules/color Completed in 50ms
+983 silly placeDep node_modules/forever color-name@1.1.3 OK for: color-convert@1.9.3 want: 1.1.3
+984 timing idealTree:node_modules/forever/node_modules/color-convert Completed in 2ms
+985 timing idealTree:node_modules/forever/node_modules/color-name Completed in 0ms
+986 silly placeDep node_modules/forever simple-swizzle@0.2.2 OK for: color-string@1.9.1 want: ^0.2.2
+987 silly fetch manifest is-arrayish@^0.3.1
+988 http fetch GET 200 https://registry.npmjs.org/is-arrayish 37ms (cache miss)
+989 timing idealTree:node_modules/forever/node_modules/color-string Completed in 39ms
+990 timing idealTree:node_modules/forever/node_modules/enabled Completed in 0ms
+991 timing idealTree:node_modules/forever/node_modules/is-stream Completed in 0ms
+992 timing idealTree:node_modules/forever/node_modules/kuler Completed in 0ms
+993 silly placeDep node_modules/forever @types/triple-beam@1.3.2 OK for: logform@2.5.1 want: ^1.3.2
+994 silly placeDep node_modules/forever fecha@4.2.3 OK for: logform@2.5.1 want: ^4.2.0
+995 silly placeDep node_modules/forever/node_modules/logform ms@2.1.3 OK for: logform@2.5.1 want: ^2.1.1
+996 timing idealTree:node_modules/forever/node_modules/logform Completed in 4ms
+997 timing idealTree:node_modules/forever/node_modules/@types/triple-beam Completed in 0ms
+998 timing idealTree:node_modules/forever/node_modules/fecha Completed in 0ms
+999 silly placeDep node_modules/forever fn.name@1.1.0 OK for: one-time@1.0.0 want: 1.x.x
+1000 timing idealTree:node_modules/forever/node_modules/one-time Completed in 1ms
+1001 timing idealTree:node_modules/forever/node_modules/fn.name Completed in 0ms
+1002 timing idealTree:node_modules/forever/node_modules/safe-stable-stringify Completed in 0ms
+1003 silly placeDep node_modules/forever is-arrayish@0.3.2 OK for: simple-swizzle@0.2.2 want: ^0.3.1
+1004 timing idealTree:node_modules/forever/node_modules/simple-swizzle Completed in 3ms
+1005 timing idealTree:node_modules/forever/node_modules/is-arrayish Completed in 0ms
+1006 timing idealTree:node_modules/forever/node_modules/stack-trace Completed in 0ms
+1007 timing idealTree:node_modules/forever/node_modules/text-hex Completed in 0ms
+1008 timing idealTree:node_modules/forever/node_modules/triple-beam Completed in 0ms
+1009 silly placeDep node_modules/forever/node_modules/winston-transport readable-stream@3.6.2 OK for: winston-transport@4.5.0 want: ^3.6.0
+1010 timing idealTree:node_modules/forever/node_modules/winston-transport Completed in 1ms
+1011 timing idealTree:node_modules/forever/node_modules/wordwrap Completed in 0ms
+1012 timing idealTree:node_modules/forever/node_modules/wrappy Completed in 0ms
+1013 silly placeDep node_modules/forever imurmurhash@0.1.4 OK for: write-file-atomic@2.4.3 want: ^0.1.4
+1014 silly placeDep node_modules/forever signal-exit@3.0.7 OK for: write-file-atomic@2.4.3 want: ^3.0.2
+1015 timing idealTree:node_modules/forever/node_modules/write-file-atomic Completed in 1ms
+1016 timing idealTree:node_modules/forever/node_modules/imurmurhash Completed in 0ms
+1017 timing idealTree:node_modules/forever/node_modules/signal-exit Completed in 0ms
+1018 timing idealTree:node_modules/forever/node_modules/xdg-basedir Completed in 0ms
+1019 silly placeDep node_modules/forever remove-trailing-separator@1.1.0 OK for: normalize-path@2.1.1 want: ^1.0.1
+1020 timing idealTree:node_modules/forever/node_modules/anymatch/node_modules/normalize-path Completed in 4ms
+1021 timing idealTree:node_modules/forever/node_modules/remove-trailing-separator Completed in 0ms
+1022 timing idealTree:node_modules/forever/node_modules/base/node_modules/define-property Completed in 0ms
+1023 timing idealTree:node_modules/forever/node_modules/broadway/node_modules/cliff Completed in 0ms
+1024 timing idealTree:node_modules/forever/node_modules/broadway/node_modules/eventemitter2 Completed in 0ms
+1025 silly placeDep node_modules/forever/node_modules/broadway async@0.2.10 OK for: winston@0.8.0 want: 0.2.x
+1026 silly placeDep node_modules/forever cycle@1.0.3 OK for: winston@0.8.0 want: 1.0.x
+1027 silly placeDep node_modules/forever/node_modules/broadway pkginfo@0.3.1 OK for: winston@0.8.0 want: 0.3.x
+1028 timing idealTree:node_modules/forever/node_modules/broadway/node_modules/winston Completed in 2ms
+1029 timing idealTree:node_modules/forever/node_modules/cycle Completed in 0ms
+1030 timing idealTree:node_modules/forever/node_modules/broadway/node_modules/async Completed in 0ms
+1031 timing idealTree:node_modules/forever/node_modules/broadway/node_modules/pkginfo Completed in 0ms
+1032 silly placeDep node_modules/forever/node_modules/class-utils is-descriptor@0.1.6 OK for: define-property@0.2.5 want: ^0.1.0
+1033 silly fetch manifest is-accessor-descriptor@^0.1.6
+1034 silly fetch manifest is-data-descriptor@^0.1.4
+1035 silly fetch manifest kind-of@^5.0.0
+1036 timing idealTree:node_modules/forever/node_modules/class-utils/node_modules/define-property Completed in 2ms
+1037 silly placeDep node_modules/forever/node_modules/class-utils is-accessor-descriptor@0.1.6 OK for: is-descriptor@0.1.6 want: ^0.1.6
+1038 silly placeDep node_modules/forever/node_modules/class-utils is-data-descriptor@0.1.4 OK for: is-descriptor@0.1.6 want: ^0.1.4
+1039 silly placeDep node_modules/forever/node_modules/class-utils/node_modules/is-descriptor kind-of@5.1.0 OK for: is-descriptor@0.1.6 want: ^5.0.0
+1040 timing idealTree:node_modules/forever/node_modules/class-utils/node_modules/is-descriptor Completed in 3ms
+1041 timing idealTree:node_modules/forever/node_modules/class-utils/node_modules/is-accessor-descriptor Completed in 0ms
+1042 timing idealTree:node_modules/forever/node_modules/class-utils/node_modules/is-data-descriptor Completed in 0ms
+1043 timing idealTree:node_modules/forever/node_modules/cliff/node_modules/colors Completed in 0ms
+1044 silly placeDep node_modules/forever/node_modules/cliff async@0.2.10 OK for: winston@0.8.3 want: 0.2.x
+1045 silly placeDep node_modules/forever/node_modules/cliff/node_modules/winston colors@0.6.2 OK for: winston@0.8.3 want: 0.6.x
+1046 silly placeDep node_modules/forever isstream@0.1.2 OK for: winston@0.8.3 want: 0.1.x
+1047 silly placeDep node_modules/forever/node_modules/cliff pkginfo@0.3.1 OK for: winston@0.8.3 want: 0.3.x
+1048 timing idealTree:node_modules/forever/node_modules/cliff/node_modules/winston Completed in 4ms
+1049 timing idealTree:node_modules/forever/node_modules/isstream Completed in 0ms
+1050 timing idealTree:node_modules/forever/node_modules/cliff/node_modules/async Completed in 0ms
+1051 timing idealTree:node_modules/forever/node_modules/cliff/node_modules/pkginfo Completed in 0ms
+1052 timing idealTree:node_modules/forever/node_modules/deep-equal/node_modules/isarray Completed in 0ms
+1053 timing idealTree:node_modules/forever/node_modules/es-get-iterator/node_modules/isarray Completed in 0ms
+1054 silly placeDep node_modules/forever/node_modules/expand-brackets is-descriptor@0.1.6 OK for: define-property@0.2.5 want: ^0.1.0
+1055 timing idealTree:node_modules/forever/node_modules/expand-brackets/node_modules/define-property Completed in 1ms
+1056 silly placeDep node_modules/forever/node_modules/expand-brackets is-accessor-descriptor@0.1.6 OK for: is-descriptor@0.1.6 want: ^0.1.6
+1057 silly placeDep node_modules/forever/node_modules/expand-brackets is-data-descriptor@0.1.4 OK for: is-descriptor@0.1.6 want: ^0.1.4
+1058 silly placeDep node_modules/forever/node_modules/expand-brackets/node_modules/is-descriptor kind-of@5.1.0 OK for: is-descriptor@0.1.6 want: ^5.0.0
+1059 timing idealTree:node_modules/forever/node_modules/expand-brackets/node_modules/is-descriptor Completed in 2ms
+1060 timing idealTree:node_modules/forever/node_modules/expand-brackets/node_modules/is-accessor-descriptor Completed in 0ms
+1061 timing idealTree:node_modules/forever/node_modules/expand-brackets/node_modules/is-data-descriptor Completed in 0ms
+1062 timing idealTree:node_modules/forever/node_modules/extglob/node_modules/define-property Completed in 0ms
+1063 timing idealTree:node_modules/forever/node_modules/glob-parent/node_modules/is-glob Completed in 0ms
+1064 timing idealTree:node_modules/forever/node_modules/has-values/node_modules/kind-of Completed in 0ms
+1065 timing idealTree:node_modules/forever/node_modules/is-accessor-descriptor/node_modules/kind-of Completed in 0ms
+1066 timing idealTree:node_modules/forever/node_modules/is-data-descriptor/node_modules/kind-of Completed in 0ms
+1067 timing idealTree:node_modules/forever/node_modules/is-descriptor/node_modules/kind-of Completed in 0ms
+1068 timing idealTree:node_modules/forever/node_modules/logform/node_modules/ms Completed in 0ms
+1069 silly placeDep node_modules/forever assign-symbols@1.0.0 OK for: extend-shallow@3.0.2 want: ^1.0.0
+1070 silly placeDep node_modules/forever/node_modules/micromatch is-extendable@1.0.1 OK for: extend-shallow@3.0.2 want: ^1.0.1
+1071 timing idealTree:node_modules/forever/node_modules/micromatch/node_modules/extend-shallow Completed in 2ms
+1072 timing idealTree:node_modules/forever/node_modules/assign-symbols Completed in 0ms
+1073 timing idealTree:node_modules/forever/node_modules/micromatch/node_modules/is-extendable Completed in 0ms
+1074 timing idealTree:node_modules/forever/node_modules/micromatch/node_modules/kind-of Completed in 0ms
+1075 timing idealTree:node_modules/forever/node_modules/mixin-deep/node_modules/is-extendable Completed in 0ms
+1076 silly placeDep node_modules/forever/node_modules/nanomatch is-extendable@1.0.1 OK for: extend-shallow@3.0.2 want: ^1.0.1
+1077 timing idealTree:node_modules/forever/node_modules/nanomatch/node_modules/extend-shallow Completed in 2ms
+1078 timing idealTree:node_modules/forever/node_modules/nanomatch/node_modules/is-extendable Completed in 0ms
+1079 timing idealTree:node_modules/forever/node_modules/nanomatch/node_modules/kind-of Completed in 0ms
+1080 timing idealTree:node_modules/forever/node_modules/nconf/node_modules/async Completed in 0ms
+1081 timing idealTree:node_modules/forever/node_modules/nssocket/node_modules/eventemitter2 Completed in 0ms
+1082 silly placeDep node_modules/forever/node_modules/object-copy is-descriptor@0.1.6 OK for: define-property@0.2.5 want: ^0.1.0
+1083 timing idealTree:node_modules/forever/node_modules/object-copy/node_modules/define-property Completed in 1ms
+1084 silly placeDep node_modules/forever/node_modules/object-copy is-accessor-descriptor@0.1.6 OK for: is-descriptor@0.1.6 want: ^0.1.6
+1085 silly placeDep node_modules/forever/node_modules/object-copy is-data-descriptor@0.1.4 OK for: is-descriptor@0.1.6 want: ^0.1.4
+1086 silly placeDep node_modules/forever/node_modules/object-copy/node_modules/is-descriptor kind-of@5.1.0 OK for: is-descriptor@0.1.6 want: ^5.0.0
+1087 timing idealTree:node_modules/forever/node_modules/object-copy/node_modules/is-descriptor Completed in 3ms
+1088 timing idealTree:node_modules/forever/node_modules/object-copy/node_modules/is-accessor-descriptor Completed in 0ms
+1089 timing idealTree:node_modules/forever/node_modules/object-copy/node_modules/is-data-descriptor Completed in 6ms
+1090 timing idealTree:node_modules/forever/node_modules/optimist/node_modules/minimist Completed in 0ms
+1091 timing idealTree:node_modules/forever/node_modules/prettyjson/node_modules/colors Completed in 0ms
+1092 silly placeDep node_modules/forever/node_modules/prompt async@0.2.10 OK for: winston@0.8.3 want: 0.2.x
+1093 silly placeDep node_modules/forever/node_modules/prompt pkginfo@0.3.1 OK for: winston@0.8.3 want: 0.3.x
+1094 timing idealTree:node_modules/forever/node_modules/prompt/node_modules/winston Completed in 2ms
+1095 timing idealTree:node_modules/forever/node_modules/prompt/node_modules/async Completed in 0ms
+1096 timing idealTree:node_modules/forever/node_modules/prompt/node_modules/pkginfo Completed in 0ms
+1097 silly placeDep node_modules/forever/node_modules/regex-not is-extendable@1.0.1 OK for: extend-shallow@3.0.2 want: ^1.0.1
+1098 timing idealTree:node_modules/forever/node_modules/regex-not/node_modules/extend-shallow Completed in 1ms
+1099 timing idealTree:node_modules/forever/node_modules/regex-not/node_modules/is-extendable Completed in 0ms
+1100 timing idealTree:node_modules/forever/node_modules/snapdragon-node/node_modules/define-property Completed in 0ms
+1101 silly placeDep node_modules/forever/node_modules/snapdragon is-descriptor@0.1.6 OK for: define-property@0.2.5 want: ^0.1.0
+1102 timing idealTree:node_modules/forever/node_modules/snapdragon/node_modules/define-property Completed in 6ms
+1103 silly placeDep node_modules/forever/node_modules/snapdragon is-accessor-descriptor@0.1.6 OK for: is-descriptor@0.1.6 want: ^0.1.6
+1104 silly placeDep node_modules/forever/node_modules/snapdragon is-data-descriptor@0.1.4 OK for: is-descriptor@0.1.6 want: ^0.1.4
+1105 silly placeDep node_modules/forever/node_modules/snapdragon/node_modules/is-descriptor kind-of@5.1.0 OK for: is-descriptor@0.1.6 want: ^5.0.0
+1106 timing idealTree:node_modules/forever/node_modules/snapdragon/node_modules/is-descriptor Completed in 2ms
+1107 timing idealTree:node_modules/forever/node_modules/snapdragon/node_modules/is-accessor-descriptor Completed in 0ms
+1108 timing idealTree:node_modules/forever/node_modules/snapdragon/node_modules/is-data-descriptor Completed in 0ms
+1109 silly placeDep node_modules/forever/node_modules/split-string is-extendable@1.0.1 OK for: extend-shallow@3.0.2 want: ^1.0.1
+1110 timing idealTree:node_modules/forever/node_modules/split-string/node_modules/extend-shallow Completed in 5ms
+1111 timing idealTree:node_modules/forever/node_modules/split-string/node_modules/is-extendable Completed in 0ms
+1112 silly placeDep node_modules/forever/node_modules/static-extend is-descriptor@0.1.6 OK for: define-property@0.2.5 want: ^0.1.0
+1113 timing idealTree:node_modules/forever/node_modules/static-extend/node_modules/define-property Completed in 1ms
+1114 silly placeDep node_modules/forever/node_modules/static-extend is-accessor-descriptor@0.1.6 OK for: is-descriptor@0.1.6 want: ^0.1.6
+1115 silly placeDep node_modules/forever/node_modules/static-extend is-data-descriptor@0.1.4 OK for: is-descriptor@0.1.6 want: ^0.1.4
+1116 silly placeDep node_modules/forever/node_modules/static-extend/node_modules/is-descriptor kind-of@5.1.0 OK for: is-descriptor@0.1.6 want: ^5.0.0
+1117 timing idealTree:node_modules/forever/node_modules/static-extend/node_modules/is-descriptor Completed in 9ms
+1118 timing idealTree:node_modules/forever/node_modules/static-extend/node_modules/is-accessor-descriptor Completed in 0ms
+1119 timing idealTree:node_modules/forever/node_modules/static-extend/node_modules/is-data-descriptor Completed in 0ms
+1120 silly placeDep node_modules/forever/node_modules/to-regex is-extendable@1.0.1 OK for: extend-shallow@3.0.2 want: ^1.0.1
+1121 timing idealTree:node_modules/forever/node_modules/to-regex/node_modules/extend-shallow Completed in 1ms
+1122 timing idealTree:node_modules/forever/node_modules/to-regex/node_modules/is-extendable Completed in 0ms
+1123 silly placeDep node_modules/forever/node_modules/unset-value has-values@0.1.4 OK for: has-value@0.3.1 want: ^0.1.4
+1124 silly placeDep node_modules/forever/node_modules/unset-value/node_modules/has-value isobject@2.1.0 OK for: has-value@0.3.1 want: ^2.0.0
+1125 timing idealTree:node_modules/forever/node_modules/unset-value/node_modules/has-value Completed in 1ms
+1126 timing idealTree:node_modules/forever/node_modules/unset-value/node_modules/has-values Completed in 0ms
+1127 timing idealTree:node_modules/forever/node_modules/utile/node_modules/async Completed in 0ms
+1128 timing idealTree:node_modules/forever/node_modules/winston-transport/node_modules/readable-stream Completed in 0ms
+1129 timing idealTree:node_modules/forever/node_modules/winston/node_modules/async Completed in 0ms
+1130 timing idealTree:node_modules/forever/node_modules/winston/node_modules/readable-stream Completed in 0ms
+1131 timing idealTree:node_modules/forever/node_modules/class-utils/node_modules/is-descriptor/node_modules/kind-of Completed in 0ms
+1132 timing idealTree:node_modules/forever/node_modules/cliff/node_modules/winston/node_modules/colors Completed in 0ms
+1133 timing idealTree:node_modules/forever/node_modules/expand-brackets/node_modules/is-descriptor/node_modules/kind-of Completed in 0ms
+1134 timing idealTree:node_modules/forever/node_modules/object-copy/node_modules/is-descriptor/node_modules/kind-of Completed in 0ms
+1135 timing idealTree:node_modules/forever/node_modules/snapdragon/node_modules/is-descriptor/node_modules/kind-of Completed in 0ms
+1136 timing idealTree:node_modules/forever/node_modules/static-extend/node_modules/is-descriptor/node_modules/kind-of Completed in 0ms
+1137 timing idealTree:node_modules/forever/node_modules/unset-value/node_modules/has-value/node_modules/isobject Completed in 0ms
+1138 timing idealTree:buildDeps Completed in 12851ms
+1139 timing idealTree:fixDepFlags Completed in 25ms
+1140 timing idealTree Completed in 12886ms
+1141 timing reify:loadTrees Completed in 12893ms
+1142 timing reify:diffTrees Completed in 10ms
+1143 silly reify moves {}
+1144 timing reify:retireShallow Completed in 1ms
+1145 timing reify:rollback:createSparse Completed in 0ms
+1146 timing reify:rollback:retireShallow Completed in 0ms
+1147 timing command:install Completed in 12959ms
+1148 notice
+1148 notice New [32mpatch[39m version of npm available! [31m9.6.3[39m -> [32m9.6.4[39m
+1148 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v9.6.4[39m
+1148 notice Run [32mnpm install -g npm@9.6.4[39m to update!
+1148 notice
+1149 verbose stack Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/forever'
+1150 verbose cwd /home/zeus/BOT/ZEUSbot
+1151 verbose Linux 5.15.0-69-generic
+1152 verbose node v19.8.1
+1153 verbose npm  v9.6.3
+1154 error code EACCES
+1155 error syscall mkdir
+1156 error path /usr/lib/node_modules/forever
+1157 error errno -13
+1158 error [Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/forever'] {
+1158 error   errno: -13,
+1158 error   code: 'EACCES',
+1158 error   syscall: 'mkdir',
+1158 error   path: '/usr/lib/node_modules/forever'
+1158 error }
+1159 error
+1159 error The operation was rejected by your operating system.
+1159 error It is likely you do not have the permissions to access this file as the current user
+1159 error
+1159 error If you believe this might be a permissions issue, please double-check the
+1159 error permissions of the file and its containing directories, or try running
+1159 error the command again as root/Administrator.
+1160 verbose exit -13
+1161 timing npm Completed in 13005ms
+1162 verbose unfinished npm timer reify 1681582231715
+1163 verbose unfinished npm timer reify:createSparse 1681582244638
+1164 verbose code -13
+1165 error A complete log of this run can be found in: /home/zeus/.npm/_logs/2023-04-15T18_10_31_668Z-debug-0.log

@@ -1,0 +1,17 @@
+{
+	"root": "/home/zeus/.forever",
+	"pidPath": "/home/zeus/.forever/pids",
+	"sockPath": "/home/zeus/.forever/sock",
+	"loglength": 100,
+	"logstream": false,
+	"columns": [
+		"uid",
+		"command",
+		"script",
+		"forever",
+		"pid",
+		"id",
+		"logfile",
+		"uptime"
+	]
+}
