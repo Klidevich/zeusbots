@@ -563,3 +563,114 @@ cd BOT
 cd ZEUSbot
 node index.js
 forever index.js
+sudo status
+cd
+ls
+scp /BOT 
+scp -r BOT
+scp -r /BOT
+cd BOT
+cd ZEUSbot
+node index.js
+forever index.js
+forover index.js
+node index.js
+forever
+forever index.js -v
+node forever index.js
+ls
+cd logs
+ls
+nano error_10.08.2023_12.32.log
+ls
+cd 
+cd BOT
+cd ZEUSbot
+ls
+cd
+cd bot
+cd
+cd BOT
+cd ZeusBot
+node index.js
+ls
+cp -r /BOT/ZEUSbot/node_modules /BOT/ZeusBot/
+cp -r /BOT/ZeusBot/node_modules /BOT/ZEUSbot/
+cp -r /BOT/ZEUSbot/node_modules /BOT/ZeusBot/
+cd
+cp -r /BOT/ZEUSbot/node_modules /BOT/ZeusBot/
+cd
+sudo apt update
+sudo apt install git
+git config
+git config --global user.name Klidevich
+git config --global user.email vilseibel@gmail.com
+cd
+git init
+git branch -m Default
+git add .
+git commit -m "start"
+git
+git remote add origin git@github.com:Klidevich/zeusbots.git
+git commit -m "start"
+git add
+git add .
+git push
+git push origin master
+git checkout main
+git checkout
+git checkout -b new
+git add .
+git commit -m 
+git commit -m "123"
+git push origin 
+git push origin new
+git remote add origin https://github.com/Klidevich/zeusbots.git
+git push
+git push origin new
+git remote -v
+git init
+git remote -v
+rm -rf .git
+cd
+ls
+git init
+git config --global user.name Klidevich
+git config --global user.email "vilseibel@gmail.com"
+git config --global user.name "Klidevich"
+git remote add origin https://github.com/Klidevich/zeusbots.git
+git add .
+git commit -m "mm"
+git push origin master
+ssh-keygen -t rsa -b 4096 -C "vilseibel@gmail.com"
+ls
+nano key.pub
+cd
+ls
+nano key.pub
+cd
+ls
+nmap
+sud apt install nmap
+sudo apt install nmap
+nmap
+nmap 192.168.1.1
+nmap 192.168.0.0
+sudo nmap
+sudo nmap -v
+sudo nmap -v -sn 192.168.0.0
+sudo nmap -v -sn 192.168.0.0/16 10.0.0.0/8
+ls
+cd BOT
+ls
+cd
+cd /etc/ssh&& nano sshd_config
+cd
+su
+ll /etc/ssh.d
+ll /etc/ssh/sshd_config.d/
+grep -i password /etc/ssh/sshd_config.d/50-cloud-init.conf 
+sudo -L
+sudo -l
+sudo grep -i password /etc/ssh/sshd_config.d/50-cloud-init.conf 
+sudo grep -i root /etc/ssh/sshd_config.d/50-cloud-init.conf 

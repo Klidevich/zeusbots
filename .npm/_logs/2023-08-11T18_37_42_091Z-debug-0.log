@@ -1,0 +1,1280 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.6.3
+2 info using node@v19.8.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/zeus/BOT/ZEUSbot/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/home/zeus/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 7ms
+17 timing npm:load:configload Completed in 7ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm i
+21 verbose argv "i"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing config:load:flatten Completed in 2ms
+24 timing npm:load:display Completed in 4ms
+25 verbose logfile logs-max:10 dir:/home/zeus/.npm/_logs/2023-08-11T18_37_42_091Z-
+26 verbose logfile /home/zeus/.npm/_logs/2023-08-11T18_37_42_091Z-debug-0.log
+27 timing npm:load:logFile Completed in 8ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 22ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile start cleaning logs, removing 1 files
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 76ms
+35 timing idealTree:userRequests Completed in 0ms
+36 silly idealTree buildDeps
+37 timing idealTree:#root Completed in 0ms
+38 timing idealTree:buildDeps Completed in 1ms
+39 timing idealTree:fixDepFlags Completed in 0ms
+40 timing idealTree Completed in 81ms
+41 timing arborist:ctor Completed in 0ms
+42 timing reify:loadTrees Completed in 479ms
+43 timing reify:diffTrees Completed in 6ms
+44 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/@colors/colors' ]
+45 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/@dabh/diagnostics' ]
+46 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/@types/node' ]
+47 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/@types/triple-beam' ]
+48 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/@types/validator' ]
+49 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/ajv' ]
+50 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/anymatch' ]
+51 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/arr-diff' ]
+52 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/arr-flatten' ]
+53 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/arr-union' ]
+54 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/array-buffer-byte-length' ]
+55 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/array-unique' ]
+56 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/array.prototype.findindex' ]
+57 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/asn1' ]
+58 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/assert-plus' ]
+59 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/assign-symbols' ]
+60 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/async' ]
+61 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/async-each' ]
+62 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/asynckit' ]
+63 silly reify mark retired [
+63 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/atob',
+63 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/atob'
+63 silly reify ]
+64 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/available-typed-arrays' ]
+65 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/aws-sign2' ]
+66 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/aws4' ]
+67 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/axios' ]
+68 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/balanced-match' ]
+69 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/base' ]
+70 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/bcrypt-pbkdf' ]
+71 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/binary-extensions' ]
+72 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/bl' ]
+73 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/bluebird' ]
+74 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/brace-expansion' ]
+75 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/braces' ]
+76 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/broadway' ]
+77 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/cache-base' ]
+78 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/call-bind' ]
+79 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/caller' ]
+80 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/caseless' ]
+81 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/chokidar' ]
+82 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/class-utils' ]
+83 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/cliff' ]
+84 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/clone' ]
+85 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/collection-visit' ]
+86 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/color' ]
+87 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/color-convert' ]
+88 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/color-name' ]
+89 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/color-string' ]
+90 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/colors' ]
+91 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/colorspace' ]
+92 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/combined-stream' ]
+93 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/component-emitter' ]
+94 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/concat-map' ]
+95 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/configstore' ]
+96 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/copy-descriptor' ]
+97 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/core-util-is' ]
+98 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/crypto-random-string' ]
+99 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/cycle' ]
+100 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/dashdash' ]
+101 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/debug' ]
+102 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/decode-uri-component' ]
+103 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/deep-equal' ]
+104 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/define-properties' ]
+105 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/define-property' ]
+106 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/delayed-stream' ]
+107 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/director' ]
+108 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/dot-prop' ]
+109 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/duplexer' ]
+110 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/ecc-jsbn' ]
+111 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/enabled' ]
+112 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/end-of-stream' ]
+113 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/es-abstract' ]
+114 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/es-get-iterator' ]
+115 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/es-set-tostringtag' ]
+116 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/es-shim-unscopables' ]
+117 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/es-to-primitive' ]
+118 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/event-stream' ]
+119 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/eventemitter2' ]
+120 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/eventemitter3' ]
+121 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/expand-brackets' ]
+122 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/extend' ]
+123 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/extend-shallow' ]
+124 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/extglob' ]
+125 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/extsprintf' ]
+126 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/eyes' ]
+127 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/fast-deep-equal' ]
+128 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/fast-json-stable-stringify' ]
+129 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/fecha' ]
+130 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/file-type' ]
+131 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/fill-range' ]
+132 silly reify mark retired [
+132 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/flatiron',
+132 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/flatiron'
+132 silly reify ]
+133 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/fn.name' ]
+134 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/follow-redirects' ]
+135 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/for-each' ]
+136 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/for-in' ]
+137 silly reify mark retired [
+137 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/forever',
+137 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/forever'
+137 silly reify ]
+138 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/forever-agent' ]
+139 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/forever-monitor' ]
+140 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/form-data' ]
+141 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/form-data-encoder' ]
+142 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/fragment-cache' ]
+143 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/from' ]
+144 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/fs.realpath' ]
+145 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/function-bind' ]
+146 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/function.prototype.name' ]
+147 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/functions-have-names' ]
+148 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/get-intrinsic' ]
+149 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/get-symbol-description' ]
+150 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/get-value' ]
+151 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/getpass' ]
+152 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/glob' ]
+153 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/glob-parent' ]
+154 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/globalthis' ]
+155 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/gopd' ]
+156 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/graceful-fs' ]
+157 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/har-schema' ]
+158 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/har-validator' ]
+159 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/has' ]
+160 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/has-bigints' ]
+161 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/has-property-descriptors' ]
+162 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/has-proto' ]
+163 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/has-symbols' ]
+164 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/has-tostringtag' ]
+165 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/has-value' ]
+166 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/has-values' ]
+167 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/http-signature' ]
+168 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/i' ]
+169 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/imurmurhash' ]
+170 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/inflight' ]
+171 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/inherits' ]
+172 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/ini' ]
+173 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/inspectable' ]
+174 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/internal-slot' ]
+175 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-accessor-descriptor' ]
+176 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-arguments' ]
+177 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-array-buffer' ]
+178 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-arrayish' ]
+179 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-bigint' ]
+180 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-binary-path' ]
+181 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-boolean-object' ]
+182 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-buffer' ]
+183 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-callable' ]
+184 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-data-descriptor' ]
+185 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-date-object' ]
+186 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-descriptor' ]
+187 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-extendable' ]
+188 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-extglob' ]
+189 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-glob' ]
+190 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-map' ]
+191 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-negative-zero' ]
+192 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-number' ]
+193 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-number-object' ]
+194 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-obj' ]
+195 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-plain-object' ]
+196 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-regex' ]
+197 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-set' ]
+198 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-shared-array-buffer' ]
+199 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-stream' ]
+200 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-string' ]
+201 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-symbol' ]
+202 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-typed-array' ]
+203 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-typedarray' ]
+204 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-weakmap' ]
+205 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-weakref' ]
+206 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-weakset' ]
+207 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/is-windows' ]
+208 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/isarray' ]
+209 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/isobject' ]
+210 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/isstream' ]
+211 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/jsbn' ]
+212 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/json-schema' ]
+213 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/json-schema-traverse' ]
+214 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/json-stringify-safe' ]
+215 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/jsprim' ]
+216 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/kind-of' ]
+217 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/kuler' ]
+218 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/lazy' ]
+219 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/logform' ]
+220 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/make-dir' ]
+221 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/map-cache' ]
+222 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/map-stream' ]
+223 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/map-visit' ]
+224 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/micromatch' ]
+225 silly reify mark retired [
+225 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/mime',
+225 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/mime'
+225 silly reify ]
+226 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/mime-db' ]
+227 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/mime-types' ]
+228 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/minimatch' ]
+229 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/minimist' ]
+230 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/mixin-deep' ]
+231 silly reify mark retired [
+231 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/mkdirp',
+231 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/mkdirp'
+231 silly reify ]
+232 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/moment-timezone' ]
+233 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/ms' ]
+234 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/mute-stream' ]
+235 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/nanomatch' ]
+236 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/nconf' ]
+237 silly reify mark retired [
+237 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/ncp',
+237 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/ncp'
+237 silly reify ]
+238 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/node-fetch' ]
+239 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/node-telegram-bot-api' ]
+240 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/normalize-path' ]
+241 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/nssocket' ]
+242 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/oauth-sign' ]
+243 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/object-assign' ]
+244 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/object-copy' ]
+245 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/object-inspect' ]
+246 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/object-is' ]
+247 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/object-keys' ]
+248 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/object-visit' ]
+249 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/object.assign' ]
+250 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/object.pick' ]
+251 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/once' ]
+252 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/one-time' ]
+253 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/optimist' ]
+254 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/pascalcase' ]
+255 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/path-dirname' ]
+256 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/path-is-absolute' ]
+257 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/pause-stream' ]
+258 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/performance-now' ]
+259 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/pg' ]
+260 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/pg-pool' ]
+261 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/pify' ]
+262 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/posix-character-classes' ]
+263 silly reify mark retired [
+263 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/prettyjson',
+263 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/prettyjson'
+263 silly reify ]
+264 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/process-nextick-args' ]
+265 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/prompt' ]
+266 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/proxy-from-env' ]
+267 silly reify mark retired [
+267 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/ps-tree',
+267 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/ps-tree'
+267 silly reify ]
+268 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/psl' ]
+269 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/pump' ]
+270 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/punycode' ]
+271 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/qs' ]
+272 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/read' ]
+273 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/readable-stream' ]
+274 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/readdirp' ]
+275 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/regex-not' ]
+276 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/regexp.prototype.flags' ]
+277 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/remove-trailing-separator' ]
+278 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/repeat-element' ]
+279 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/repeat-string' ]
+280 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/request' ]
+281 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/request-promise' ]
+282 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/request-promise-core' ]
+283 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/resolve-url' ]
+284 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/ret' ]
+285 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/revalidator' ]
+286 silly reify mark retired [
+286 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/rimraf',
+286 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/rimraf'
+286 silly reify ]
+287 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/safe-buffer' ]
+288 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/safe-regex' ]
+289 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/safe-regex-test' ]
+290 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/safe-stable-stringify' ]
+291 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/safer-buffer' ]
+292 silly reify mark retired [
+292 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/semver',
+292 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/semver'
+292 silly reify ]
+293 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/sequelize' ]
+294 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/set-value' ]
+295 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/shush' ]
+296 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/side-channel' ]
+297 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/signal-exit' ]
+298 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/simple-swizzle' ]
+299 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/snapdragon' ]
+300 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/snapdragon-node' ]
+301 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/snapdragon-util' ]
+302 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/source-map' ]
+303 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/source-map-resolve' ]
+304 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/source-map-url' ]
+305 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/split' ]
+306 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/split-string' ]
+307 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/split2' ]
+308 silly reify mark retired [
+308 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/sshpk',
+308 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/sshpk-conv',
+308 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/sshpk-sign',
+308 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/sshpk-verify'
+308 silly reify ]
+309 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/stack-trace' ]
+310 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/static-extend' ]
+311 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/stealthy-require' ]
+312 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/stop-iteration-iterator' ]
+313 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/stream-combiner' ]
+314 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/string_decoder' ]
+315 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/string.prototype.trim' ]
+316 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/string.prototype.trimend' ]
+317 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/string.prototype.trimstart' ]
+318 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/strip-json-comments' ]
+319 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/text-hex' ]
+320 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/through' ]
+321 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/to-object-path' ]
+322 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/to-regex' ]
+323 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/to-regex-range' ]
+324 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/tough-cookie' ]
+325 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/triple-beam' ]
+326 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/tunnel-agent' ]
+327 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/tweetnacl' ]
+328 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/typed-array-length' ]
+329 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/unbox-primitive' ]
+330 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/union-value' ]
+331 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/unique-string' ]
+332 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/unset-value' ]
+333 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/upath' ]
+334 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/uri-js' ]
+335 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/urix' ]
+336 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/use' ]
+337 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/util-deprecate' ]
+338 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/utile' ]
+339 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/verror' ]
+340 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/vk-io' ]
+341 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/vk-io-question-fix' ]
+342 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/which-boxed-primitive' ]
+343 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/which-collection' ]
+344 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/which-typed-array' ]
+345 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/winston' ]
+346 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/winston-transport' ]
+347 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/wordwrap' ]
+348 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/wrappy' ]
+349 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/write-file-atomic' ]
+350 silly reify mark retired [ '/home/zeus/BOT/ZEUSbot/node_modules/xdg-basedir' ]
+351 silly reify moves {
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/@colors/colors': '/home/zeus/BOT/ZEUSbot/node_modules/@colors/.colors-7lUrTU98',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/@dabh/diagnostics': '/home/zeus/BOT/ZEUSbot/node_modules/@dabh/.diagnostics-w7miVFHo',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/@types/node': '/home/zeus/BOT/ZEUSbot/node_modules/@types/.node-c02CAjX6',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/@types/triple-beam': '/home/zeus/BOT/ZEUSbot/node_modules/@types/.triple-beam-3LHYyMGJ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/@types/validator': '/home/zeus/BOT/ZEUSbot/node_modules/@types/.validator-ridfftPN',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/ajv': '/home/zeus/BOT/ZEUSbot/node_modules/.ajv-AgWuL8fS',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/anymatch': '/home/zeus/BOT/ZEUSbot/node_modules/.anymatch-MwrHzwGl',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/arr-diff': '/home/zeus/BOT/ZEUSbot/node_modules/.arr-diff-vy6eNvNT',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/arr-flatten': '/home/zeus/BOT/ZEUSbot/node_modules/.arr-flatten-W8La4nRd',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/arr-union': '/home/zeus/BOT/ZEUSbot/node_modules/.arr-union-fZ5mU022',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/array-buffer-byte-length': '/home/zeus/BOT/ZEUSbot/node_modules/.array-buffer-byte-length-q83AGIRa',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/array-unique': '/home/zeus/BOT/ZEUSbot/node_modules/.array-unique-UEoT92zE',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/array.prototype.findindex': '/home/zeus/BOT/ZEUSbot/node_modules/.array.prototype.findindex-RVcwQrO4',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/asn1': '/home/zeus/BOT/ZEUSbot/node_modules/.asn1-ekb0NaeW',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/assert-plus': '/home/zeus/BOT/ZEUSbot/node_modules/.assert-plus-iKDllYRF',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/assign-symbols': '/home/zeus/BOT/ZEUSbot/node_modules/.assign-symbols-hzBeHSf4',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/async': '/home/zeus/BOT/ZEUSbot/node_modules/.async-RRbAWs3A',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/async-each': '/home/zeus/BOT/ZEUSbot/node_modules/.async-each-I9pTpXuW',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/asynckit': '/home/zeus/BOT/ZEUSbot/node_modules/.asynckit-OJxNc8z2',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/atob': '/home/zeus/BOT/ZEUSbot/node_modules/.atob-pm49HqwQ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/atob': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.atob-fdbVNTvo',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/available-typed-arrays': '/home/zeus/BOT/ZEUSbot/node_modules/.available-typed-arrays-sFosGJ5E',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/aws-sign2': '/home/zeus/BOT/ZEUSbot/node_modules/.aws-sign2-xSzpsZOc',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/aws4': '/home/zeus/BOT/ZEUSbot/node_modules/.aws4-xTc4LSo5',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/axios': '/home/zeus/BOT/ZEUSbot/node_modules/.axios-pUUs43C1',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/balanced-match': '/home/zeus/BOT/ZEUSbot/node_modules/.balanced-match-xkNr54Ki',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/base': '/home/zeus/BOT/ZEUSbot/node_modules/.base-ziy8vMN5',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/bcrypt-pbkdf': '/home/zeus/BOT/ZEUSbot/node_modules/.bcrypt-pbkdf-6vgTTfDR',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/binary-extensions': '/home/zeus/BOT/ZEUSbot/node_modules/.binary-extensions-pmITe3yF',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/bl': '/home/zeus/BOT/ZEUSbot/node_modules/.bl-BylpOyBQ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/bluebird': '/home/zeus/BOT/ZEUSbot/node_modules/.bluebird-bMUUVq1S',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/brace-expansion': '/home/zeus/BOT/ZEUSbot/node_modules/.brace-expansion-mL2BQzm2',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/braces': '/home/zeus/BOT/ZEUSbot/node_modules/.braces-KJbtvt3N',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/broadway': '/home/zeus/BOT/ZEUSbot/node_modules/.broadway-HFRNFkPN',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/cache-base': '/home/zeus/BOT/ZEUSbot/node_modules/.cache-base-ytKX5Y5H',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/call-bind': '/home/zeus/BOT/ZEUSbot/node_modules/.call-bind-oRLtJqkF',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/caller': '/home/zeus/BOT/ZEUSbot/node_modules/.caller-j5JbpHbR',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/caseless': '/home/zeus/BOT/ZEUSbot/node_modules/.caseless-F6fzCkVD',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/chokidar': '/home/zeus/BOT/ZEUSbot/node_modules/.chokidar-9iKdeWrp',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/class-utils': '/home/zeus/BOT/ZEUSbot/node_modules/.class-utils-64YD8fId',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/cliff': '/home/zeus/BOT/ZEUSbot/node_modules/.cliff-6ApvUiaN',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/clone': '/home/zeus/BOT/ZEUSbot/node_modules/.clone-NrdAk6KI',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/collection-visit': '/home/zeus/BOT/ZEUSbot/node_modules/.collection-visit-hLtQZYS2',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/color': '/home/zeus/BOT/ZEUSbot/node_modules/.color-idS9kujV',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/color-convert': '/home/zeus/BOT/ZEUSbot/node_modules/.color-convert-059tXa99',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/color-name': '/home/zeus/BOT/ZEUSbot/node_modules/.color-name-NbUMLoA2',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/color-string': '/home/zeus/BOT/ZEUSbot/node_modules/.color-string-34BRYGFg',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/colors': '/home/zeus/BOT/ZEUSbot/node_modules/.colors-hFYPzKx8',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/colorspace': '/home/zeus/BOT/ZEUSbot/node_modules/.colorspace-slCIJ6yJ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/combined-stream': '/home/zeus/BOT/ZEUSbot/node_modules/.combined-stream-pBPvFLWZ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/component-emitter': '/home/zeus/BOT/ZEUSbot/node_modules/.component-emitter-6INTFc9m',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/concat-map': '/home/zeus/BOT/ZEUSbot/node_modules/.concat-map-IfIJbM6v',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/configstore': '/home/zeus/BOT/ZEUSbot/node_modules/.configstore-5vbscUot',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/copy-descriptor': '/home/zeus/BOT/ZEUSbot/node_modules/.copy-descriptor-zPiOeBjp',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/core-util-is': '/home/zeus/BOT/ZEUSbot/node_modules/.core-util-is-3mU6b5R7',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/crypto-random-string': '/home/zeus/BOT/ZEUSbot/node_modules/.crypto-random-string-k8n43SGY',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/cycle': '/home/zeus/BOT/ZEUSbot/node_modules/.cycle-Tuxu3QOy',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/dashdash': '/home/zeus/BOT/ZEUSbot/node_modules/.dashdash-Gi21AWEb',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/debug': '/home/zeus/BOT/ZEUSbot/node_modules/.debug-E4pYrGnf',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/decode-uri-component': '/home/zeus/BOT/ZEUSbot/node_modules/.decode-uri-component-VjQhiJyz',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/deep-equal': '/home/zeus/BOT/ZEUSbot/node_modules/.deep-equal-RzhMCoQQ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/define-properties': '/home/zeus/BOT/ZEUSbot/node_modules/.define-properties-yU8Xn2WH',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/define-property': '/home/zeus/BOT/ZEUSbot/node_modules/.define-property-z18ktbUw',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/delayed-stream': '/home/zeus/BOT/ZEUSbot/node_modules/.delayed-stream-cyg8pQDL',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/director': '/home/zeus/BOT/ZEUSbot/node_modules/.director-8jpLkIEN',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/dot-prop': '/home/zeus/BOT/ZEUSbot/node_modules/.dot-prop-1WragNae',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/duplexer': '/home/zeus/BOT/ZEUSbot/node_modules/.duplexer-E3s7vFOd',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/ecc-jsbn': '/home/zeus/BOT/ZEUSbot/node_modules/.ecc-jsbn-3lx7pWPC',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/enabled': '/home/zeus/BOT/ZEUSbot/node_modules/.enabled-ReVBQV5t',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/end-of-stream': '/home/zeus/BOT/ZEUSbot/node_modules/.end-of-stream-KhERHJP5',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/es-abstract': '/home/zeus/BOT/ZEUSbot/node_modules/.es-abstract-QEGLOcpO',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/es-get-iterator': '/home/zeus/BOT/ZEUSbot/node_modules/.es-get-iterator-HdNx2z4I',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/es-set-tostringtag': '/home/zeus/BOT/ZEUSbot/node_modules/.es-set-tostringtag-qqC86R0C',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/es-shim-unscopables': '/home/zeus/BOT/ZEUSbot/node_modules/.es-shim-unscopables-a6Q2yBsh',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/es-to-primitive': '/home/zeus/BOT/ZEUSbot/node_modules/.es-to-primitive-zgmRsjUw',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/event-stream': '/home/zeus/BOT/ZEUSbot/node_modules/.event-stream-ZuoSNrnD',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/eventemitter2': '/home/zeus/BOT/ZEUSbot/node_modules/.eventemitter2-sDlPCRuh',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/eventemitter3': '/home/zeus/BOT/ZEUSbot/node_modules/.eventemitter3-Ovd6M3Oi',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/expand-brackets': '/home/zeus/BOT/ZEUSbot/node_modules/.expand-brackets-v84KqeSg',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/extend': '/home/zeus/BOT/ZEUSbot/node_modules/.extend-hXJMW7fH',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/extend-shallow': '/home/zeus/BOT/ZEUSbot/node_modules/.extend-shallow-G4DiQfs8',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/extglob': '/home/zeus/BOT/ZEUSbot/node_modules/.extglob-0kaHliXN',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/extsprintf': '/home/zeus/BOT/ZEUSbot/node_modules/.extsprintf-H2xymzDE',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/eyes': '/home/zeus/BOT/ZEUSbot/node_modules/.eyes-KlKtxm21',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/fast-deep-equal': '/home/zeus/BOT/ZEUSbot/node_modules/.fast-deep-equal-xztdHw2K',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/fast-json-stable-stringify': '/home/zeus/BOT/ZEUSbot/node_modules/.fast-json-stable-stringify-yutDZisI',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/fecha': '/home/zeus/BOT/ZEUSbot/node_modules/.fecha-tK22wRgU',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/file-type': '/home/zeus/BOT/ZEUSbot/node_modules/.file-type-5pgbuqVz',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/fill-range': '/home/zeus/BOT/ZEUSbot/node_modules/.fill-range-7HJavNGa',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/flatiron': '/home/zeus/BOT/ZEUSbot/node_modules/.flatiron-wzYI9i5k',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/flatiron': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.flatiron-5fd9bVHk',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/fn.name': '/home/zeus/BOT/ZEUSbot/node_modules/.fn.name-lX0xXAkg',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/follow-redirects': '/home/zeus/BOT/ZEUSbot/node_modules/.follow-redirects-9EfnhWQD',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/for-each': '/home/zeus/BOT/ZEUSbot/node_modules/.for-each-JO5rng3G',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/for-in': '/home/zeus/BOT/ZEUSbot/node_modules/.for-in-Mgk8hau2',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/forever': '/home/zeus/BOT/ZEUSbot/node_modules/.forever-WC2j54TU',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/forever': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.forever-fxRjjx4S',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/forever-agent': '/home/zeus/BOT/ZEUSbot/node_modules/.forever-agent-wDujKHYm',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/forever-monitor': '/home/zeus/BOT/ZEUSbot/node_modules/.forever-monitor-aiySGKe1',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/form-data': '/home/zeus/BOT/ZEUSbot/node_modules/.form-data-i5e3DpCL',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/form-data-encoder': '/home/zeus/BOT/ZEUSbot/node_modules/.form-data-encoder-E42u047f',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/fragment-cache': '/home/zeus/BOT/ZEUSbot/node_modules/.fragment-cache-OBCzMiuC',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/from': '/home/zeus/BOT/ZEUSbot/node_modules/.from-ma9I9C5O',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/fs.realpath': '/home/zeus/BOT/ZEUSbot/node_modules/.fs.realpath-oSXjlG7I',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/function-bind': '/home/zeus/BOT/ZEUSbot/node_modules/.function-bind-b067noSO',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/function.prototype.name': '/home/zeus/BOT/ZEUSbot/node_modules/.function.prototype.name-syHucO5S',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/functions-have-names': '/home/zeus/BOT/ZEUSbot/node_modules/.functions-have-names-WdDuLEpn',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/get-intrinsic': '/home/zeus/BOT/ZEUSbot/node_modules/.get-intrinsic-a5E41SBH',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/get-symbol-description': '/home/zeus/BOT/ZEUSbot/node_modules/.get-symbol-description-vUgHZ2Rv',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/get-value': '/home/zeus/BOT/ZEUSbot/node_modules/.get-value-JM8PwVYf',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/getpass': '/home/zeus/BOT/ZEUSbot/node_modules/.getpass-fiCxmjOd',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/glob': '/home/zeus/BOT/ZEUSbot/node_modules/.glob-zYSac4hl',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/glob-parent': '/home/zeus/BOT/ZEUSbot/node_modules/.glob-parent-Do0k6VAm',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/globalthis': '/home/zeus/BOT/ZEUSbot/node_modules/.globalthis-ybKnpahT',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/gopd': '/home/zeus/BOT/ZEUSbot/node_modules/.gopd-nNaM4zKc',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/graceful-fs': '/home/zeus/BOT/ZEUSbot/node_modules/.graceful-fs-3bw5beOc',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/har-schema': '/home/zeus/BOT/ZEUSbot/node_modules/.har-schema-GGjA5whY',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/har-validator': '/home/zeus/BOT/ZEUSbot/node_modules/.har-validator-fAYcCyXY',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/has': '/home/zeus/BOT/ZEUSbot/node_modules/.has-UJZZ6TrT',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/has-bigints': '/home/zeus/BOT/ZEUSbot/node_modules/.has-bigints-mKLFxVVf',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/has-property-descriptors': '/home/zeus/BOT/ZEUSbot/node_modules/.has-property-descriptors-mKyIxREM',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/has-proto': '/home/zeus/BOT/ZEUSbot/node_modules/.has-proto-ESzRRT4K',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/has-symbols': '/home/zeus/BOT/ZEUSbot/node_modules/.has-symbols-6KLYHQrF',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/has-tostringtag': '/home/zeus/BOT/ZEUSbot/node_modules/.has-tostringtag-9afB3Vox',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/has-value': '/home/zeus/BOT/ZEUSbot/node_modules/.has-value-1CEYU9ur',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/has-values': '/home/zeus/BOT/ZEUSbot/node_modules/.has-values-dyi7AOtn',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/http-signature': '/home/zeus/BOT/ZEUSbot/node_modules/.http-signature-49q6i0lL',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/i': '/home/zeus/BOT/ZEUSbot/node_modules/.i-5D7Ahe19',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/imurmurhash': '/home/zeus/BOT/ZEUSbot/node_modules/.imurmurhash-7ax6vmfI',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/inflight': '/home/zeus/BOT/ZEUSbot/node_modules/.inflight-ahGfNiMW',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/inherits': '/home/zeus/BOT/ZEUSbot/node_modules/.inherits-vKebaIuh',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/ini': '/home/zeus/BOT/ZEUSbot/node_modules/.ini-vFT3uZSa',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/inspectable': '/home/zeus/BOT/ZEUSbot/node_modules/.inspectable-wHEIIZLZ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/internal-slot': '/home/zeus/BOT/ZEUSbot/node_modules/.internal-slot-v4ozXlZp',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-accessor-descriptor': '/home/zeus/BOT/ZEUSbot/node_modules/.is-accessor-descriptor-dfZVsTha',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-arguments': '/home/zeus/BOT/ZEUSbot/node_modules/.is-arguments-7LH9lcL0',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-array-buffer': '/home/zeus/BOT/ZEUSbot/node_modules/.is-array-buffer-ou8Xd00C',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-arrayish': '/home/zeus/BOT/ZEUSbot/node_modules/.is-arrayish-ToDDl92e',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-bigint': '/home/zeus/BOT/ZEUSbot/node_modules/.is-bigint-F9eToLUz',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-binary-path': '/home/zeus/BOT/ZEUSbot/node_modules/.is-binary-path-zSLGxmFq',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-boolean-object': '/home/zeus/BOT/ZEUSbot/node_modules/.is-boolean-object-Rk5Wq2H4',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-buffer': '/home/zeus/BOT/ZEUSbot/node_modules/.is-buffer-M97h5Luw',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-callable': '/home/zeus/BOT/ZEUSbot/node_modules/.is-callable-4vMNWAsM',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-data-descriptor': '/home/zeus/BOT/ZEUSbot/node_modules/.is-data-descriptor-H5vLyLNL',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-date-object': '/home/zeus/BOT/ZEUSbot/node_modules/.is-date-object-lGrCv8bi',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-descriptor': '/home/zeus/BOT/ZEUSbot/node_modules/.is-descriptor-jPopEcEA',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-extendable': '/home/zeus/BOT/ZEUSbot/node_modules/.is-extendable-ZlLpgK9a',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-extglob': '/home/zeus/BOT/ZEUSbot/node_modules/.is-extglob-9NSKb7gR',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-glob': '/home/zeus/BOT/ZEUSbot/node_modules/.is-glob-wDzVehyq',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-map': '/home/zeus/BOT/ZEUSbot/node_modules/.is-map-yE3AIIcV',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-negative-zero': '/home/zeus/BOT/ZEUSbot/node_modules/.is-negative-zero-IjLCZLwH',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-number': '/home/zeus/BOT/ZEUSbot/node_modules/.is-number-cGvjhprp',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-number-object': '/home/zeus/BOT/ZEUSbot/node_modules/.is-number-object-YsydMVIX',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-obj': '/home/zeus/BOT/ZEUSbot/node_modules/.is-obj-OtYV0TPl',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-plain-object': '/home/zeus/BOT/ZEUSbot/node_modules/.is-plain-object-Dg5oDrRK',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-regex': '/home/zeus/BOT/ZEUSbot/node_modules/.is-regex-wBuPVgCO',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-set': '/home/zeus/BOT/ZEUSbot/node_modules/.is-set-4b3ATFE3',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-shared-array-buffer': '/home/zeus/BOT/ZEUSbot/node_modules/.is-shared-array-buffer-Z6kOivmt',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-stream': '/home/zeus/BOT/ZEUSbot/node_modules/.is-stream-hUg8Q6GW',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-string': '/home/zeus/BOT/ZEUSbot/node_modules/.is-string-ciuMtJ8u',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-symbol': '/home/zeus/BOT/ZEUSbot/node_modules/.is-symbol-x6MuNqC0',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-typed-array': '/home/zeus/BOT/ZEUSbot/node_modules/.is-typed-array-cYFSzQfy',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-typedarray': '/home/zeus/BOT/ZEUSbot/node_modules/.is-typedarray-Af3R1fKp',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-weakmap': '/home/zeus/BOT/ZEUSbot/node_modules/.is-weakmap-LXCJTT9j',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-weakref': '/home/zeus/BOT/ZEUSbot/node_modules/.is-weakref-v7gbZVo2',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-weakset': '/home/zeus/BOT/ZEUSbot/node_modules/.is-weakset-XJAdxA6M',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/is-windows': '/home/zeus/BOT/ZEUSbot/node_modules/.is-windows-LKcIbGTD',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/isarray': '/home/zeus/BOT/ZEUSbot/node_modules/.isarray-SiEKuESG',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/isobject': '/home/zeus/BOT/ZEUSbot/node_modules/.isobject-3RT59EhX',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/isstream': '/home/zeus/BOT/ZEUSbot/node_modules/.isstream-7XWQHSCO',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/jsbn': '/home/zeus/BOT/ZEUSbot/node_modules/.jsbn-RC2FqoNu',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/json-schema': '/home/zeus/BOT/ZEUSbot/node_modules/.json-schema-2YeKki4q',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/json-schema-traverse': '/home/zeus/BOT/ZEUSbot/node_modules/.json-schema-traverse-k9Gqorw0',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/json-stringify-safe': '/home/zeus/BOT/ZEUSbot/node_modules/.json-stringify-safe-1JpxhCCp',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/jsprim': '/home/zeus/BOT/ZEUSbot/node_modules/.jsprim-W32tDyJa',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/kind-of': '/home/zeus/BOT/ZEUSbot/node_modules/.kind-of-XCsYE0Y3',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/kuler': '/home/zeus/BOT/ZEUSbot/node_modules/.kuler-6wIWyY2B',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/lazy': '/home/zeus/BOT/ZEUSbot/node_modules/.lazy-2Uo0B1qS',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/logform': '/home/zeus/BOT/ZEUSbot/node_modules/.logform-K9dh8EO5',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/make-dir': '/home/zeus/BOT/ZEUSbot/node_modules/.make-dir-SGgbywUH',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/map-cache': '/home/zeus/BOT/ZEUSbot/node_modules/.map-cache-a0XSQtb8',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/map-stream': '/home/zeus/BOT/ZEUSbot/node_modules/.map-stream-i0gxkCNW',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/map-visit': '/home/zeus/BOT/ZEUSbot/node_modules/.map-visit-1rE2tXES',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/micromatch': '/home/zeus/BOT/ZEUSbot/node_modules/.micromatch-DDoPcOOO',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/mime': '/home/zeus/BOT/ZEUSbot/node_modules/.mime-bVhDSOGb',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/mime': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.mime-DIRbwvce',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/mime-db': '/home/zeus/BOT/ZEUSbot/node_modules/.mime-db-at5VJg5x',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/mime-types': '/home/zeus/BOT/ZEUSbot/node_modules/.mime-types-dwIRBPMg',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/minimatch': '/home/zeus/BOT/ZEUSbot/node_modules/.minimatch-H95hWFhy',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/minimist': '/home/zeus/BOT/ZEUSbot/node_modules/.minimist-BtZasRDY',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/mixin-deep': '/home/zeus/BOT/ZEUSbot/node_modules/.mixin-deep-NdjAIrrQ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/mkdirp': '/home/zeus/BOT/ZEUSbot/node_modules/.mkdirp-DMNrtkBg',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/mkdirp': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.mkdirp-VrcXrHTx',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/moment-timezone': '/home/zeus/BOT/ZEUSbot/node_modules/.moment-timezone-h0hTFNFJ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/ms': '/home/zeus/BOT/ZEUSbot/node_modules/.ms-wnXKwBFm',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/mute-stream': '/home/zeus/BOT/ZEUSbot/node_modules/.mute-stream-EzMSipd8',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/nanomatch': '/home/zeus/BOT/ZEUSbot/node_modules/.nanomatch-cxdos7OB',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/nconf': '/home/zeus/BOT/ZEUSbot/node_modules/.nconf-Yd0aJW5K',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/ncp': '/home/zeus/BOT/ZEUSbot/node_modules/.ncp-WrUrfEfI',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/ncp': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.ncp-uQe1yDPv',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/node-fetch': '/home/zeus/BOT/ZEUSbot/node_modules/.node-fetch-0StZyR39',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/node-telegram-bot-api': '/home/zeus/BOT/ZEUSbot/node_modules/.node-telegram-bot-api-q5IMl0Ah',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/normalize-path': '/home/zeus/BOT/ZEUSbot/node_modules/.normalize-path-sNyNe7Uw',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/nssocket': '/home/zeus/BOT/ZEUSbot/node_modules/.nssocket-b9PLJaQv',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/oauth-sign': '/home/zeus/BOT/ZEUSbot/node_modules/.oauth-sign-j6PxLV6d',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/object-assign': '/home/zeus/BOT/ZEUSbot/node_modules/.object-assign-tCG4aFV9',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/object-copy': '/home/zeus/BOT/ZEUSbot/node_modules/.object-copy-Z2pLZvZd',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/object-inspect': '/home/zeus/BOT/ZEUSbot/node_modules/.object-inspect-vnqxmPJQ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/object-is': '/home/zeus/BOT/ZEUSbot/node_modules/.object-is-XtfGaDGE',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/object-keys': '/home/zeus/BOT/ZEUSbot/node_modules/.object-keys-zThIkdh3',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/object-visit': '/home/zeus/BOT/ZEUSbot/node_modules/.object-visit-HgwCedNa',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/object.assign': '/home/zeus/BOT/ZEUSbot/node_modules/.object.assign-tTfr2ykN',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/object.pick': '/home/zeus/BOT/ZEUSbot/node_modules/.object.pick-PDLCIy9t',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/once': '/home/zeus/BOT/ZEUSbot/node_modules/.once-qp0Zsy44',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/one-time': '/home/zeus/BOT/ZEUSbot/node_modules/.one-time-U2hR4aXz',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/optimist': '/home/zeus/BOT/ZEUSbot/node_modules/.optimist-U28yvvrP',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/pascalcase': '/home/zeus/BOT/ZEUSbot/node_modules/.pascalcase-h6JYpMPS',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/path-dirname': '/home/zeus/BOT/ZEUSbot/node_modules/.path-dirname-SiEglZn6',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/path-is-absolute': '/home/zeus/BOT/ZEUSbot/node_modules/.path-is-absolute-dWPurVnH',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/pause-stream': '/home/zeus/BOT/ZEUSbot/node_modules/.pause-stream-tD9kAnox',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/performance-now': '/home/zeus/BOT/ZEUSbot/node_modules/.performance-now-uIOqHwh0',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/pg': '/home/zeus/BOT/ZEUSbot/node_modules/.pg-iY3S3Pdh',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/pg-pool': '/home/zeus/BOT/ZEUSbot/node_modules/.pg-pool-vDL27z2p',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/pify': '/home/zeus/BOT/ZEUSbot/node_modules/.pify-Vpmrr6sj',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/posix-character-classes': '/home/zeus/BOT/ZEUSbot/node_modules/.posix-character-classes-IEn4kjYA',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/prettyjson': '/home/zeus/BOT/ZEUSbot/node_modules/.prettyjson-uJuwiYY3',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/prettyjson': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.prettyjson-iRyBKbeJ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/process-nextick-args': '/home/zeus/BOT/ZEUSbot/node_modules/.process-nextick-args-m8vJXJCU',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/prompt': '/home/zeus/BOT/ZEUSbot/node_modules/.prompt-xUqOhBYB',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/proxy-from-env': '/home/zeus/BOT/ZEUSbot/node_modules/.proxy-from-env-xzv4Zv62',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/ps-tree': '/home/zeus/BOT/ZEUSbot/node_modules/.ps-tree-Fm0U9tuv',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/ps-tree': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.ps-tree-2sJz1YWg',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/psl': '/home/zeus/BOT/ZEUSbot/node_modules/.psl-JpqEsL68',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/pump': '/home/zeus/BOT/ZEUSbot/node_modules/.pump-iBpgpC37',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/punycode': '/home/zeus/BOT/ZEUSbot/node_modules/.punycode-N95vyKAa',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/qs': '/home/zeus/BOT/ZEUSbot/node_modules/.qs-azPbCDcU',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/read': '/home/zeus/BOT/ZEUSbot/node_modules/.read-unEqKnNu',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/readable-stream': '/home/zeus/BOT/ZEUSbot/node_modules/.readable-stream-ZHD58XwA',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/readdirp': '/home/zeus/BOT/ZEUSbot/node_modules/.readdirp-3fWgWBEy',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/regex-not': '/home/zeus/BOT/ZEUSbot/node_modules/.regex-not-GcfV5o29',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/regexp.prototype.flags': '/home/zeus/BOT/ZEUSbot/node_modules/.regexp.prototype.flags-Vfg45BmF',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/remove-trailing-separator': '/home/zeus/BOT/ZEUSbot/node_modules/.remove-trailing-separator-Y6VKj02w',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/repeat-element': '/home/zeus/BOT/ZEUSbot/node_modules/.repeat-element-GIC0pGbO',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/repeat-string': '/home/zeus/BOT/ZEUSbot/node_modules/.repeat-string-RCQu7yUk',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/request': '/home/zeus/BOT/ZEUSbot/node_modules/.request-FM8hoy8Z',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/request-promise': '/home/zeus/BOT/ZEUSbot/node_modules/.request-promise-SLunmBnv',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/request-promise-core': '/home/zeus/BOT/ZEUSbot/node_modules/.request-promise-core-nxcJREhO',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/resolve-url': '/home/zeus/BOT/ZEUSbot/node_modules/.resolve-url-2p12U6TF',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/ret': '/home/zeus/BOT/ZEUSbot/node_modules/.ret-hFlWxQmp',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/revalidator': '/home/zeus/BOT/ZEUSbot/node_modules/.revalidator-mh5b90Gs',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/rimraf': '/home/zeus/BOT/ZEUSbot/node_modules/.rimraf-tjxCH1Hb',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/rimraf': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.rimraf-PBbpNdPN',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/safe-buffer': '/home/zeus/BOT/ZEUSbot/node_modules/.safe-buffer-rWNVSetp',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/safe-regex': '/home/zeus/BOT/ZEUSbot/node_modules/.safe-regex-YchIqkV2',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/safe-regex-test': '/home/zeus/BOT/ZEUSbot/node_modules/.safe-regex-test-cEjbdztV',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/safe-stable-stringify': '/home/zeus/BOT/ZEUSbot/node_modules/.safe-stable-stringify-eZubxBMQ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/safer-buffer': '/home/zeus/BOT/ZEUSbot/node_modules/.safer-buffer-wIvWLatj',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/semver': '/home/zeus/BOT/ZEUSbot/node_modules/.semver-d00EsBt6',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/semver': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.semver-nOD6DZiQ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/sequelize': '/home/zeus/BOT/ZEUSbot/node_modules/.sequelize-h7O5SX7g',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/set-value': '/home/zeus/BOT/ZEUSbot/node_modules/.set-value-P4bSU8gH',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/shush': '/home/zeus/BOT/ZEUSbot/node_modules/.shush-SaEqHKfJ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/side-channel': '/home/zeus/BOT/ZEUSbot/node_modules/.side-channel-uvkc9kFl',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/signal-exit': '/home/zeus/BOT/ZEUSbot/node_modules/.signal-exit-pBahda4n',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/simple-swizzle': '/home/zeus/BOT/ZEUSbot/node_modules/.simple-swizzle-JF9ERLpf',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/snapdragon': '/home/zeus/BOT/ZEUSbot/node_modules/.snapdragon-Ofzc9tf7',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/snapdragon-node': '/home/zeus/BOT/ZEUSbot/node_modules/.snapdragon-node-jkhBsZQ8',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/snapdragon-util': '/home/zeus/BOT/ZEUSbot/node_modules/.snapdragon-util-9XNMtQjJ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/source-map': '/home/zeus/BOT/ZEUSbot/node_modules/.source-map-czYwQyYt',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/source-map-resolve': '/home/zeus/BOT/ZEUSbot/node_modules/.source-map-resolve-Skd3ekts',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/source-map-url': '/home/zeus/BOT/ZEUSbot/node_modules/.source-map-url-EfkAJuiJ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/split': '/home/zeus/BOT/ZEUSbot/node_modules/.split-X0oRBBSA',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/split-string': '/home/zeus/BOT/ZEUSbot/node_modules/.split-string-Aq6uDPrK',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/split2': '/home/zeus/BOT/ZEUSbot/node_modules/.split2-I1amBZ7r',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/sshpk': '/home/zeus/BOT/ZEUSbot/node_modules/.sshpk-Aj879Fvf',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/sshpk-conv': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.sshpk-conv-KO04BGjW',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/sshpk-sign': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.sshpk-sign-OphLw8Xy',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/.bin/sshpk-verify': '/home/zeus/BOT/ZEUSbot/node_modules/.bin/.sshpk-verify-6VtGy5H5',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/stack-trace': '/home/zeus/BOT/ZEUSbot/node_modules/.stack-trace-1mX1Czq8',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/static-extend': '/home/zeus/BOT/ZEUSbot/node_modules/.static-extend-omiyPTLn',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/stealthy-require': '/home/zeus/BOT/ZEUSbot/node_modules/.stealthy-require-oD3nPleS',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/stop-iteration-iterator': '/home/zeus/BOT/ZEUSbot/node_modules/.stop-iteration-iterator-4x31YM9q',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/stream-combiner': '/home/zeus/BOT/ZEUSbot/node_modules/.stream-combiner-CxnvUByz',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/string_decoder': '/home/zeus/BOT/ZEUSbot/node_modules/.string_decoder-hDkENp3d',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/string.prototype.trim': '/home/zeus/BOT/ZEUSbot/node_modules/.string.prototype.trim-lxAmHdrB',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/string.prototype.trimend': '/home/zeus/BOT/ZEUSbot/node_modules/.string.prototype.trimend-sZPuC3vv',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/string.prototype.trimstart': '/home/zeus/BOT/ZEUSbot/node_modules/.string.prototype.trimstart-zhx8CCBb',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/strip-json-comments': '/home/zeus/BOT/ZEUSbot/node_modules/.strip-json-comments-ZlmAeSKE',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/text-hex': '/home/zeus/BOT/ZEUSbot/node_modules/.text-hex-IfTjo5OR',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/through': '/home/zeus/BOT/ZEUSbot/node_modules/.through-sHrFemPS',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/to-object-path': '/home/zeus/BOT/ZEUSbot/node_modules/.to-object-path-xvYqEhgM',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/to-regex': '/home/zeus/BOT/ZEUSbot/node_modules/.to-regex-kub9A7Of',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/to-regex-range': '/home/zeus/BOT/ZEUSbot/node_modules/.to-regex-range-NKi8zjcY',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/tough-cookie': '/home/zeus/BOT/ZEUSbot/node_modules/.tough-cookie-xGhxbPzd',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/triple-beam': '/home/zeus/BOT/ZEUSbot/node_modules/.triple-beam-iS6UPDmD',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/tunnel-agent': '/home/zeus/BOT/ZEUSbot/node_modules/.tunnel-agent-XrY7fEQx',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/tweetnacl': '/home/zeus/BOT/ZEUSbot/node_modules/.tweetnacl-6UbfaOwk',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/typed-array-length': '/home/zeus/BOT/ZEUSbot/node_modules/.typed-array-length-89XOCfcS',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/unbox-primitive': '/home/zeus/BOT/ZEUSbot/node_modules/.unbox-primitive-Hj2UWb4I',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/union-value': '/home/zeus/BOT/ZEUSbot/node_modules/.union-value-sitICfJR',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/unique-string': '/home/zeus/BOT/ZEUSbot/node_modules/.unique-string-PSbUJq6M',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/unset-value': '/home/zeus/BOT/ZEUSbot/node_modules/.unset-value-k8FHHKGd',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/upath': '/home/zeus/BOT/ZEUSbot/node_modules/.upath-p3dHqWDE',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/uri-js': '/home/zeus/BOT/ZEUSbot/node_modules/.uri-js-yV3OdtYB',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/urix': '/home/zeus/BOT/ZEUSbot/node_modules/.urix-bEFVLSFY',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/use': '/home/zeus/BOT/ZEUSbot/node_modules/.use-OJyuXYPl',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/util-deprecate': '/home/zeus/BOT/ZEUSbot/node_modules/.util-deprecate-HdhuoDcX',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/utile': '/home/zeus/BOT/ZEUSbot/node_modules/.utile-MT2ukOcJ',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/verror': '/home/zeus/BOT/ZEUSbot/node_modules/.verror-Qqwhlzff',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/vk-io': '/home/zeus/BOT/ZEUSbot/node_modules/.vk-io-JV3wQXvX',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/vk-io-question-fix': '/home/zeus/BOT/ZEUSbot/node_modules/.vk-io-question-fix-LdtLeLXa',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/which-boxed-primitive': '/home/zeus/BOT/ZEUSbot/node_modules/.which-boxed-primitive-GlmmnGR3',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/which-collection': '/home/zeus/BOT/ZEUSbot/node_modules/.which-collection-sg3crptV',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/which-typed-array': '/home/zeus/BOT/ZEUSbot/node_modules/.which-typed-array-INSk6nlw',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/winston': '/home/zeus/BOT/ZEUSbot/node_modules/.winston-P5NQhNiu',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/winston-transport': '/home/zeus/BOT/ZEUSbot/node_modules/.winston-transport-W1FR3Go2',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/wordwrap': '/home/zeus/BOT/ZEUSbot/node_modules/.wordwrap-bhOyK5VH',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/wrappy': '/home/zeus/BOT/ZEUSbot/node_modules/.wrappy-crp1ysFM',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/write-file-atomic': '/home/zeus/BOT/ZEUSbot/node_modules/.write-file-atomic-LX4skWfS',
+351 silly reify   '/home/zeus/BOT/ZEUSbot/node_modules/xdg-basedir': '/home/zeus/BOT/ZEUSbot/node_modules/.xdg-basedir-cibBqhSD'
+351 silly reify }
+352 timing reify:retireShallow Completed in 127ms
+353 timing reify:createSparse Completed in 7ms
+354 timing reify:loadBundles Completed in 0ms
+355 silly audit bulk request {
+355 silly audit   '@types/debug': [ '4.1.7' ],
+355 silly audit   '@types/ms': [ '0.7.31' ],
+355 silly audit   '@types/node': [ '18.13.0' ],
+355 silly audit   '@types/validator': [ '13.7.12' ],
+355 silly audit   'abort-controller': [ '3.0.0' ],
+355 silly audit   'buffer-writer': [ '2.0.0' ],
+355 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+355 silly audit   debug: [ '4.3.4' ],
+355 silly audit   dotenv: [ '16.0.3' ],
+355 silly audit   dottie: [ '2.0.3' ],
+355 silly audit   'event-target-shim': [ '5.0.1' ],
+355 silly audit   'fetch-blob': [ '3.2.0' ],
+355 silly audit   'web-streams-polyfill': [ '3.2.1', '4.0.0-beta.3' ],
+355 silly audit   'form-data-encoder': [ '1.7.2' ],
+355 silly audit   'formdata-node': [ '4.4.1' ],
+355 silly audit   'formdata-polyfill': [ '4.0.10' ],
+355 silly audit   inflection: [ '1.13.4' ],
+355 silly audit   inspectable: [ '1.2.2' ],
+355 silly audit   lodash: [ '4.17.21' ],
+355 silly audit   'lru-cache': [ '6.0.0' ],
+355 silly audit   'middleware-io': [ '2.8.1' ],
+355 silly audit   moment: [ '2.29.4' ],
+355 silly audit   'moment-timezone': [ '0.5.40' ],
+355 silly audit   ms: [ '2.1.2' ],
+355 silly audit   'node-domexception': [ '1.0.0' ],
+355 silly audit   'node-fetch': [ '3.3.0' ],
+355 silly audit   'packet-reader': [ '1.0.0' ],
+355 silly audit   pg: [ '8.9.0' ],
+355 silly audit   'pg-connection-string': [ '2.5.0' ],
+355 silly audit   'pg-hstore': [ '2.3.4' ],
+355 silly audit   'pg-int8': [ '1.0.1' ],
+355 silly audit   'pg-pool': [ '3.5.2' ],
+355 silly audit   'pg-protocol': [ '1.6.0' ],
+355 silly audit   'pg-types': [ '2.2.0' ],
+355 silly audit   pgpass: [ '1.0.5' ],
+355 silly audit   'postgres-array': [ '2.0.0' ],
+355 silly audit   'postgres-bytea': [ '1.0.0' ],
+355 silly audit   'postgres-date': [ '1.0.7' ],
+355 silly audit   'postgres-interval': [ '1.2.0' ],
+355 silly audit   'retry-as-promised': [ '7.0.4' ],
+355 silly audit   semver: [ '7.3.8' ],
+355 silly audit   sequelize: [ '6.28.0' ],
+355 silly audit   'sequelize-pool': [ '7.1.0' ],
+355 silly audit   split2: [ '4.1.0' ],
+355 silly audit   'toposort-class': [ '1.0.1' ],
+355 silly audit   underscore: [ '1.13.6' ],
+355 silly audit   uuid: [ '8.3.2' ],
+355 silly audit   validator: [ '13.9.0' ],
+355 silly audit   'vk-io': [ '4.8.1' ],
+355 silly audit   'vk-io-question': [ '3.1.1' ],
+355 silly audit   wkx: [ '0.5.0' ],
+355 silly audit   xtend: [ '4.0.2' ],
+355 silly audit   yallist: [ '4.0.0' ]
+355 silly audit }
+356 timing reifyNode:node_modules/ms Completed in 249ms
+357 timing reifyNode:node_modules/split2 Completed in 260ms
+358 timing reifyNode:node_modules/debug Completed in 264ms
+359 timing reifyNode:node_modules/inspectable Completed in 265ms
+360 timing reifyNode:node_modules/pg Completed in 307ms
+361 timing reifyNode:node_modules/pg-pool Completed in 312ms
+362 timing reifyNode:node_modules/node-fetch Completed in 317ms
+363 timing reifyNode:node_modules/semver Completed in 344ms
+364 timing reifyNode:node_modules/form-data-encoder Completed in 346ms
+365 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 469ms
+366 timing auditReport:getReport Completed in 470ms
+367 silly audit report {
+367 silly audit report   dottie: [
+367 silly audit report     {
+367 silly audit report       id: 1092262,
+367 silly audit report       url: 'https://github.com/advisories/GHSA-4gxf-g5gf-22h4',
+367 silly audit report       title: 'dottie vulnerable to Prototype Pollution',
+367 silly audit report       severity: 'high',
+367 silly audit report       vulnerable_versions: '<2.0.4',
+367 silly audit report       cwe: [Array],
+367 silly audit report       cvss: [Object]
+367 silly audit report     }
+367 silly audit report   ],
+367 silly audit report   semver: [
+367 silly audit report     {
+367 silly audit report       id: 1092461,
+367 silly audit report       url: 'https://github.com/advisories/GHSA-c2qf-rxjj-qqgw',
+367 silly audit report       title: 'semver vulnerable to Regular Expression Denial of Service',
+367 silly audit report       severity: 'moderate',
+367 silly audit report       vulnerable_versions: '>=7.0.0 <7.5.2',
+367 silly audit report       cwe: [Array],
+367 silly audit report       cvss: [Object]
+367 silly audit report     }
+367 silly audit report   ],
+367 silly audit report   sequelize: [
+367 silly audit report     {
+367 silly audit report       id: 1091130,
+367 silly audit report       url: 'https://github.com/advisories/GHSA-8c25-f3mj-v6h8',
+367 silly audit report       title: 'Sequelize information disclosure vulnerability',
+367 silly audit report       severity: 'moderate',
+367 silly audit report       vulnerable_versions: '<6.28.1',
+367 silly audit report       cwe: [Array],
+367 silly audit report       cvss: [Object]
+367 silly audit report     },
+367 silly audit report     {
+367 silly audit report       id: 1091134,
+367 silly audit report       url: 'https://github.com/advisories/GHSA-vqfx-gj96-3w95',
+367 silly audit report       title: 'Unsafe fall-through in getWhereConditions',
+367 silly audit report       severity: 'critical',
+367 silly audit report       vulnerable_versions: '<6.28.1',
+367 silly audit report       cwe: [Array],
+367 silly audit report       cvss: [Object]
+367 silly audit report     },
+367 silly audit report     {
+367 silly audit report       id: 1091149,
+367 silly audit report       url: 'https://github.com/advisories/GHSA-f598-mfpv-gmfx',
+367 silly audit report       title: 'Sequelize - Default support for “raw attributes” when using parentheses',
+367 silly audit report       severity: 'critical',
+367 silly audit report       vulnerable_versions: '<6.29.0',
+367 silly audit report       cwe: [Array],
+367 silly audit report       cvss: [Object]
+367 silly audit report     }
+367 silly audit report   ]
+367 silly audit report }
+368 timing metavuln:cache:get:security-advisory:semver:efe8VB5q4mZD3/ujTc9L0aaWirUeY/ViAybQsDFvpvA+7TSAyha/N70vqCuJldXlcpql0BxojmVI2ei/NlY7rg== Completed in 3ms
+369 timing metavuln:cache:get:security-advisory:sequelize:0x8QoXVSnuBUKQkmHpGL8H2TYxgcVoUBwMBqvmAO1zpIWLCE8RHBWScbje3M3Acd0EHDHFu58jP+AB7a2caDNg== Completed in 13ms
+370 timing metavuln:cache:get:security-advisory:dottie:8sjOpiO7qJw9abixggVmbPv+9J0kDxEdkDuhm7n9lLy5wdln/u9wsYUE2juYRKYi436xprXYkNKBuxpXRtnqhQ== Completed in 14ms
+371 timing metavuln:cache:get:security-advisory:sequelize:yK+ji9RfsLuU2Ck1iMMNUHYpOTMVVzqTYbHrQzHmxmr3ADU2CiKfQ1fNw2CXwdIh1pOW2Fow8art8T9IbdowUA== Completed in 13ms
+372 timing metavuln:cache:get:security-advisory:sequelize:uiVJKilHZCKwHnikGlVmcdRT3iKv25tQuPePKtYxKgk3rZvzuagxCS8rH9m3AAntOz0+nSn2juKiVGWQlmRG4A== Completed in 13ms
+373 timing reifyNode:node_modules/@types/validator Completed in 507ms
+374 http fetch GET 200 https://registry.npmjs.org/npm 1162ms (cache updated)
+375 timing reifyNode:node_modules/vk-io Completed in 613ms
+376 timing reifyNode:node_modules/moment-timezone Completed in 611ms
+377 http fetch GET 200 https://registry.npmjs.org/dottie 153ms (cache revalidated)
+378 timing metavuln:packument:dottie Completed in 155ms
+379 timing metavuln:load:security-advisory:dottie:1092262 Completed in 0ms
+380 timing metavuln:calculate:security-advisory:dottie:1092262 Completed in 156ms
+381 http fetch GET 200 https://registry.npmjs.org/sequelize 157ms (cache revalidated)
+382 timing metavuln:packument:sequelize Completed in 168ms
+383 timing metavuln:load:security-advisory:sequelize:1091130 Completed in 25ms
+384 timing metavuln:load:security-advisory:sequelize:1091134 Completed in 19ms
+385 timing metavuln:load:security-advisory:sequelize:1091149 Completed in 9ms
+386 http fetch GET 200 https://registry.npmjs.org/semver 228ms (cache updated)
+387 timing metavuln:packument:semver Completed in 229ms
+388 timing metavuln:load:security-advisory:semver:1092461 Completed in 4ms
+389 timing metavuln:cache:put:security-advisory:sequelize:yK+ji9RfsLuU2Ck1iMMNUHYpOTMVVzqTYbHrQzHmxmr3ADU2CiKfQ1fNw2CXwdIh1pOW2Fow8art8T9IbdowUA== Completed in 44ms
+390 timing metavuln:calculate:security-advisory:sequelize:1091130 Completed in 237ms
+391 timing metavuln:cache:put:security-advisory:sequelize:uiVJKilHZCKwHnikGlVmcdRT3iKv25tQuPePKtYxKgk3rZvzuagxCS8rH9m3AAntOz0+nSn2juKiVGWQlmRG4A== Completed in 14ms
+392 timing metavuln:calculate:security-advisory:sequelize:1091149 Completed in 237ms
+393 timing metavuln:cache:put:security-advisory:sequelize:0x8QoXVSnuBUKQkmHpGL8H2TYxgcVoUBwMBqvmAO1zpIWLCE8RHBWScbje3M3Acd0EHDHFu58jP+AB7a2caDNg== Completed in 24ms
+394 timing metavuln:calculate:security-advisory:sequelize:1091134 Completed in 238ms
+395 timing metavuln:cache:put:security-advisory:semver:efe8VB5q4mZD3/ujTc9L0aaWirUeY/ViAybQsDFvpvA+7TSAyha/N70vqCuJldXlcpql0BxojmVI2ei/NlY7rg== Completed in 7ms
+396 timing metavuln:calculate:security-advisory:semver:1092461 Completed in 240ms
+397 timing metavuln:cache:get:security-advisory:sequelize:pljGSfEyD8Xh0UV/XziPCafvKhZd4yeWIXRhN/WJoDNDaKN7glWtlhF7Ujp/qNhrILhD/R45pnVKPa26wFyodw== Completed in 10ms
+398 timing metavuln:load:security-advisory:sequelize:8sjOpiO7qJw9abixggVmbPv+9J0kDxEdkDuhm7n9lLy5wdln/u9wsYUE2juYRKYi436xprXYkNKBuxpXRtnqhQ== Completed in 4ms
+399 timing metavuln:calculate:security-advisory:sequelize:8sjOpiO7qJw9abixggVmbPv+9J0kDxEdkDuhm7n9lLy5wdln/u9wsYUE2juYRKYi436xprXYkNKBuxpXRtnqhQ== Completed in 14ms
+400 timing metavuln:cache:get:security-advisory:sequelize:OXnE6VXnBnFv9n0UH/ynHdHCVi3ZeQxm6AAQRu8P+saLir+G5B19AZzJASYBhiJLM+7Tj6gOQ88SJ2ytKKvy/g== Completed in 0ms
+401 timing metavuln:load:security-advisory:sequelize:efe8VB5q4mZD3/ujTc9L0aaWirUeY/ViAybQsDFvpvA+7TSAyha/N70vqCuJldXlcpql0BxojmVI2ei/NlY7rg== Completed in 34ms
+402 timing metavuln:cache:put:security-advisory:sequelize:OXnE6VXnBnFv9n0UH/ynHdHCVi3ZeQxm6AAQRu8P+saLir+G5B19AZzJASYBhiJLM+7Tj6gOQ88SJ2ytKKvy/g== Completed in 5ms
+403 timing metavuln:calculate:security-advisory:sequelize:efe8VB5q4mZD3/ujTc9L0aaWirUeY/ViAybQsDFvpvA+7TSAyha/N70vqCuJldXlcpql0BxojmVI2ei/NlY7rg== Completed in 41ms
+404 timing auditReport:init Completed in 300ms
+405 timing reify:audit Completed in 773ms
+406 timing reifyNode:node_modules/@types/node Completed in 803ms
+407 timing reifyNode:node_modules/sequelize Completed in 839ms
+408 timing reify:unpack Completed in 840ms
+409 timing reify:unretire Completed in 1ms
+410 timing build:queue Completed in 1ms
+411 timing build:link:node_modules/semver Completed in 2ms
+412 timing build:link Completed in 2ms
+413 timing build:deps Completed in 3ms
+414 timing build Completed in 3ms
+415 timing reify:build Completed in 4ms
+416 timing reify:trash Completed in 457ms
+417 timing reify:save Completed in 12ms
+418 timing reify Completed in 1979ms
+419 silly REMOVE node_modules/xdg-basedir
+420 silly REMOVE node_modules/write-file-atomic
+421 silly REMOVE node_modules/wrappy
+422 silly REMOVE node_modules/wordwrap
+423 silly REMOVE node_modules/winston-transport
+424 silly REMOVE node_modules/winston-transport/node_modules/readable-stream
+425 silly REMOVE node_modules/winston
+426 silly REMOVE node_modules/winston/node_modules/readable-stream
+427 silly REMOVE node_modules/winston/node_modules/async
+428 silly REMOVE node_modules/which-typed-array
+429 silly REMOVE node_modules/which-collection
+430 silly REMOVE node_modules/which-boxed-primitive
+431 silly REMOVE node_modules/vk-io-question-fix
+432 silly CHANGE node_modules/vk-io
+433 silly REMOVE node_modules/vk-io/node_modules/ms
+434 silly REMOVE node_modules/vk-io/node_modules/debug
+435 silly REMOVE node_modules/verror
+436 silly REMOVE node_modules/verror/node_modules/core-util-is
+437 silly REMOVE node_modules/utile
+438 silly REMOVE node_modules/utile/node_modules/async
+439 silly REMOVE node_modules/util-deprecate
+440 silly REMOVE node_modules/use
+441 silly REMOVE node_modules/urix
+442 silly REMOVE node_modules/uri-js
+443 silly REMOVE node_modules/upath
+444 silly REMOVE node_modules/unset-value
+445 silly REMOVE node_modules/unset-value/node_modules/has-values
+446 silly REMOVE node_modules/unset-value/node_modules/has-value
+447 silly REMOVE node_modules/unset-value/node_modules/has-value/node_modules/isobject
+448 silly REMOVE node_modules/unique-string
+449 silly REMOVE node_modules/union-value
+450 silly REMOVE node_modules/unbox-primitive
+451 silly REMOVE node_modules/typed-array-length
+452 silly REMOVE node_modules/tweetnacl
+453 silly REMOVE node_modules/tunnel-agent
+454 silly REMOVE node_modules/triple-beam
+455 silly REMOVE node_modules/tough-cookie
+456 silly REMOVE node_modules/to-regex-range
+457 silly REMOVE node_modules/to-regex
+458 silly REMOVE node_modules/to-regex/node_modules/is-extendable
+459 silly REMOVE node_modules/to-regex/node_modules/extend-shallow
+460 silly REMOVE node_modules/to-object-path
+461 silly REMOVE node_modules/through
+462 silly REMOVE node_modules/text-hex
+463 silly REMOVE node_modules/strip-json-comments
+464 silly REMOVE node_modules/string.prototype.trimstart
+465 silly REMOVE node_modules/string.prototype.trimend
+466 silly REMOVE node_modules/string.prototype.trim
+467 silly REMOVE node_modules/string_decoder
+468 silly REMOVE node_modules/stream-combiner
+469 silly REMOVE node_modules/stop-iteration-iterator
+470 silly REMOVE node_modules/stealthy-require
+471 silly REMOVE node_modules/static-extend
+472 silly REMOVE node_modules/static-extend/node_modules/is-descriptor
+473 silly REMOVE node_modules/static-extend/node_modules/is-descriptor/node_modules/kind-of
+474 silly REMOVE node_modules/static-extend/node_modules/is-data-descriptor
+475 silly REMOVE node_modules/static-extend/node_modules/is-accessor-descriptor
+476 silly REMOVE node_modules/static-extend/node_modules/define-property
+477 silly REMOVE node_modules/stack-trace
+478 silly REMOVE node_modules/sshpk
+479 silly CHANGE node_modules/split2
+480 silly REMOVE node_modules/split-string
+481 silly REMOVE node_modules/split-string/node_modules/is-extendable
+482 silly REMOVE node_modules/split-string/node_modules/extend-shallow
+483 silly REMOVE node_modules/split
+484 silly REMOVE node_modules/source-map-url
+485 silly REMOVE node_modules/source-map-resolve
+486 silly REMOVE node_modules/source-map
+487 silly REMOVE node_modules/snapdragon-util
+488 silly REMOVE node_modules/snapdragon-node
+489 silly REMOVE node_modules/snapdragon-node/node_modules/define-property
+490 silly REMOVE node_modules/snapdragon
+491 silly REMOVE node_modules/snapdragon/node_modules/is-descriptor
+492 silly REMOVE node_modules/snapdragon/node_modules/is-descriptor/node_modules/kind-of
+493 silly REMOVE node_modules/snapdragon/node_modules/is-data-descriptor
+494 silly REMOVE node_modules/snapdragon/node_modules/is-accessor-descriptor
+495 silly REMOVE node_modules/snapdragon/node_modules/define-property
+496 silly REMOVE node_modules/simple-swizzle
+497 silly REMOVE node_modules/signal-exit
+498 silly REMOVE node_modules/side-channel
+499 silly REMOVE node_modules/shush
+500 silly REMOVE node_modules/set-value
+501 silly CHANGE node_modules/sequelize
+502 silly REMOVE node_modules/sequelize/node_modules/ms
+503 silly REMOVE node_modules/sequelize/node_modules/debug
+504 silly CHANGE node_modules/semver
+505 silly REMOVE node_modules/safer-buffer
+506 silly REMOVE node_modules/safe-stable-stringify
+507 silly REMOVE node_modules/safe-regex-test
+508 silly REMOVE node_modules/safe-regex
+509 silly REMOVE node_modules/safe-buffer
+510 silly REMOVE node_modules/rimraf
+511 silly REMOVE node_modules/revalidator
+512 silly REMOVE node_modules/ret
+513 silly REMOVE node_modules/resolve-url
+514 silly REMOVE node_modules/request-promise-core
+515 silly REMOVE node_modules/request-promise
+516 silly REMOVE node_modules/request
+517 silly REMOVE node_modules/request/node_modules/uuid
+518 silly REMOVE node_modules/request/node_modules/form-data
+519 silly REMOVE node_modules/repeat-string
+520 silly REMOVE node_modules/repeat-element
+521 silly REMOVE node_modules/remove-trailing-separator
+522 silly REMOVE node_modules/regexp.prototype.flags
+523 silly REMOVE node_modules/regex-not
+524 silly REMOVE node_modules/regex-not/node_modules/is-extendable
+525 silly REMOVE node_modules/regex-not/node_modules/extend-shallow
+526 silly REMOVE node_modules/readdirp
+527 silly REMOVE node_modules/readable-stream
+528 silly REMOVE node_modules/read
+529 silly REMOVE node_modules/qs
+530 silly REMOVE node_modules/punycode
+531 silly REMOVE node_modules/pump
+532 silly REMOVE node_modules/psl
+533 silly REMOVE node_modules/ps-tree
+534 silly REMOVE node_modules/proxy-from-env
+535 silly REMOVE node_modules/prompt
+536 silly REMOVE node_modules/prompt/node_modules/winston
+537 silly REMOVE node_modules/prompt/node_modules/pkginfo
+538 silly REMOVE node_modules/prompt/node_modules/async
+539 silly REMOVE node_modules/process-nextick-args
+540 silly REMOVE node_modules/prettyjson
+541 silly REMOVE node_modules/prettyjson/node_modules/colors
+542 silly REMOVE node_modules/posix-character-classes
+543 silly REMOVE node_modules/pify
+544 silly CHANGE node_modules/pg-pool
+545 silly CHANGE node_modules/pg
+546 silly REMOVE node_modules/performance-now
+547 silly REMOVE node_modules/pause-stream
+548 silly REMOVE node_modules/path-is-absolute
+549 silly REMOVE node_modules/path-dirname
+550 silly REMOVE node_modules/pascalcase
+551 silly REMOVE node_modules/optimist
+552 silly REMOVE node_modules/optimist/node_modules/minimist
+553 silly REMOVE node_modules/one-time
+554 silly REMOVE node_modules/once
+555 silly REMOVE node_modules/object.pick
+556 silly REMOVE node_modules/object.assign
+557 silly REMOVE node_modules/object-visit
+558 silly REMOVE node_modules/object-keys
+559 silly REMOVE node_modules/object-is
+560 silly REMOVE node_modules/object-inspect
+561 silly REMOVE node_modules/object-copy
+562 silly REMOVE node_modules/object-copy/node_modules/is-descriptor
+563 silly REMOVE node_modules/object-copy/node_modules/is-descriptor/node_modules/kind-of
+564 silly REMOVE node_modules/object-copy/node_modules/is-data-descriptor
+565 silly REMOVE node_modules/object-copy/node_modules/is-accessor-descriptor
+566 silly REMOVE node_modules/object-copy/node_modules/define-property
+567 silly REMOVE node_modules/object-assign
+568 silly REMOVE node_modules/oauth-sign
+569 silly REMOVE node_modules/nssocket
+570 silly REMOVE node_modules/nssocket/node_modules/eventemitter2
+571 silly REMOVE node_modules/normalize-path
+572 silly REMOVE node_modules/node-telegram-bot-api
+573 silly REMOVE node_modules/node-telegram-bot-api/node_modules/ms
+574 silly REMOVE node_modules/node-telegram-bot-api/node_modules/debug
+575 silly CHANGE node_modules/node-fetch
+576 silly REMOVE node_modules/ncp
+577 silly REMOVE node_modules/nconf
+578 silly REMOVE node_modules/nconf/node_modules/async
+579 silly REMOVE node_modules/nanomatch
+580 silly REMOVE node_modules/nanomatch/node_modules/kind-of
+581 silly REMOVE node_modules/nanomatch/node_modules/is-extendable
+582 silly REMOVE node_modules/nanomatch/node_modules/extend-shallow
+583 silly REMOVE node_modules/mute-stream
+584 silly CHANGE node_modules/ms
+585 silly CHANGE node_modules/moment-timezone
+586 silly REMOVE node_modules/mkdirp
+587 silly REMOVE node_modules/mixin-deep
+588 silly REMOVE node_modules/mixin-deep/node_modules/is-extendable
+589 silly REMOVE node_modules/minimist
+590 silly REMOVE node_modules/minimatch
+591 silly REMOVE node_modules/mime-types
+592 silly REMOVE node_modules/mime-db
+593 silly REMOVE node_modules/mime
+594 silly REMOVE node_modules/micromatch
+595 silly REMOVE node_modules/micromatch/node_modules/kind-of
+596 silly REMOVE node_modules/micromatch/node_modules/is-extendable
+597 silly REMOVE node_modules/micromatch/node_modules/extend-shallow
+598 silly REMOVE node_modules/map-visit
+599 silly REMOVE node_modules/map-stream
+600 silly REMOVE node_modules/map-cache
+601 silly REMOVE node_modules/make-dir
+602 silly REMOVE node_modules/logform
+603 silly REMOVE node_modules/logform/node_modules/ms
+604 silly REMOVE node_modules/lazy
+605 silly REMOVE node_modules/kuler
+606 silly REMOVE node_modules/kind-of
+607 silly REMOVE node_modules/jsprim
+608 silly REMOVE node_modules/json-stringify-safe
+609 silly REMOVE node_modules/json-schema-traverse
+610 silly REMOVE node_modules/json-schema
+611 silly REMOVE node_modules/jsbn
+612 silly REMOVE node_modules/isstream
+613 silly REMOVE node_modules/isobject
+614 silly REMOVE node_modules/isarray
+615 silly REMOVE node_modules/is-windows
+616 silly REMOVE node_modules/is-weakset
+617 silly REMOVE node_modules/is-weakref
+618 silly REMOVE node_modules/is-weakmap
+619 silly REMOVE node_modules/is-typedarray
+620 silly REMOVE node_modules/is-typed-array
+621 silly REMOVE node_modules/is-symbol
+622 silly REMOVE node_modules/is-string
+623 silly REMOVE node_modules/is-stream
+624 silly REMOVE node_modules/is-shared-array-buffer
+625 silly REMOVE node_modules/is-set
+626 silly REMOVE node_modules/is-regex
+627 silly REMOVE node_modules/is-plain-object
+628 silly REMOVE node_modules/is-obj
+629 silly REMOVE node_modules/is-number-object
+630 silly REMOVE node_modules/is-number
+631 silly REMOVE node_modules/is-negative-zero
+632 silly REMOVE node_modules/is-map
+633 silly REMOVE node_modules/is-glob
+634 silly REMOVE node_modules/is-extglob
+635 silly REMOVE node_modules/is-extendable
+636 silly REMOVE node_modules/is-descriptor
+637 silly REMOVE node_modules/is-descriptor/node_modules/kind-of
+638 silly REMOVE node_modules/is-date-object
+639 silly REMOVE node_modules/is-data-descriptor
+640 silly REMOVE node_modules/is-data-descriptor/node_modules/kind-of
+641 silly REMOVE node_modules/is-callable
+642 silly REMOVE node_modules/is-buffer
+643 silly REMOVE node_modules/is-boolean-object
+644 silly REMOVE node_modules/is-binary-path
+645 silly REMOVE node_modules/is-bigint
+646 silly REMOVE node_modules/is-arrayish
+647 silly REMOVE node_modules/is-array-buffer
+648 silly REMOVE node_modules/is-arguments
+649 silly REMOVE node_modules/is-accessor-descriptor
+650 silly REMOVE node_modules/is-accessor-descriptor/node_modules/kind-of
+651 silly REMOVE node_modules/internal-slot
+652 silly CHANGE node_modules/inspectable
+653 silly REMOVE node_modules/ini
+654 silly REMOVE node_modules/inherits
+655 silly REMOVE node_modules/inflight
+656 silly REMOVE node_modules/imurmurhash
+657 silly REMOVE node_modules/i
+658 silly REMOVE node_modules/http-signature
+659 silly REMOVE node_modules/has-values
+660 silly REMOVE node_modules/has-values/node_modules/kind-of
+661 silly REMOVE node_modules/has-value
+662 silly REMOVE node_modules/has-tostringtag
+663 silly REMOVE node_modules/has-symbols
+664 silly REMOVE node_modules/has-proto
+665 silly REMOVE node_modules/has-property-descriptors
+666 silly REMOVE node_modules/has-bigints
+667 silly REMOVE node_modules/has
+668 silly REMOVE node_modules/har-validator
+669 silly REMOVE node_modules/har-schema
+670 silly REMOVE node_modules/graceful-fs
+671 silly REMOVE node_modules/gopd
+672 silly REMOVE node_modules/globalthis
+673 silly REMOVE node_modules/glob-parent
+674 silly REMOVE node_modules/glob-parent/node_modules/is-glob
+675 silly REMOVE node_modules/glob
+676 silly REMOVE node_modules/getpass
+677 silly REMOVE node_modules/get-value
+678 silly REMOVE node_modules/get-symbol-description
+679 silly REMOVE node_modules/get-intrinsic
+680 silly REMOVE node_modules/functions-have-names
+681 silly REMOVE node_modules/function.prototype.name
+682 silly REMOVE node_modules/function-bind
+683 silly REMOVE node_modules/fs.realpath
+684 silly REMOVE node_modules/from
+685 silly REMOVE node_modules/fragment-cache
+686 silly CHANGE node_modules/form-data-encoder
+687 silly REMOVE node_modules/form-data
+688 silly REMOVE node_modules/forever-monitor
+689 silly REMOVE node_modules/forever-agent
+690 silly REMOVE node_modules/forever
+691 silly REMOVE node_modules/for-in
+692 silly REMOVE node_modules/for-each
+693 silly REMOVE node_modules/follow-redirects
+694 silly REMOVE node_modules/fn.name
+695 silly REMOVE node_modules/flatiron
+696 silly REMOVE node_modules/fill-range
+697 silly REMOVE node_modules/file-type
+698 silly REMOVE node_modules/fecha
+699 silly REMOVE node_modules/fast-json-stable-stringify
+700 silly REMOVE node_modules/fast-deep-equal
+701 silly REMOVE node_modules/eyes
+702 silly REMOVE node_modules/extsprintf
+703 silly REMOVE node_modules/extglob
+704 silly REMOVE node_modules/extglob/node_modules/define-property
+705 silly REMOVE node_modules/extend-shallow
+706 silly REMOVE node_modules/extend
+707 silly REMOVE node_modules/expand-brackets
+708 silly REMOVE node_modules/expand-brackets/node_modules/is-descriptor
+709 silly REMOVE node_modules/expand-brackets/node_modules/is-descriptor/node_modules/kind-of
+710 silly REMOVE node_modules/expand-brackets/node_modules/is-data-descriptor
+711 silly REMOVE node_modules/expand-brackets/node_modules/is-accessor-descriptor
+712 silly REMOVE node_modules/expand-brackets/node_modules/define-property
+713 silly REMOVE node_modules/eventemitter3
+714 silly REMOVE node_modules/eventemitter2
+715 silly REMOVE node_modules/event-stream
+716 silly REMOVE node_modules/es-to-primitive
+717 silly REMOVE node_modules/es-shim-unscopables
+718 silly REMOVE node_modules/es-set-tostringtag
+719 silly REMOVE node_modules/es-get-iterator
+720 silly REMOVE node_modules/es-get-iterator/node_modules/isarray
+721 silly REMOVE node_modules/es-abstract
+722 silly REMOVE node_modules/end-of-stream
+723 silly REMOVE node_modules/enabled
+724 silly REMOVE node_modules/ecc-jsbn
+725 silly REMOVE node_modules/duplexer
+726 silly REMOVE node_modules/dot-prop
+727 silly REMOVE node_modules/director
+728 silly REMOVE node_modules/delayed-stream
+729 silly REMOVE node_modules/define-property
+730 silly REMOVE node_modules/define-properties
+731 silly REMOVE node_modules/deep-equal
+732 silly REMOVE node_modules/deep-equal/node_modules/isarray
+733 silly REMOVE node_modules/decode-uri-component
+734 silly CHANGE node_modules/debug
+735 silly REMOVE node_modules/dashdash
+736 silly REMOVE node_modules/cycle
+737 silly REMOVE node_modules/crypto-random-string
+738 silly REMOVE node_modules/core-util-is
+739 silly REMOVE node_modules/copy-descriptor
+740 silly REMOVE node_modules/configstore
+741 silly REMOVE node_modules/concat-map
+742 silly REMOVE node_modules/component-emitter
+743 silly REMOVE node_modules/combined-stream
+744 silly REMOVE node_modules/colorspace
+745 silly REMOVE node_modules/colors
+746 silly REMOVE node_modules/color-string
+747 silly REMOVE node_modules/color-name
+748 silly REMOVE node_modules/color-convert
+749 silly REMOVE node_modules/color
+750 silly REMOVE node_modules/collection-visit
+751 silly REMOVE node_modules/clone
+752 silly REMOVE node_modules/cliff
+753 silly REMOVE node_modules/cliff/node_modules/winston
+754 silly REMOVE node_modules/cliff/node_modules/winston/node_modules/colors
+755 silly REMOVE node_modules/cliff/node_modules/pkginfo
+756 silly REMOVE node_modules/cliff/node_modules/colors
+757 silly REMOVE node_modules/cliff/node_modules/async
+758 silly REMOVE node_modules/class-utils
+759 silly REMOVE node_modules/class-utils/node_modules/is-descriptor
+760 silly REMOVE node_modules/class-utils/node_modules/is-descriptor/node_modules/kind-of
+761 silly REMOVE node_modules/class-utils/node_modules/is-data-descriptor
+762 silly REMOVE node_modules/class-utils/node_modules/is-accessor-descriptor
+763 silly REMOVE node_modules/class-utils/node_modules/define-property
+764 silly REMOVE node_modules/chokidar
+765 silly REMOVE node_modules/caseless
+766 silly REMOVE node_modules/caller
+767 silly REMOVE node_modules/call-bind
+768 silly REMOVE node_modules/cache-base
+769 silly REMOVE node_modules/broadway
+770 silly REMOVE node_modules/broadway/node_modules/winston
+771 silly REMOVE node_modules/broadway/node_modules/pkginfo
+772 silly REMOVE node_modules/broadway/node_modules/eventemitter2
+773 silly REMOVE node_modules/broadway/node_modules/cliff
+774 silly REMOVE node_modules/broadway/node_modules/async
+775 silly REMOVE node_modules/braces
+776 silly REMOVE node_modules/brace-expansion
+777 silly REMOVE node_modules/bluebird
+778 silly REMOVE node_modules/bl
+779 silly REMOVE node_modules/binary-extensions
+780 silly REMOVE node_modules/bcrypt-pbkdf
+781 silly REMOVE node_modules/base
+782 silly REMOVE node_modules/base/node_modules/define-property
+783 silly REMOVE node_modules/balanced-match
+784 silly REMOVE node_modules/axios
+785 silly REMOVE node_modules/aws4
+786 silly REMOVE node_modules/aws-sign2
+787 silly REMOVE node_modules/available-typed-arrays
+788 silly REMOVE node_modules/atob
+789 silly REMOVE node_modules/asynckit
+790 silly REMOVE node_modules/async-each
+791 silly REMOVE node_modules/async
+792 silly REMOVE node_modules/assign-symbols
+793 silly REMOVE node_modules/assert-plus
+794 silly REMOVE node_modules/asn1
+795 silly REMOVE node_modules/array.prototype.findindex
+796 silly REMOVE node_modules/array-unique
+797 silly REMOVE node_modules/array-buffer-byte-length
+798 silly REMOVE node_modules/arr-union
+799 silly REMOVE node_modules/arr-flatten
+800 silly REMOVE node_modules/arr-diff
+801 silly REMOVE node_modules/anymatch
+802 silly REMOVE node_modules/anymatch/node_modules/normalize-path
+803 silly REMOVE node_modules/ajv
+804 silly CHANGE node_modules/@types/validator
+805 silly REMOVE node_modules/@types/triple-beam
+806 silly CHANGE node_modules/@types/node
+807 silly REMOVE node_modules/@dabh/diagnostics
+808 silly REMOVE node_modules/@colors/colors
+809 timing command:i Completed in 2024ms
+810 notice
+810 notice New [33mminor[39m version of npm available! [31m9.6.3[39m -> [32m9.8.1[39m
+810 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v9.8.1[39m
+810 notice Run [32mnpm install -g npm@9.8.1[39m to update!
+810 notice
+811 verbose exit 0
+812 timing npm Completed in 2067ms
+813 info ok

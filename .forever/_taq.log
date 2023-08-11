@@ -1,0 +1,17 @@
+(node:1466) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+База данных подключена.
+База данных синхронизирована.
+Список админов загружен
+Список фракций загружен
+/home/zeus/BOT/ZEUSbot/models/City.js:19
+        this.money = resources.dataValues.money
+                               ^
+
+TypeError: Cannot read properties of null (reading 'dataValues')
+    at new CityObject (/home/zeus/BOT/ZEUSbot/models/City.js:19:32)
+    at /home/zeus/BOT/ZEUSbot/models/CacheData.js:341:54
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v19.8.1
+{"level":"error","message":"Forever detected script exited with code: 1"}
